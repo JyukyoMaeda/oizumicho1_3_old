@@ -1,0 +1,662 @@
+
+.p-access{
+    width: 100%;
+    main{
+        @include mq(tb-sp){
+            margin-bottom: 0;
+        }
+    }
+    .mg--60{
+        margin-top: -65px;
+        @include mq(tb-pc1000){
+            margin-top: -60px;
+        }
+    }
+
+
+    .l-container{//main
+        .l-contents{
+
+            &.-img-bg{// 背景画像＋コンテンツ
+                .imgBox{}
+                .l-contentsBox{// コンテンツ要素
+                    width: 100%;
+                    position: absolute;
+                    // Location
+                    &.-access-01{
+                        top: 14.5%;
+                        left: 16.5%;
+                        width: 18%;
+                        transform: translate(-50%, -50%);
+                        @include mq(tb){
+                            top: 16%;
+                            left: 21.2%;
+                            width: 10%;
+                            max-width: 300px;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 16%;
+                            left: 16.2%;
+                            transform: translateY(-50%);
+                        }
+                    }
+                    // Fusion
+                    &.-access-02{
+                        top: 30.5%;
+                        left: 82.5%;
+                        width: 21%;
+                        transform: translate(-50%, -50%);
+                        @include mq(tb){
+                            top: 39%;
+                            left: 72.2%;
+                            width: 14%;
+                            max-width: 300px;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 39%;
+                            left: 65.2%;
+                            transform: translateY(-50%);
+                        }
+                    }
+                    // Map 詳細
+                    &.-access-03{
+                        top: 70.7%;
+                        left: 50%;
+                        width: 100%;
+                        transform: translate(-50%, -50%);
+                        @include mq(tb){
+                            top: 69.6%;
+                            left: 50%;
+                            width: 100%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 69.5%;
+                            left: 50%;
+                        }
+                    }
+                    // 都市について
+                    &.-access-04{
+                        top: 8.1%;
+                        left: 17%;
+                        width: 15%;
+                        transform: translate(-50%, -50%);
+                        @include mq(tb){
+                            top: 8.6%;
+                            left: 23.7%;
+                            width: 6%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 8.5%;
+                            left: 23.7%;
+                            width: 6%;
+                        }
+                        @include mq(tb-pc1600){
+                            width: 5%;
+                        }
+                    }
+                    &.-access-card{
+                        
+                        @include mq(sp){
+                            left: 50%;
+                            width: 90%;
+                            transform: translate(-50%, -50%);
+                        }
+                        @include mq(tb){
+                            width: 65vw;
+                            // width: 79.1vw;
+                            background: white;
+                            border: 1px solid #00000036;
+                            box-shadow: 2px 2px 8px #80808066;
+                        }
+                        @include mq(tb-pc1000){
+                            width: 63.1vw;
+                            transform: scale(.8) translate(-50%, -50%);
+                        }
+                        @include mq(tb-pc1200){
+                            width: 55vw;
+                        }
+                        @include mq(tb-pc1600){
+                            width: 50vw;
+                        }
+                        .card-inner{
+                            padding: 2vh 1.5vw;
+                        }
+                        &.-r{
+
+                            @include mq(tb-sp){
+                                left: 55%;
+                                right: auto !important;
+                                transform: scale(.7) translateX(-50%);
+                            }
+                            @include mq(sp){
+                                left: 50% !important;
+                                transform: translateX(-50%) !important;
+                            }
+                            @include mq(tb){
+                                right: -13%;
+                            }
+                            @include mq(tb-pc1000){
+                                right: -13%;
+                            }
+                            @include mq(tb-pc1200){
+                                right: -10%;
+                            }
+                        }
+                        &.-l{
+                            @include mq(tb-sp){
+                                left: 31% !important;
+                                transform: scale(.7) translateX(-50%);
+                            }
+                            @include mq(sp){
+                                left: 50% !important;
+                                transform: translateX(-50%) !important;
+                            }
+                            @include mq(tb){
+                                left: 36%;
+                            }
+                            @include mq(tb-pc1000){
+                                left: 40%;
+                            }
+                            @include mq(tb-pc1200){
+                                left: 35%;
+                            }
+                        }
+                    }
+                    // 大泉学園
+                    &.-access-05{
+                        @include mq(sp){
+                            top: 23.1% !important;
+                        }
+                        @include mq(tb-sp) {
+                            top: 0%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 27%;
+                        }
+                        @include mq(tb-pc1600){
+                            top: 18%;
+                        }
+                        @include mq(tb-pc1850){
+                            top: 25%;
+                        }
+                    }
+                    // 和光市
+                    &.-access-06{
+                        @include mq(sp){
+                            top: 47.1% !important;
+                        }
+                        @include mq(tb-sp){
+                            top: 32%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 52.5%;
+                        }
+                        @include mq(tb-pc1600){
+                            top: 45%;
+                        }
+                        @include mq(tb-pc1850){
+                            top: 52%;
+                        }
+                    }
+                    // 光が丘
+                    &.-access-07{
+                        @include mq(sp){
+                            top: 71.1% !important;
+                        }
+                        @include mq(tb-sp){
+                            top: 64.1%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 79.1%;
+                        }
+                        @include mq(tb-pc1600){
+                            top: 75%;
+                        }
+                        @include mq(tb-pc1850){
+                            top: 79%;
+                        }
+
+                    }
+
+                    // マップについて
+                    &.-access-map{
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+
+                        width: 100%;
+                    }
+
+                    // 自然について
+                    &.-access-08{
+                        top: 9.9%;
+                        left: 17.8%;
+                        width: 15%;
+                        transform: translate(-50%, -50%);
+                        @include mq(tb){
+                            top: 12.2%;
+                            left: 23.5%;
+                            width: 5%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 12.6%;
+                            left: 23.6%;
+                            width: 6%;
+                        }
+                        @include mq(tb-pc1600){
+                            width: 5%;
+                        }
+                    }
+                    // 光が丘公園
+                    &.-access-09{
+                        @include mq(sp){
+                            top: 22.1% !important;
+                        }
+                        @include mq(tb-sp) {
+                            top: 14.1%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 27%;
+                        }
+                        @include mq(tb-pc1600){
+                            top: 24%;
+                        }
+                        @include mq(tb-pc1850){
+                            top: 25%;
+                        }
+                    }
+                    // 大泉中央公園
+                    &.-access-10{
+                        @include mq(sp){
+                            top: 39.1% !important;
+                        }
+                        @include mq(tb-sp){
+                            top: 34%;
+                        }
+                        @include mq(tb-pc1000){
+                            top:47.5%;
+                        }
+                        @include mq(tb-pc1600){
+                            top: 43%;
+                        }
+                        @include mq(tb-pc1850){
+                            top: 42%;
+                        }
+                    }
+                    // 区立清水山の森
+                    &.-access-11{
+                        @include mq(sp){
+                            top: 56.1% !important;
+                        }
+                        @include mq(tb-sp){
+                            top: 56.1%;
+                        }
+                        @include mq(tb-pc800){
+                            top: 55.1%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 67.1%;
+                        }
+                        @include mq(tb-pc1600){
+                            top: 62%;
+                        }
+                        @include mq(tb-pc1850){
+                            top: 62%;
+                        }
+
+                    }
+                    // 中里郷土の森緑地
+                    &.-access-12{
+                        @include mq(sp){
+                            top: 73.1% !important;
+                        }
+                        @include mq(tb-sp){
+                            top: 74.1%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 85.1%;
+                        }
+                        @include mq(tb-pc1600){
+                            top: 80%;
+                        }
+                        @include mq(tb-pc1850){
+                            top: 82%;
+                        }
+
+                    }
+
+                    // カード04
+                    &.-c-concept{
+                        width: 90%;
+                        height: auto;
+                        background: white;
+                        box-shadow: 2px 2px 8px #80808066;
+                        @include mq(tb){
+                            width: 55%;
+                            transform: translateX(-50%);
+
+                        }
+                        @include mq(sp){
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+                        &.-c04{
+                            top: 52.5%;
+                            @include mq(tb){
+                                top: 49.5%;
+                                left: 50%;
+                                transform: translateX(-50%);
+                            }
+                            @include mq(tb-pc750){
+                                top: 46.5%;
+                            }
+                            @include mq(tb-pc1000){
+                                // top: 46.5%;
+                                // left: 50%;
+
+                            }
+                            @include mq(tb-pc1600){
+                                top: 50.5%;
+                                left: 50%;
+                            }
+                            @include mq(tb-pc1850){
+                            }
+                        }
+                        &.-c05{
+                            top: 70.5%;
+                            @include mq(tb){
+                                top: 74.5%;
+                                left: 50%;
+                                transform: translateX(-50%);
+                            }
+                            @include mq(tb-pc800){
+                                top: 74.5%;
+                                left: 50%;
+
+                            }
+                            @include mq(tb-pc1000){
+                                // top: 77.5%;
+                                // left: 50%;
+
+                            }
+                            @include mq(tb-pc1600){
+                                top: 77.5%;
+                            }
+                            @include mq(tb-pc1850){
+                            }
+                        }
+                        .card-inner{
+                            position: relative;
+                            @include mq(tb){
+                                padding: 3%;
+                            }
+                            .iconBox{
+                                position: absolute;
+                                top: -13%;
+                                right: -1%;
+                                width: 40%;
+                                filter: drop-shadow(1px 2px 5px rgba(128, 128, 128, 0.377));
+                                @include mq(tb){
+                                    top: 0%;
+                                    width: 23%;
+                                }
+                                @include mq(tb-pc800){
+
+                                }
+                                @include mq(tb-pc1000){
+                                    width: 22%;
+                                }
+                                @include mq(tb-pc1600){
+                                    top: -11%;
+                                    width: 25%;
+                                }
+
+                                &.-icon04{
+                                }
+                                &.-icon02{
+                                    &::before{
+                                        content: "INTERVIEW 02";
+                                        font-size: 1.2vw;
+                                        font-weight: bold;
+                                        width: 100%;
+                                        text-align: center;
+                                        position: absolute;
+                                        top: 23%;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+                                    }
+                                    &::after{
+                                        content: "練馬ってどんなところ？";
+                                        font-size: 1.8vw;
+                                        width: 90%;
+                                        text-align: left;
+                                        position: absolute;
+                                        top: 37%;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+                                    }
+                                }
+                                &.-icon03{
+                                    &::before{
+                                        content: "INTERVIEW 03";
+                                        font-size: 1.2vw;
+                                        font-weight: bold;
+                                        width: 100%;
+                                        text-align: center;
+                                        position: absolute;
+                                        top: 23%;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+                                    }
+                                    &::after{
+                                        content: "練馬ってどんなところ？";
+                                        font-size: 1.8vw;
+                                        width: 90%;
+                                        text-align: left;
+                                        position: absolute;
+                                        top: 37%;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+                                    }
+
+                                }
+                            }
+                            .card-link{
+                                position: absolute;
+                                bottom: 2%;
+                                left: 77%;
+                                transform: translateX(-50%);
+                                width: 42%;
+                                &.-link02{
+                                    left: 73%;
+                                    transform: scale(0.78) translateX(-50%);
+                                    width: 62%;
+                                }
+                            }
+                        }
+                    }
+                    &.-top-card{
+                        &.-banner{
+                            top: 97.5%;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: auto;
+                            @include mq(tb-pc1000){
+                                top: 96.5%;
+                            }
+                        }
+                    }
+
+                    // 子育てについて
+                    &.-access-13{
+                        top: 9.1%;
+                        left: 16%;
+                        width: 15%;
+                        transform: translate(-50%, -50%);
+                        @include mq(tb){
+                            top: 13.6%;
+                            left: 23.3%;
+                            width: 6%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 14.5%;
+                            left: 23.2%;
+                            width: 6%;
+                        }
+                        @include mq(tb-pc1600){
+                            width: 7%;
+                        }
+                    }
+                    // 練馬区立八坂小学校
+                    &.-access-14{
+                        @include mq(sp){
+                            top: 22.1% !important;
+                        }
+                        @include mq(tb-sp) {
+                            top: 18.1%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 27%;
+                        }
+                        @include mq(tb-pc1600){
+                            top: 30%;
+                        }
+                        @include mq(tb-pc1850){
+                            top: 30%;
+                        }
+                    }
+                    // 練馬区立八坂中学校
+                    &.-access-15{
+                        @include mq(sp){
+                            top: 45.1% !important;
+                        }
+                        @include mq(tb-sp){
+                            top: 43%;
+                        }
+                        @include mq(tb-pc1000){
+                            top:53.5%;
+                        }
+                        @include mq(tb-pc1600){
+                            top: 53%;
+                        }
+                        @include mq(tb-pc1850){
+                            top: 53%;
+                        }
+                    }
+                    // 中里幼稚園
+                    &.-access-16{
+                        @include mq(sp){
+                            top: 69.1% !important;
+                        }
+                        @include mq(tb-sp){
+                            top: 70.1%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 79.1%;
+                        }
+                        @include mq(tb-pc1600){
+                            top: 76%;
+                        }
+                        @include mq(tb-pc1850){
+                            top: 76%;
+                        }
+
+                    }
+
+                    &.-access-s-title{
+                        width: 30vw;
+                        @include mq(tb){
+                            width: 15vw;
+                            left: 13.8%;
+                        }
+                        @include mq(tb-pc1000){
+
+                        }
+                        @include mq(tb-pc1600){
+                            left: 13.8%;
+                            width: 16vw;
+                        }
+                        @include mq(tb-pc1850){
+                            // top: 76%;
+                        }
+                        &.-s17{
+                            top: 5%;
+                            @include mq(tb){
+                                top: 6%;
+                            }
+                            @include mq(tb-pc1600){
+                                top: 5%;
+                            }
+                            @include mq(tb-pc1850){
+                            }
+                        }
+                        &.-s18{
+                            top: 30%;
+                            @include mq(tb){
+                                top: 33%;
+                            }
+                            @include mq(tb-pc1600){
+                                top: 33%;
+                            }
+                            @include mq(tb-pc1850){
+                            }
+                        }
+                        &.-s19{
+                            top: 48.5%;
+                            @include mq(tb){
+                                top: 52%;
+                            }
+                            @include mq(tb-pc1600){
+                                top: 53%;
+                            }
+                            @include mq(tb-pc1850){
+                            }
+                        }
+
+                    }
+                    &.-slider01{
+                        top: 7.5%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 100%;
+                        // height: 100%;
+                        @include mq(tb){
+                            top: 6%;
+                            width: 45vw;
+                        }
+                        @include mq(pc){
+                            top: 6%;
+                        }
+                    }
+                    &.-slider02{
+                        top: 33%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 100%;
+                        // height: 100%;
+                        @include mq(tb){
+                            top: 33.5%;
+                        }
+                        @include mq(pc){
+                            top: 34.3%;
+                        }
+                    }
+                    &.-slider03{
+                        top: 51%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 100%;
+                        // height: 100%;
+                        @include mq(tb){
+                            top: 52.2%;
+                        }
+                        @include mq(pc){
+                            top: 53.7%;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

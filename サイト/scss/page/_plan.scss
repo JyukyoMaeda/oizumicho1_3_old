@@ -1,0 +1,512 @@
+
+.p-plan{
+    width: 100%;
+
+    background-image: url(../images/bg/plan/plan-bg01_s.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    @include mq(tb){
+        background-image: url(../images/bg/plan/plan-bg01.png);
+    }
+    main{
+        margin-bottom: 0;
+        padding-bottom: 30vh;
+        @include mq(tb){
+            padding-bottom: 88vh;
+        }
+        @include mq(tb-pc600){
+            padding-bottom: 107vh;
+        }
+        @include mq(tb-pc800){
+            padding-bottom: 124vh;
+        }
+        @include mq(tb-pc900){
+            padding-bottom: 140vh;
+        }
+        @include mq(tb-pc1000){
+            padding-bottom: 35vh;
+        }
+        @include mq(tb-pc1400){
+            padding-bottom: 55vh;
+        }
+        @include mq(tb-pc1600){
+            padding-bottom: 60vh;
+        }
+        @include mq(tb-pc1850){
+            padding-bottom: 64vh;
+        }
+    }
+
+    .l-container{
+        .l-contents{
+            &.-img-bg{
+
+            }
+            .l-contentsBox{
+                &.-plan-01{
+                    top: 14%;
+                    left: 51.8%;
+                    transform: translateX(-50%);
+                    width: 95%;
+                    @include mq(sp){
+                        top: 7%;
+                        left: 50%;
+                    }
+                    @include mq(tb-pc1000){
+                        top: 14%;
+                        left: 51.8%;
+                        transform: translateX(-50%);
+                        width: 66%;
+                    }
+                    // タイトル
+                    &-text01{
+                        top: 5.5%;
+                        @include mq(tb-sp){
+                            left: 2.1%;
+                            transform: scale(.95);
+                        }
+                        @include mq(sp){
+                            left: 4%;
+                        }
+                        @include mq(tb){
+                            top: 9.5%;
+                            
+                        }
+                        @include mq(tb-pc1000){
+                            top: 9%;
+                        }
+                        .title{
+                            position: relative;
+                            @include mq(tb-pc750){
+                                left: -6%;
+                            }
+                            @include mq(tb-pc1000){
+                                left: 7%;
+                            }
+                            &::after{
+                                content: "(B号棟)";
+                                font-size: 3vw;
+                                position: absolute;
+                                top: 86%;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                @include mq(tb-pc750){
+                                    font-size: 1.5vw;
+                                }
+                                @include mq(tb-pc1000){
+                                    left: 55%;
+                                    bottom: -25%;
+                                    font-size: 1vw;
+                                }
+                            }
+                        }
+                    }
+                    // サブタイトル
+                    &-text02{
+                        top: 6%;
+                        left: 35%;
+                        @include mq(tb){
+                            top: 9%;
+                            left: 17%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 11%;
+                            // left: 18%;
+                        }
+                        .explanation{
+                            @include mq(sp){
+                                font-size: 18px !important;
+                            }
+                        }
+                    }
+                    // 説明
+                    &-menseki{
+                        top: 25%;
+                        left: 25%;
+                        width: 20%;
+                        @include mq(tb){
+                            top: 18%;
+                            left: 66%;
+                            width: 13%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 24%;
+                            left: 67%;
+                            width: 10%;
+                        }
+                    }
+                    &-pers{
+                        top: 55%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 95%;
+                        @include mq(sp){
+                            filter: drop-shadow(2px 2px 4px rgb(201, 200, 200));
+                        }
+                        @include mq(tb){
+                            top: 50%;
+
+                            left: 29%;
+                            transform: translate(-50%,-50%);
+                            width: 57%;
+                        }
+                    }
+                    &-box{
+                        top: 38%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+
+                        @include mq(tb){
+                            top: 50%;
+                            left: 72%;
+                            transform: translate(-23%, -50%);
+                            width: 34%;
+                        }
+                        @include mq(tb-pc1000){
+                            left: 72%;
+                            transform: translate(-23%, -50%);
+                            width: 30%;
+                        }
+                    }
+                }
+                &.-plan-02{
+                    top: 21.5%;
+                    left: 51.8%;
+                    transform: translateX(-50%);
+                    width: 95%;
+                    @include mq(sp){
+                        top: 22%;
+                        left: 50%;
+                    }
+                    @include mq(tb-pc1000){
+                        top: 21.5%;
+                        left: 51.8%;
+                        transform: translateX(-50%);
+                        width: 66%;
+                    }
+                    &-arrow{
+                        top: -9%;
+                        left: 58%;
+                        width: 20%;
+                        @include mq(tb){
+                            top: 15%;
+                            left: 36%;
+                            width: 9%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: -6%;
+                        }
+                    }
+                    &-box{
+                        top: 4%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 100%;
+                        
+                        @include mq(tb){
+                            top: 31%;
+                            left: 25%;
+                            width: 45%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 11%;
+                            left: 25%;
+                            width: 51%;
+                        }
+                    }
+                    &-box-text{
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-51%, -50%);
+                        width: 95%;
+                    }
+                    // 将来のプラン
+                    &-text01{
+                        position: absolute;
+                        top: 13.5%;
+                        left: 7.3%;
+
+                        display: inline-block;
+                        width: auto;
+                        @include mq(tb){
+                            top: 27.6%;
+                            left: 2.3%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 27.6%;
+                            left: 1.5%;
+                        }
+                        @include mq(tb-pc1200){
+                            top: 27%;
+                            left: 1.5%;
+                        }
+                        @include mq(tb-pc1400){
+                            top: 27.6%;
+                            left: 2.3%;
+                        }
+                        p{
+                            width: auto;
+                        }
+                    }
+                    // テキスト
+                    &-text02{
+                        position: absolute;
+                        top: 52.5%;
+                        right: 2.3%;
+                        display: inline-block;
+                        width: auto;
+                        @include mq(tb){
+                            top: 32.5%;
+                            margin-right: 0;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 27.6%;
+                        }
+                        p{
+                            width: auto;
+                            text-align: end;
+                            @include mq(tb){
+                                // width: 58%;
+                                margin-right: 0;
+                                margin-left: auto;
+                            }
+                            @include mq(tb-sp){
+                                font-size: 16px;
+                            }
+                            @include mq(tb-pc1000){
+                                width: auto;
+                                text-align: start;
+                            }
+                        }
+                    }
+                    &-text03{
+                        position: absolute;
+                        top: 105.5%;
+                        left: 2.3%;
+                        display: inline-block;
+                        width: 80vw;
+                        @include mq(sp){
+                            left: 8.3%;
+                            // left: 50%;
+                            // transform: translateY(-50%);
+                        }
+                        @include mq(tb){
+                            top: 91.6%;
+                            left: 1.2%;
+                            width: 42vw;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 91.6%;
+                            left: 1.2%;
+                            width: 29vw;
+                        }
+                        p{
+                            width: auto;
+                            text-align: end;
+                            font-size: 12px;
+                            @include mq(tb-sp){
+                                font-size: 16px;
+                            }
+                            @include mq(tb-pc1000){
+                                text-align: start;
+                            }
+                        }
+                    }
+                    &-text04{
+                        top: 74%;
+                        left: 13%;
+                        @include mq(tb){
+                            top: 76%;
+                            left: 60%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 76%;
+                            left: 59%;
+                        }
+                    }
+                    &-text05{
+                        top: 89%;
+                        left: 63%;
+                        @include mq(tb){
+                            top: 92%;
+                            left: 84%;
+                        }
+                        @include mq(tb-pc1000){
+                            top: 93%;
+                            left: 85%;
+                            width: 17%;
+                        }
+                    }
+                    &-text06{
+                        top: 95%;
+                        left: 9%;
+                        @include mq(tb){
+                            top: 100%;
+                            left: 60%;
+
+                        }
+                        @include mq(tb-pc1000){
+                            top: 99%;
+                            left: 58%;
+                        }
+                    }
+                    &-btn{
+                        @include mq(sp){
+                            width: 65%;
+                            height: auto;
+                            top: 130%;
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+                        @include mq(tb){
+                            top: 120%;
+                            left: 65%;
+                            transform: translateX(-50%);
+                        }
+
+                    }
+                }
+                &.-plan-03{
+                    top: 21.5%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 95%;
+                    padding: 2%;
+
+                    @include mq(sp){
+                        top: 55%;
+                        left: 50%;
+                        width: 85%;
+                        border-radius: 10px;
+                        overflow: hidden;
+                    }
+                    @include mq(tb){
+                        top: 52.5%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 95%;
+                    }
+                    @include mq(tb-pc1000){
+                        top: 42.5%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 70%;
+                    }
+                    &-title{
+                        top: 6%;
+                        left: 50%;
+                        transform: translateX(-50%);
+
+                        width: 90%;
+                        z-index: 10;
+                        @include mq(tb){
+                            top: 6%;
+                        }
+                    }
+                    &-picArea{
+                        top: 16%;
+                        left: 50%;
+                        transform: translateX(-50%);
+
+                        width: 90%;
+                        @include mq(tb){
+                            top: 20%;
+                        }
+                        @include mq(sp){
+                            margin-top: 1vh; 
+                        }
+                    }
+                    &-data{
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 100%;
+                        @include mq(tb){
+                            bottom: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: 100%;
+                        }
+                    }
+                }
+                &.-plan-04{
+                    top: 21.5%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 95%;
+                    @include mq(sp){
+                        top: 73.5%;
+                        left: 50%;
+                        width: 85%;
+                    }
+                    @include mq(tb){
+                        top: 69.5%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 95%;
+                    }
+                    @include mq(tb-pc1000){
+                        top: 55.5%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 66%;
+                    }
+                    &-text{
+                        top: 0%;
+                        left: 50.2%;
+                        transform: translateX(-50%);
+                        width: 100%;
+                    }
+                    &-btm-text{
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 100%;
+                        // position: absolute;
+                        // top: -3.5%;
+                        // left: 7.3%;
+
+                        // display: inline-block;
+                        // width: auto;
+                        // @include mq(tb){
+                        //     top: 2.6%;
+                        //     left: 2.3%;
+                        // }
+                        // @include mq(tb-pc1000){
+                        //     top: 1.5%;
+                        //     left: 1%;
+                        // }
+                        // @include mq(tb-pc1200){
+                        //     top: 2%;
+                        //     left: 1%;
+                        // }
+                        // @include mq(tb-pc1400){
+                        //     top: 1.6%;
+                        //     left: 1.1%;
+                        // }
+                        // p{
+                        //     width: auto;
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.s-logo{
+    width: 35%;
+    margin-bottom: 1vh;
+
+    @include mq(tb-pc1000){
+        width: 35%;
+        margin-bottom: 1vh;
+    }
+}
+
+.-plan-04-btmArea{
+    @include mq(sp){
+        width: 95%;
+        margin: 15px auto 0;
+    }
+}

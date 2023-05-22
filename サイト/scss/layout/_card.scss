@@ -1,0 +1,277 @@
+
+.l-card{
+    width: 75vw;
+    background: #ffffff;
+    box-shadow: 2px 2px 8px #80808066;
+    border: 1px solid #00000036;
+    @include mq(sp){
+        width: 75vw;
+    }
+    @include mq(tb-sp){
+        width: 75vw;
+        border: 1px solid $main-color--b;
+        border-radius: 10px;
+    }
+    @include mq(tb){
+        width: 45vw;
+    }
+    @include mq(tb-pc1100){
+        width: 38vw;
+    }
+    .l-card-wrapper{
+        padding: 5%;
+        @include mq(tb-pc1000){
+            padding: 3% 0 3% 5%;
+        }
+        .l-card-title{
+            position: relative;
+            color: $text-blue;
+            &::after{//まとめ
+                position: absolute;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+                font-size: .7vw;
+                @include mq(sp){
+                    font-size: 3vw;
+                }
+            }
+            &.-concept{
+                &::after{
+                    content: "コンセプト";
+                    left: 58%;
+                    @include mq(tb){
+                        left: 36%;
+                    }
+                    @include mq(tb-pc1000){
+                        left: 50%;
+                    }
+                    @include mq(tb-pc1100){
+                        left: 57%;
+                    }
+                    @include mq(tb-pc1200){
+                        left: 58%;
+                    }
+                    @include mq(tb-pc1600){
+                        left: 45%;
+                    }
+                }
+            }
+            &.-plan{
+                &::after{
+                    content: "プラン";
+                    left: 34%;
+                    @include mq(tb){
+                        left: 23%;
+                    }
+                    @include mq(tb-pc1000){
+                        left: 30%;
+                    }
+                    @include mq(tb-pc1100){
+                        left: 33%;
+                    }
+                    @include mq(tb-pc1200){
+                        left: 34%;
+                    }
+                    @include mq(tb-pc1600){
+                        left: 27%;
+                    }
+                }
+            }
+            &.-location{
+                &::after{
+                    content: "周辺環境＆アクセス";
+                    left: 71%;
+                    @include mq(sp){
+                        width: 100px;
+                    }
+                    @include mq(tb){
+                        left: 45%;
+                    }
+                    @include mq(tb-pc1000){
+                        left: 68%;
+                    }
+                    @include mq(tb-pc1600){
+                        left: 54%;
+                    }
+                }
+            }
+            &.-research{
+                &::after{
+                    content: "リサーチ";
+                    left: 62%;
+                    @include mq(tb){
+                        left: 29%;
+                    }
+                    @include mq(tb-pc1000){
+                        left: 54%;
+                    }
+                    @include mq(tb-pc1100){
+                        left: 61%;
+                    }
+                    @include mq(tb-pc1200){
+                        left: 61%;
+                    }
+                    @include mq(tb-pc1600){
+                        left: 48%;
+                    }
+                }
+            }
+        }
+        .l-card-img{
+            // width: auto;
+            @include mq(sp){
+                // width: auto !important;
+                // margin: auto;
+            }
+            @include mq(tb-sp){
+                width: 85%;
+            }
+        }
+        .l-card-btnArea{
+            width: 80%;
+            background: $card-btn;
+            border-radius: 30px;
+            filter: drop-shadow(1px 1px 1px rgb(214, 214, 214));
+            @include mq(tb-sp){
+                position: absolute;
+                right: -4px;
+                bottom: -6%;
+                width: 50%;
+                filter: drop-shadow(1px 1px 1px $main-color--b);
+            }
+            @include mq(sp){
+                right: -4px;
+                bottom: -11%;
+                bottom: auto;
+                width: 80%;
+            }
+            @include mq(tb-pc1000){
+                width: 90%;
+                margin: 2% 9% auto auto;
+                transition: .5s all;
+                &:hover{
+                    background: $card-btn_hover;
+                    a{
+                        &::after{
+                            right: 6.5%;
+                        }
+                    }
+                }
+            }
+
+            a{
+                position: relative;
+                display: inline-block;
+                color: white;
+                text-align: left;
+                width: 100%;
+                padding: 7% 0 7% 13%;
+                &::after{
+                    content: "";
+                    width: 35px;
+                    height: 35px;
+                    background: url(../images/card/right.png);
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    top: 42%;
+                    right: 8%;
+                    transform: scale(0.7) translateY(-50%);
+                    transition: .5s all;
+                }
+            }
+        }
+    }
+}
+
+.l-banner{
+    // width: 33vw;
+    display: inline-block;
+    width: 90vw;
+    margin: auto;
+
+    @include mq(tb){
+        width: 80vw;
+    }
+    @include mq(tb-pc1000){
+        width: 64vw;
+    }
+    &.-access-project{
+        @include mq(tb){
+            width: 69vw;
+        }
+        @include mq(tb-pc1000){
+            width: 64vw;
+        }
+    }
+    .l-banner-wrapper{
+        a{
+            .l-banner-img{
+                position: relative;
+                @include mq(tb){
+                    // width: ;
+                }
+            }
+            .l-banner-btnArea{
+                position: absolute;
+                bottom: -7%;
+                right: 3%;
+
+                width: 45%;
+                background: url(../images/bg/banner-bg.jpg);
+                background-size: contain;
+                border-radius: 30px;
+                filter: drop-shadow(1px 1px 1px rgb(214, 214, 214));
+    
+                @include mq(tb){
+                    right: -12%;
+                    width: 30%;
+                    margin: 2% 9% auto auto;
+                    transition: .5s all;
+                }
+                
+                .entry{
+                    position: relative;
+                    display: inline-block;
+                    color: $main-color--b;
+                    font-family: "futura-pt-bold", sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                    text-align: left;
+                    width: 100%;
+                    padding: 5% 0 5% 13%;
+                    &::after{
+                        content: "";
+                        width: 35px;
+                        height: 35px;
+                        background: url(../images/card/right.png);
+                        position: absolute;
+                        top: 42%;
+                        right: 8%;
+                        transform: scale(0.7) translateY(-50%);
+                        transition: .5s all;
+                        @include mq(sp){
+                            top: 22%;
+                            transform: scale(0.5) translateY(-50%);
+
+                        }
+                    }
+                }
+            }
+            &:hover{
+                .l-banner-btnArea{
+                    // background: $card-btn_hover;
+                    .entry{
+                        &::after{
+                            right: 6.5%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+

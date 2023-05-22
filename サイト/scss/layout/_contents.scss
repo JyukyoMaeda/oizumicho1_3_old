@@ -1,0 +1,442 @@
+.l-contents{
+	width: 100%;
+	height: auto;
+	&.-img{// 背景画像のみ
+		width: 100%;
+		height: auto;
+					// プランエリア
+					&.-planArea{
+						background: black;
+					}
+	}
+	&.-img-bg{// 背景画像＋コンテンツ
+		position: relative;
+		.imgBox{// 背景画像
+			width: 100%;
+			height: auto;
+			&.-shadow{
+				filter: drop-shadow(1px 1px 7px rgb(192, 191, 191));
+				border: 1px solid #00000036;
+			}
+		}
+		.l-contentsBox{// コンテンツ要素
+			width: auto;
+			position: absolute;
+
+			// カードレイアウト_基本
+			&.-top-card{
+				display: inline-block;
+				left: 50%;
+				transform: translateX(-50%);
+				width: auto;
+				@include mq(tb-pc1000){
+
+				}
+				&.-banner{
+
+				}
+				&.-banner-plan{
+
+					bottom: 4%;
+					@include mq(tb-sp){
+						bottom: -14.5%;
+					}
+					@include mq(sp){
+						bottom: 4% !important;
+					}
+				}
+			}
+
+			
+			// コンテンツボタン要素
+			.-btnArea{
+				&.-p02{
+					bottom: 2%;
+					right: -8%;
+					width: 75%;
+					background: url(../images/bg/banner-bg.jpg);
+					background-size: contain;
+					border-radius: 30px;
+					filter: drop-shadow(1px 1px 1px rgb(214, 214, 214));
+					@include mq(tb){
+						right: -25%;
+						bottom: 0%;
+						width: 62%;
+						margin: 2% 9% auto auto;
+						transition: .5s all;
+					}
+					@include mq(tb-pc1000){
+						right: -40%;
+						width: 75%;
+						margin: 2% 9% auto auto;
+					}
+					&:hover{
+							.entry{
+								&::after{
+									right: 6.5%;
+								}
+							}
+					}
+				}
+				&.-pamphlet-btn{
+					top: 77%;
+					left: 50%;
+					width: 35%;
+					background: white;
+					border: 1px solid red;
+					border-radius: 30px;
+					filter: drop-shadow(1px 1px 1px rgb(214, 214, 214));
+					@include mq(sp){
+						transform: translateX(-50%);
+					}
+					@include mq(tb){
+						top: 42%;
+						right: 15%;
+						left: auto;
+    					width: 19%;
+						margin: 2% 9% auto auto;
+						transition: .5s all;
+					}
+					@include mq(tb-pc1000){
+						top: 45%;
+						right: 15.5%;
+						width: 18%;
+						margin: 2% 9% auto auto;
+					}
+					&:hover{
+							.entry,
+							.shiryou{
+								&::after{
+									right: 6.5%;
+								}
+							}
+					}
+				}
+				.entry{
+					position: relative;
+					display: inline-block;
+					color: $main-color--b;
+					font-family: "futura-pt-bold", sans-serif;
+					font-weight: 700;
+					font-style: normal;
+					text-align: left;
+					width: 100%;
+					padding: 5% 0 5% 13%;
+					&::after{
+						content: "";
+						width: 35px;
+						height: 35px;
+						background: url(../images/card/right.png);
+						position: absolute;
+						top: 42%;
+						right: 8%;
+						transform: scale(0.7) translateY(-50%);
+						transition: .5s all;
+					}
+				}
+				.shiryou{
+					position: relative;
+					display: inline-block;
+					color: red;
+					font-family: "futura-pt-bold", sans-serif;
+					font-weight: 700;
+					font-style: normal;
+					text-align: left;
+					width: 100%;
+					padding: 4% 0 7% 13%;
+					@include mq(tb-pc1000){
+						padding: 4% 0 4% 13%;
+
+					}
+					&::after{
+						content: "";
+						width: 12px;
+						height: 19px;
+						background: url(../images/card/right-arrow.png);
+						background-repeat: no-repeat;
+						position: absolute;
+						top: 30%;
+						right: 8%;
+						transform: scale(.7) translateY(-50%);
+						transition: .5s all;
+						@include mq(tb){
+							width: 12px;
+							height: 19px;
+
+							top: 50%;
+							right: 8%;
+							transform: translateY(-50%);
+						}
+					}
+				}
+			}
+
+			// パンフレット
+			&.-pamphlet{
+				top: 84%;
+				left: 50%;
+				transform: translateX(-50%);
+				width:100%;
+				margin: auto;
+				border-radius: 30px;
+				filter: drop-shadow(1px 1px 1px rgb(214, 214, 214));
+				@include mq(tb){
+					// top: 101%;
+					top: 106.5%;
+					width:100%;
+					margin: 2% 9% auto auto;
+					transition: .5s all;
+				}
+				@include mq(tb-pc700){
+					top: 103.5%;
+				}
+				@include mq(tb-pc800){
+					top: 102.5%;
+				}
+				@include mq(tb-pc900){
+					top: 103%;
+				}
+				@include mq(tb-pc1000){
+					top: 80%;
+					width:100%;
+					margin: 2% 9% auto auto;
+					transition: .5s all;
+				}
+			}
+			// バナー
+			&.-bannerArea{
+				top: 94%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: auto !important;
+								@include mq(tb){
+									top: 131%;
+								}
+								@include mq(tb-pc600){
+									top: 118% !important;
+								}
+								@include mq(tb-pc800){
+									top: 110.5% !important;
+								}
+								@include mq(tb-pc1000){
+
+									top: 96.5% !important;
+									width: auto;
+								}
+								@include mq(tb-pc1200){
+									top: 92.5% !important;
+								}
+								@include mq(tb-pc1600){
+									top: 89.5% !important;
+								}
+								@include mq(tb-pc1850){
+									top: 88.5% !important;
+								}
+
+				&.--concept{
+					top: 97.5%;
+					@include mq(tb){
+						top: 103.5%;
+					}
+					@include mq(tb-pc600){
+						top: 102.5% !important;
+					}
+					@include mq(tb-pc750){
+						top: 101.9% !important;
+					}
+					@include mq(tb-pc800){
+						top: 101.5% !important;
+					}
+					@include mq(tb-pc1000){
+						top: 98.5% !important;
+					}
+					@include mq(tb-pc1100){
+						top: 97.8% !important;
+					}
+					@include mq(tb-pc1300){
+						top: 97.75% !important;
+					}
+					@include mq(tb-pc1400){
+						top: 97.7% !important;
+					}
+					@include mq(tb-pc1600){
+						top: 97.3% !important;
+					}
+					@include mq(tb-pc1850){
+						top: 95.5% !important;
+					}
+				}
+				&.--plan{
+					top: 95.5%;
+					@include mq(tb){
+						top: 121% !important;
+					}
+					@include mq(tb-pc700){
+						top: 117% !important;
+					}
+					@include mq(tb-pc800){
+						top: 115.5% !important;
+					}
+					@include mq(tb-pc900){
+						top: 116.5% !important;
+					}
+					@include mq(tb-pc1000){
+						top: 91.5% !important;
+					}
+					@include mq(tb-pc1100){
+						top: 91.3% !important;
+					}
+					@include mq(tb-pc1300){
+						top: 91.4% !important;
+					}
+					@include mq(tb-pc1400){
+						top: 92% !important;
+					}
+					@include mq(tb-pc1600){
+						top: 91.5% !important;
+					}
+				}
+			}
+			&.-banner-text{
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 100%;
+			}
+			&.-bannerArea02{
+				top: 103.5%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+
+				width: auto !important;
+								@include mq(tb){
+									top: 152%;
+								}
+								@include mq(tb-pc600){
+									top: 143% !important;
+								}
+								@include mq(tb-pc800){
+									top: 131.5% !important;
+								}
+								@include mq(tb-pc1000){
+									// width: 68%;
+									top: 119.5% !important;
+									width: auto;
+								}
+								@include mq(tb-pc1200){
+									top: 113.5% !important;
+								}
+								@include mq(tb-pc1600){
+									// width: 68%;
+									top: 108.5% !important;
+									width: auto;
+								}
+								@include mq(tb-pc1850){
+									// width: 68%;
+									top: 106.5% !important;
+									width: auto;
+								}
+				&.--plan{
+					top: 101.8%;
+					@include mq(tb){
+						top: 133.5%;
+					}
+					@include mq(tb-pc600){
+						top: 134% !important;
+					}
+					@include mq(tb-pc700){
+						top: 129% !important;
+					}
+					@include mq(tb-pc800){
+						top: 129% !important;
+					}
+					@include mq(tb-pc900){
+						top: 130% !important;
+					}
+					@include mq(tb-pc1000){
+						top: 101% !important;
+					}
+					@include mq(tb-pc1100){
+						top: 101% !important;
+					}
+					@include mq(tb-pc1300){
+						top: 100.7% !important;
+					}
+					@include mq(tb-pc1400){
+						top: 102.5% !important;
+					}
+					@include mq(tb-pc1600){
+						top: 101% !important;
+					}
+
+				}
+				&.--concept{
+					top: 99.8%;
+					@include mq(tb){
+						top: 109.8%;
+					}
+					@include mq(tb-pc600){
+						top: 108% !important;
+					}
+					@include mq(tb-pc700){
+						top: 107.5% !important;
+					}
+					@include mq(tb-pc750){
+						top: 107.1% !important;
+					}
+					@include mq(tb-pc800){
+						top: 106% !important;
+					}
+					@include mq(tb-pc1000){
+						top: 103% !important;
+					}
+					@include mq(tb-pc1100){
+						top: 102% !important;
+					}
+					@include mq(tb-pc1300){
+						top: 101.7% !important;
+					}
+					@include mq(tb-pc1400){
+						top: 101.5% !important;
+					}
+					@include mq(tb-pc1600){
+						top: 101.4% !important;
+					}
+					@include mq(tb-pc1850){
+						top: 99.9% !important;
+					}
+				}
+			}
+
+			// PC用のslider
+			&.-sliderItem{
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+		}
+	}
+}
+
+
+.border-bottom{
+	width: 85vw;
+	max-width: 1260px;
+	margin: 0 auto 4vh;
+	border-bottom: 1px solid black;
+	@include mq(tb){
+		width: 70vw;
+		margin: 0 auto 12vh;
+	}
+	&.-s{
+		margin: 0 auto 6vh;
+		@include mq(tb){
+
+		}
+	}
+	&.-last{
+		margin: 0 auto;
+	}
+}
+
+

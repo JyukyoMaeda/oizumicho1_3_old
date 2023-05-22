@@ -1,0 +1,166 @@
+
+.l-text{
+    line-height: 1.7;
+    &.-lh-s{
+        @include mq(sp){
+            line-height: 2;
+        }
+
+    }
+    // 位置
+    &.-left{text-align: start;}
+    &.-center{text-align: center;}
+    &.-right{text-align: end;}
+
+    &.-p{
+        position: relative;
+    }
+    &.-hp-c{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-left: 15px;
+    }
+    &.-pd-left{
+        padding-left: 15px;
+        &::after{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-45%);
+            width: 2px;
+            height: 85%;
+            background: #333333;
+        }
+    }
+
+    // 太さ
+    &.-b{font-weight: bold;}
+
+    // 形
+    &.-family01{//futura
+        font-family: "futura-pt-bold", sans-serif;
+        font-style: normal;
+        &.-n{
+            font-family: futura-pt, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+    }
+    &.-family02{//遊ゴシック
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    }
+    &.-family03{//ゴシック
+        font-family: "source-han-sans-japanese", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    &.-family04{//Bebas
+        font-family: 'Bebas Neue', cursive;
+    }
+    &.-family05{//メイリオ
+        font-family:'メイリオ', 'Meiryo', sans-serif;
+    }
+
+    // 色
+    &.-white{
+        color: white;
+    }
+    &.-red{
+        color: $text-red;
+    }
+    &.-blue{
+        color: $text-blue;
+    }
+    &.-green{
+        color: $text-green;
+        text-shadow: 1px 1px 10px rgb(236, 236, 236);
+    }
+    &.-pink{
+        color: $text-pink;
+        text-shadow: 1px 1px 10px rgb(238, 238, 238);
+    }
+    &.-s-white{
+        text-shadow: 2px 2px 3px white;
+
+    }
+
+    // 大きさ
+    &.-size10{
+        font-size: 10px;
+        @include mq(sp){
+            display: block;
+            transform: scale(0.6);
+            margin-left: -60px;
+            width: 160%;
+        }
+    }
+    &.-sizeM{
+        font-size: clamp(10px, 1.5vw, 16px);
+        @include mq(tb){
+            font-size: clamp(10px, 1.2vw, 16px);
+        }
+        &.-concept02{
+            @include mq(tb){
+                font-size: clamp(10px, 1.2vw, 18px);
+            }
+        }
+        &.-s13{
+            @include mq(sp){
+                font-size: 13px;
+            }
+        }
+    }
+    &.-sizeL{//24px
+        font-size: clamp(10px, 2vw, 16px);
+        @include mq(tb){
+            font-size: clamp(10px, 1.8vw, 24px);
+        }
+        @include mq(tb-pc1000){
+            font-size: clamp(10px, 1.35vw, 24px);
+        }
+    }
+    &.-sizeLL{//30px
+        font-size: 28px;
+        @include mq(tb){
+            font-size: clamp(10px, 2.5vw, 30px);
+        }
+        &.-s24{
+            @include mq(sp){
+                font-size: 24px;
+            }
+        }
+        &.-s18{
+            @include mq(sp){
+                font-size: 18px;
+            }
+        }
+
+    }
+    &.-size3L{//40px
+        font-size: 28px;
+        @include mq(tb){
+            font-size: clamp(10px, 3.5vw, 24px);
+        }
+        @include mq(tb-pc1200){
+            font-size: clamp(10px, 3.5vw, 28px);
+        }
+        @include mq(tb-pc1400){
+            font-size: clamp(10px, 3.5vw, 40px);
+        }
+        &.-plan{
+            @include mq(sp){
+                font-size: 26px;
+
+            }
+        }
+
+    }
+    &.-size4L{//48px
+        font-size: 16px;
+        @include mq(tb){
+            font-size: clamp(10px, 2.5vw, 48px);
+        }
+    }
+}

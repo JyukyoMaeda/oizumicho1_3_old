@@ -1,0 +1,252 @@
+
+
+// -----------------------------------------------
+// 開発中
+//下記スマホ未満
+@include mq(sp){
+		.sp{
+			display: block !important;
+		}
+
+		.pc{
+			display: none !important;
+		}
+	}
+//下記スマホ以上
+@include mq(tb){
+	.sp{
+		display: none !important;
+	}
+	.pc{
+		display: block !important;
+	}
+}
+@include mq(tb-sp){
+	.tb{
+		display: block !important;
+	}
+	.pc-tb{
+		display: none;
+	}
+	.tb-sp{
+		display: block;
+	}
+}
+@include mq(tb-pc1000){
+	.pc-tb{
+		display: block;
+	}
+	.tb{
+		display: none !important;
+	}
+	.tb-sp{
+		display: none;
+	}
+}
+// 開発中ここまで
+// -----------------------------------------------
+
+body{
+
+	animation: fadein 1s forwards;
+	font-family: 'Shippori Mincho', serif;
+}
+
+.sp{
+	&-f{
+		&_left{
+			@include mq(sp){
+				float: left;
+			}
+		}
+		&_right{
+			@include mq(sp){
+				float: right;
+			}
+		}
+	}
+}
+
+.-w{
+	&-200{
+		width: 200px !important;
+	}
+	&-250{
+		width: 250px !important;
+	}
+	&-300{
+		width: 300px !important;
+	}
+	&-350{
+		width: 350px !important;
+	}
+}
+.-mg-c{
+	margin: auto;
+	text-align: center;
+}
+
+.mg{
+	// 下
+	&-b01{
+		
+		@include mq(tb){
+			margin-bottom: 3%;
+		}
+	}
+	&-b02{
+		@include mq(tb){
+			margin-bottom: 6%;
+		}
+	}
+	&-b03{
+		@include mq(tb){
+			margin-bottom: 9%;
+		}
+	}
+	&-b04{
+		@include mq(tb){
+			margin-bottom: 12%;
+		}
+	}
+	&-b05{
+		@include mq(tb){
+			margin-bottom: 15%;
+		}
+	}
+	&-b06{
+		@include mq(tb){
+			margin-bottom: 18%;
+		}
+	}
+	&-b07{
+		@include mq(tb){
+			margin-bottom: 21%;
+		}
+	}
+	&-b08{
+		@include mq(tb){
+			margin-bottom: 24%;
+		}
+	}
+	&-b09{
+		@include mq(tb){
+			margin-bottom: 27%;
+		}
+	}
+	&-b10{
+		margin-bottom: 40%;
+		@include mq(tb){
+			margin-bottom: 10%;
+		}
+
+		@include mq(tb-pc1100){
+			margin-bottom: 25%;
+		}
+	}
+	// 上
+	&-t01_s{
+		@include mq(sp){
+			margin-top: 6.5%;
+		}
+	}
+	// 右
+	&-r01_s{
+		@include mq(sp){
+			margin-right: 2%;
+		}
+	}
+	// 左
+	&-l01_s{
+		@include mq(sp){
+			margin-left: 1%;
+		}
+	}
+
+}
+
+
+main{
+	@include mq(tb-sp){
+		margin-bottom: 30vh;
+	}
+	@include mq(sp){
+		margin-bottom: 0;
+	}
+}
+
+
+
+
+.l-box{
+	@include mq(tb){
+		width: 100%;
+		height: 50px;
+	}
+}
+.l-box-detail{
+	margin-top: 20vh;
+}
+
+
+// 幅調整用 margin
+// 上
+.l-mgt-5{
+	margin-top: 5vh !important;
+	@include mq(tb){
+		margin-top: 8vh !important;
+	}
+}
+.l-mgt--20{
+	margin-top: -20vh;
+}
+
+.l-mgt-a{
+	margin-top: 5vh !important;
+	@include mq(tb){
+		margin-top: 8vh !important;
+	}
+}
+
+// 下
+.l-mgb-1{
+	margin-bottom : 1vh !important;
+	@include mq(tb){
+		margin-bottom: 5vh !important;
+	}
+}
+.l-mgb-3{
+	margin-bottom : 3vh !important;
+	@include mq(tb){
+		margin-bottom: 25vh !important;
+	}
+}
+.l-mgb-5{
+	margin-bottom : 5vh !important;
+	@include mq(tb){
+		margin-bottom: 8vh !important;
+	}
+}
+
+// 幅調整用 margin
+// 上下
+.l-mg-5{
+	margin: 5vh auto 2vh!important;
+	@include mq(tb){
+		margin: 5vh auto 1.5vh!important;
+	}
+}
+
+// 幅調整用 padding
+.l-pdb-3{
+	padding-bottom : 3vh !important;
+	@include mq(tb){
+		padding-bottom: 3vh !important;
+	}
+}
+.l-pdt-10{
+	padding-top : 10vh;
+	@include mq(tb){
+		padding-top: 10nh;
+	}
+}

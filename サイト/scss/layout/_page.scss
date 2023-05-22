@@ -1,0 +1,29 @@
+
+// 下記は、画像をメインにコーディングしたものです。
+
+
+
+
+//Youtube関係
+.youtubeBox{
+	width: 100%;
+	height: auto;
+	&.-p01{//縦並びパターン
+		.youtubeItem{
+			width: 100%;
+			height: auto;
+			@media screen and (min-width: 767px){
+				max-width: 380px;
+			}
+			iframe{
+				width: 100%;
+				height: 100%;
+				@media screen and (min-width: 767px){
+					max-width: 560px;
+					height: 215px;
+					max-height: 215px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,97 @@
+//ボタン関係
+.l-btnArea{
+    margin: 5vh auto;
+    text-align: center;
+    @include mq(tb){
+        margin: 15vh auto;
+    }
+    a{
+        display: block;
+        margin: auto;
+        text-align: center;
+        @include mq(tb){
+
+        }
+    }
+
+    .return_btn{
+        position: relative;
+        width: 100px;
+        height: auto;
+        font-size: 12px;
+        color: white;
+        background: rgb(146, 146, 146);
+        line-height: 2.3;
+        border-radius: 5px;
+        transition: .3s all;
+        &::after{
+            content: "";
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 5px solid white;
+            position: absolute;
+            top: 50%;
+            left: 73%;
+            transform: translate(-50%,-50%);
+            transition: .3s all;
+
+
+        }
+        &:hover{
+            color: black;
+            background: lightgray;
+            &::after{
+                border-left: 6px solid black;
+            }
+
+        }
+        &.-border{
+            border: 1px solid black;
+        }
+    }
+
+}
+
+
+
+.l-slider-btnArea{
+
+    width: 30%;
+    background: $card-btn;
+    border-radius: 30px;
+    filter: drop-shadow(1px 1px 1px rgb(214, 214, 214));
+    @include mq(tb){
+        position: absolute;
+        left: 50%;
+        bottom: 4%;
+        transform: translateX(-50%);
+        width: 42%;
+        filter: drop-shadow(1px 1px 1px $main-color--b);
+
+    }
+    @include mq(tb-pc1000){
+        width: 40%;
+        transition: .5s all;
+    }
+
+    .sliderBtn{
+        position: relative;
+        display: inline-block;
+        color: white;
+        text-align: left;
+        width: 100%;
+        padding: 7% 0 7% 13%;
+        &::after{
+            content: "";
+            width: 35px;
+            height: 35px;
+            background: url(../images/card/right.png);
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 42%;
+            right: 8%;
+            transform: scale(0.7) translateY(-50%);
+            transition: .5s all;
+        }
+    }
+}

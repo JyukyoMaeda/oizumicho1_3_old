@@ -1,0 +1,184 @@
+
+
+.l-footer{
+    width: 80%;
+    height: auto;
+    margin: 40px auto !important;
+    @include mq(tb){
+        width: 50%;
+        // max-width: 880px;
+    }
+    // 東久留米支店
+    &.-higashikurume{
+        @include mq(tb){
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 40px auto 80px !important;
+        }
+        .l-footer--title{
+            width: 60%;
+            height: auto;
+            margin: auto !important;
+            @include mq(sp){
+                margin: auto auto 5px !important;
+            }
+            @include mq(tb){
+                width: 50%;
+                max-width: 330px;
+                margin-right: 25px !important;
+            }
+        }
+        .l-footer--tel{
+            height: auto;
+            width: 60%;
+            margin: auto !important;
+            text-align: center;
+            @include mq(tb){
+                width: 20%;
+                margin-left: 25px !important;
+            }
+        }
+    }
+    // 狭山支店
+    &.-sayama{
+        @include mq(tb){
+            max-width: 750px;
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 40px auto 80px !important;
+        }
+        .l-footer--title{
+            width: 80%;
+            height: auto;
+            margin: auto !important;
+            @include mq(tb){
+                width: 50%;
+                max-width: 360px;
+                margin-right: 0 !important;
+            }
+            img{
+
+            }
+        }
+        .l-footer--tel{
+            width: 78%;
+            height: auto;
+            margin: 10px auto 10px 31px !important;
+            @include mq(tb){
+                width: 60%;
+                margin-left: 10px !important;
+            }
+        }
+    }
+    // 川越支店
+    &.-kawagoe{
+        @include mq(tb){
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 40px auto 80px !important;
+        }
+        .l-footer--title{
+            width: 60%;
+            height: auto;
+            margin: auto !important;
+            @include mq(sp){
+                margin: auto auto 5px !important;
+            }
+            @include mq(tb){
+                width: 50%;
+                max-width: 300px;
+                margin-right: 25px !important;
+            }
+        }
+        .l-footer--tel{
+            height: auto;
+            width: 60%;
+            margin: auto !important;
+            text-align: center;
+            @include mq(tb){
+                width: 30%;
+                margin-left: 25px !important;
+            }
+        }
+    }
+    // ふじみ野支店
+    &.-fuzimino{
+        @include mq(tb){
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 40px auto 80px !important;
+        }
+        .l-footer--title{
+            width: 60%;
+            height: auto;
+            margin: auto !important;
+            @include mq(sp){
+                margin: auto auto 5px !important;
+            }
+            @include mq(tb){
+                width: 50%;
+                max-width: 480px;
+                margin-right: 25px !important;
+            }
+        }
+        .l-footer--tel{
+            height: auto;
+            width: 60%;
+            margin: auto !important;
+            text-align: center;
+            @include mq(tb){
+                width: 50%;
+                max-width: 480px;
+                margin-left: 25px !important;
+            }
+        }
+    }
+    // 入間支店
+    &.-iruma{
+        @include mq(tb){
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 40px auto 80px !important;
+        }
+        .l-footer--title{
+            width: 60%;
+            height: auto;
+            margin: auto !important;
+            @include mq(sp){
+                margin: auto auto 5px !important;
+            }
+            @include mq(tb){
+                width: 50%;
+                max-width: 330px;
+                margin-right: 25px !important;
+            }
+        }
+        .l-footer--tel{
+            height: auto;
+            width: 60%;
+            margin: auto !important;
+            text-align: center;
+            @include mq(tb){
+                width: 50%;
+                margin-left: 25px !important;
+            }
+        }
+    }
+
+    &.-b{
+        width: 100% !important;
+        background: $main-color--b;
+        padding: 40px 0;
+        margin: auto !important;
+        @include mq(tb-sp){
+            max-width: auto !important;
+            // margin: auto !important;
+        }
+        @include mq(tb-pc1000){
+            height: 20vh;
+        }
+        // @include mq(){
+        //     height: 20vh;
+        // }
+    }
+}

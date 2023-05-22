@@ -1,0 +1,100 @@
+
+.l-slider {
+    .access-slider{
+        margin: 30px auto auto;
+        width: 75vw;
+        @include mq(tb){
+            margin: 60px auto auto;
+            width: 35vw;
+        }
+        @include mq(pc){
+            margin: 145px auto auto;
+            width: 35vw;
+        }
+
+        .slick-img{
+            margin-bottom: 2vh;
+        }
+    }
+    .project-slider{
+        margin: 30px auto auto;
+        width: 78vw;
+        @include mq(tb){
+            margin: 60px auto auto;
+            width: 50vw;
+        }
+        @include mq(pc){
+            margin: 145px auto auto;
+            width: 40vw;
+        }
+
+        .slick-img{
+            margin-bottom: 2vh;
+        }
+    }
+}
+
+.slick-prev,
+.slick-next{
+    transform: scale(.5) translate(0, -50%) !important;
+}
+
+.slick-prev{
+    color: white !important;
+    left: -12% !important;
+    @include mq(tb){
+        left: 20%;
+    }
+}
+.slick-next{
+    color: white !important;
+    right: -12% !important;
+    @include mq(tb){
+        right: 20%;
+    }
+}
+
+
+
+.slide-arrow {
+    width: 8vw;
+    background: $main-color--w;
+    border-radius: 50%;
+    transition: .8s all;
+    z-index: 10;
+    @include mq(tb){
+        width: 3vw;
+        max-width: 80px;
+    }
+    @include mq(pc){
+        width: 2.5vw;
+        max-width: 80px;
+    }
+    &:hover{
+        background: $item-hover--bg;
+    }
+  }
+  .prev-arrow {
+    position: absolute;
+    top: 50%;
+    left: -13%;
+    transform: translateY(-50%);
+    @include mq(tb){
+        top: 50%;
+        left: -10%;
+    }
+    &:hover{
+        
+    }
+  }
+  .next-arrow {
+    position: absolute;
+    top: 50%;
+    right: -13%;
+    transform: translateY(-50%);
+
+    @include mq(tb){
+        top: 50%;
+        right: -10%;
+    }
+  }
