@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 687 968.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231815;
+        font-family: Meiryo-Bold, Meiryo;
+        font-size: 20px;
+      }
+
+      .cls-1, .cls-2 {
+        font-weight: 700;
+      }
+
+      .cls-3, .cls-2, .cls-4, .cls-5, .cls-6 {
+        fill: #040000;
+      }
+
+      .cls-3, .cls-5, .cls-6 {
+        font-family: YuGothic-Regular, 'Yu Gothic';
+      }
+
+      .cls-2 {
+        font-family: YuGothic-Bold, 'Yu Gothic';
+        font-size: 21px;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: .25em;
+      }
+
+      .cls-9 {
+        letter-spacing: .5em;
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-11 {
+        fill: none;
+      }
+
+      .cls-12, .cls-4, .cls-5 {
+        font-size: 15px;
+      }
+
+      .cls-4 {
+        font-family: Meiryo, Meiryo;
+      }
+
+      .cls-13 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-6, .cls-14 {
+        font-size: 18px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-11" width="687" height="968.64" rx="9.01" ry="9.01"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <g class="cls-10">
+      <text class="cls-1" transform="translate(27.63 50.64)"><tspan x="0" y="0">02</tspan></text>
+      <text class="cls-5" transform="translate(74.94 514.83)"><tspan x="0" y="0">※区の予防接種情報の自動配信は令</tspan><tspan class="cls-8" x="240" y="0">和5年1</tspan><tspan x="301.68" y="0">月からの予定です</tspan><tspan class="cls-13" x="421.68" y="0">。</tspan><tspan x="0" y="24">　手動でのスケジュール機能はサービス開始から利用可</tspan><tspan class="cls-13" x="375" y="24">。</tspan></text>
+      <text class="cls-4" transform="translate(336.94 920.83)"><tspan x="0" y="0">健康推進課母子保健係　TEL 03-5984-4621</tspan></text>
+      <text class="cls-4" transform="translate(122.94 80.83)"><tspan x="0" y="0">登録・利用は無料（通信費、パケット代はご自身での負担</tspan><tspan class="cls-13" x="390" y="0">）</tspan></text>
+      <text class="cls-6" transform="translate(75 193.23)"><tspan x="0" y="0">令</tspan><tspan class="cls-9" x="18" y="0">和4年3</tspan><tspan x="110" y="0">月から、妊娠期から子育て期に活用できる練馬区オリ</tspan><tspan class="cls-7" x="0" y="29">ジナルのスマートフォン用アプ</tspan><tspan x="253.12" y="29">リ「</tspan><tspan class="cls-7" x="289.12" y="29">ねりますくすくアプ</tspan><tspan x="451.84" y="29">リ（</tspan><tspan class="cls-7" x="487.84" y="29">ねり</tspan><tspan x="524" y="29">す</tspan><tspan x="0" y="58">く</tspan><tspan class="cls-13" x="18" y="58">）</tspan><tspan x="27" y="58">」を開始！</tspan></text>
+      <text class="cls-3" transform="translate(86.94 339.86)"><tspan class="cls-14"><tspan x="0" y="0">■区の乳幼児健診情報や予防接種情報を自動で連携！　</tspan></tspan><tspan class="cls-12"><tspan x="0" y="26.36">※ご利用には保健相談所窓口での申込が必要</tspan></tspan><tspan class="cls-14"><tspan x="0" y="53">■妊娠週数やお子様の月齢に合わせて</tspan><tspan class="cls-13" x="306" y="53">、</tspan></tspan><tspan class="cls-14"><tspan x="0" y="82">きめ細かな子育て情報が届く！</tspan></tspan><tspan class="cls-14"><tspan x="0" y="111">■健診以外の成長記録（写真付き）も残すことができる</tspan><tspan class="cls-13" x="450" y="111">。</tspan></tspan></text>
+      <text class="cls-2" transform="translate(122.94 51)"><tspan x="0" y="0">ねりますくすくアプリ</tspan></text>
+    </g>
+  </g>
+</svg>

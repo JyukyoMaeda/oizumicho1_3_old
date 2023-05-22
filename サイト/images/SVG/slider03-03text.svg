@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 687 615.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231815;
+        font-family: Meiryo-Bold, Meiryo;
+        font-size: 20px;
+      }
+
+      .cls-1, .cls-2 {
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: .15em;
+      }
+
+      .cls-2 {
+        font-family: YuGothic-Bold, 'Yu Gothic';
+        font-size: 21px;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: #040000;
+      }
+
+      .cls-8 {
+        letter-spacing: .25em;
+      }
+
+      .cls-9 {
+        fill: #e9a0bf;
+      }
+
+      .cls-9, .cls-4 {
+        font-size: 16px;
+      }
+
+      .cls-9, .cls-4, .cls-5, .cls-6 {
+        font-family: Meiryo, Meiryo;
+      }
+
+      .cls-10 {
+        letter-spacing: -.38em;
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-12 {
+        fill: none;
+      }
+
+      .cls-5 {
+        font-size: 15px;
+      }
+
+      .cls-13 {
+        letter-spacing: .12em;
+      }
+
+      .cls-6 {
+        font-size: 14px;
+      }
+
+      .cls-14 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-7 {
+        font-family: YuGothic-Regular, 'Yu Gothic';
+        font-size: 18px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-12" width="687" height="615.64" rx="19" ry="19"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <g class="cls-11">
+      <text class="cls-5" transform="translate(73 487.81)"><tspan x="0" y="0">※利用年齢や、利用希望日の空き状況等は、直接、各実施保育園にお問い合わせ</tspan><tspan x="0" y="26">ください</tspan><tspan class="cls-14" x="60" y="26">。</tspan></text>
+      <text class="cls-7" transform="translate(75.25 187.23)"><tspan class="cls-3" x="0" y="0">保護者の様々な理由で一時的にお子様を預けたい時に、</tspan><tspan x="517.75" y="0">保</tspan><tspan class="cls-13" x="0" y="29">育園の専用保育室等でお預かりします</tspan><tspan class="cls-10" x="344.25" y="29">。</tspan></text>
+      <text class="cls-1" transform="translate(30.46 50.64)"><tspan x="0" y="0">03</tspan></text>
+      <text class="cls-2" transform="translate(124.44 51.2)"><tspan x="0" y="0">保育施設での一時預かり</tspan></text>
+      <text class="cls-4" transform="translate(215.99 294.05)"><tspan x="0" y="0">練馬区在住の生</tspan><tspan class="cls-8" x="112" y="0">後</tspan><tspan x="132" y="0">5</tspan><tspan class="cls-8" x="141.94" y="0">8</tspan><tspan x="155.88" y="0">日～就学前の集団保育が可</tspan><tspan x="0" y="28">能な児童</tspan></text>
+      <text class="cls-9" transform="translate(132.52 294.55)"><tspan x="0" y="0">対象</tspan></text>
+      <text class="cls-4" transform="translate(215.99 367.05)"><tspan x="0" y="0">7：3</tspan><tspan class="cls-8" x="35.88" y="0">0～</tspan><tspan x="69.81" y="0">19：30（各園により異なります</tspan><tspan class="cls-14" x="301.56" y="0">）</tspan></text>
+      <text class="cls-9" transform="translate(118.12 367.55)"><tspan x="0" y="0">利用時間</tspan></text>
+      <text class="cls-4" transform="translate(215.99 415.05)"><tspan x="0" y="0">区</tspan><tspan class="cls-8" x="16" y="0">内</tspan><tspan x="36" y="0">3</tspan><tspan class="cls-8" x="45.94" y="0">1</tspan><tspan x="59.88" y="0">ヶ所の保育園</tspan></text>
+      <text class="cls-9" transform="translate(118.12 415.55)"><tspan x="0" y="0">実施場所</tspan></text>
+      <text class="cls-6" transform="translate(530.99 99.29)"><tspan x="0" y="0">集団保育で</tspan><tspan x="0" y="18">預ける</tspan></text>
+    </g>
+  </g>
+</svg>

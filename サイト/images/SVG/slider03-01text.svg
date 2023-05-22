@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 687 615.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231815;
+        font-family: Meiryo-Bold, Meiryo;
+        font-size: 20px;
+      }
+
+      .cls-1, .cls-2 {
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-family: YuGothic-Bold, 'Yu Gothic';
+        font-size: 21px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #040000;
+      }
+
+      .cls-6 {
+        letter-spacing: .14em;
+      }
+
+      .cls-7 {
+        letter-spacing: .25em;
+      }
+
+      .cls-8, .cls-3, .cls-9 {
+        font-size: 16px;
+      }
+
+      .cls-8, .cls-3, .cls-9, .cls-4 {
+        font-family: Meiryo, Meiryo;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #e9a0bf;
+      }
+
+      .cls-10 {
+        letter-spacing: -.38em;
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-12 {
+        fill: none;
+      }
+
+      .cls-13 {
+        letter-spacing: .12em;
+      }
+
+      .cls-9 {
+        letter-spacing: .1em;
+      }
+
+      .cls-14 {
+        letter-spacing: .17em;
+      }
+
+      .cls-4 {
+        font-size: 14px;
+      }
+
+      .cls-15 {
+        letter-spacing: -.25em;
+      }
+
+      .cls-5 {
+        font-family: YuGothic-Regular, 'Yu Gothic';
+        font-size: 18px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-12" width="687" height="615.64" rx="19" ry="19"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <g class="cls-11">
+      <text class="cls-5" transform="translate(75.25 193.23)"><tspan class="cls-6" x="0" y="0">区が実施する講習を修了した有償ボランティアが、お子</tspan><tspan x="512.75" y="0">様</tspan><tspan class="cls-14" x="0" y="29">を1対1でお預かりします。ご利用には会員登録が必要</tspan><tspan x="512.75" y="29">で</tspan><tspan class="cls-13" x="0" y="58">す</tspan><tspan class="cls-10" x="20.25" y="58">。</tspan></text>
+      <text class="cls-1" transform="translate(30.46 50.64)"><tspan x="0" y="0">01</tspan></text>
+      <text class="cls-2" transform="translate(127.44 52.2)"><tspan x="0" y="0">ファミリーサポート事業</tspan></text>
+      <text class="cls-3" transform="translate(207.99 297.05)"><tspan x="0" y="0">練馬区在住の生</tspan><tspan class="cls-7" x="112" y="0">後</tspan><tspan x="132" y="0">5</tspan><tspan class="cls-7" x="141.94" y="0">8</tspan><tspan x="155.88" y="0">日～小</tspan><tspan class="cls-7" x="203.88" y="0">学6</tspan><tspan x="237.81" y="0">年生の児童</tspan></text>
+      <text class="cls-9" transform="translate(124.52 297.55)"><tspan x="0" y="0">対象</tspan></text>
+      <text class="cls-3" transform="translate(207.99 343.05)"><tspan x="0" y="0">利用料</tspan><tspan class="cls-15" x="48" y="0">：</tspan><tspan x="0" y="24">平日　</tspan><tspan class="cls-7" x="48" y="24">1</tspan><tspan x="61.94" y="24">時間</tspan><tspan class="cls-7" x="93.94" y="24">／</tspan><tspan x="113.94" y="24">80</tspan><tspan class="cls-7" x="133.81" y="24">0</tspan><tspan x="147.75" y="24">円</tspan><tspan x="0" y="48">土・日曜、祝日、年末年始　</tspan><tspan class="cls-7" x="208" y="48">1</tspan><tspan x="221.94" y="48">時間</tspan><tspan class="cls-7" x="253.94" y="48">／</tspan><tspan x="273.94" y="48">90</tspan><tspan class="cls-7" x="293.81" y="48">0</tspan><tspan x="307.75" y="48">円　　</tspan></text>
+      <text class="cls-9" transform="translate(124.52 343.55)"><tspan x="0" y="0">費用</tspan></text>
+      <text class="cls-3" transform="translate(207.99 425.05)"><tspan x="0" y="0">7：0</tspan><tspan class="cls-7" x="35.88" y="0">0～</tspan><tspan x="69.81" y="0">20：00</tspan></text>
+      <text class="cls-8" transform="translate(110.12 424.55)"><tspan x="0" y="0">利用時間</tspan></text>
+      <text class="cls-4" transform="translate(518.99 120.29)"><tspan class="cls-7" x="0" y="0">1対1</tspan><tspan x="41.89" y="0">の環境で</tspan><tspan x="0" y="18">預けられる</tspan></text>
+    </g>
+  </g>
+</svg>

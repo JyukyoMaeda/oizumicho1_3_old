@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 375">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.48em;
+      }
+
+      .cls-3 {
+        letter-spacing: .08em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-8 {
+        letter-spacing: .03em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-12 {
+        letter-spacing: .05em;
+      }
+
+      .cls-13 {
+        letter-spacing: .04em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: -.48em;
+      }
+
+      .cls-18 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-19 {
+        stroke: #fff100;
+        stroke-miterlimit: 10;
+        stroke-width: 6.79px;
+      }
+
+      .cls-19, .cls-20 {
+        fill: none;
+      }
+
+      .cls-21 {
+        letter-spacing: -.49em;
+      }
+
+      .cls-22 {
+        font-size: 23.15px;
+      }
+
+      .cls-22, .cls-23 {
+        fill: #e60012;
+      }
+
+      .cls-22, .cls-23, .cls-24, .cls-25 {
+        font-family: YuGothic-Bold, 'Yu Gothic';
+        font-weight: 700;
+      }
+
+      .cls-26 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-27 {
+        letter-spacing: 0em;
+      }
+
+      .cls-28 {
+        letter-spacing: 0em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.57em;
+      }
+
+      .cls-30 {
+        letter-spacing: .01em;
+      }
+
+      .cls-31 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-35 {
+        letter-spacing: .06em;
+      }
+
+      .cls-36 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-37 {
+        letter-spacing: .08em;
+      }
+
+      .cls-38 {
+        letter-spacing: -.56em;
+      }
+
+      .cls-39 {
+        letter-spacing: .08em;
+      }
+
+      .cls-40 {
+        letter-spacing: .02em;
+      }
+
+      .cls-41 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-42 {
+        letter-spacing: .04em;
+      }
+
+      .cls-43 {
+        letter-spacing: 0em;
+      }
+
+      .cls-44 {
+        letter-spacing: -.2em;
+      }
+
+      .cls-45 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-46 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-47 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-48 {
+        letter-spacing: 0em;
+      }
+
+      .cls-49 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-50 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-51 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-52 {
+        letter-spacing: .11em;
+      }
+
+      .cls-53 {
+        letter-spacing: .04em;
+      }
+
+      .cls-54 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-55 {
+        letter-spacing: .08em;
+      }
+
+      .cls-56 {
+        letter-spacing: .07em;
+      }
+
+      .cls-57 {
+        letter-spacing: .01em;
+      }
+
+      .cls-58 {
+        letter-spacing: -.42em;
+      }
+
+      .cls-59 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-60 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-61 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-62 {
+        letter-spacing: .08em;
+      }
+
+      .cls-63 {
+        letter-spacing: 0em;
+      }
+
+      .cls-64 {
+        letter-spacing: .07em;
+      }
+
+      .cls-65 {
+        letter-spacing: 0em;
+      }
+
+      .cls-66 {
+        letter-spacing: 0em;
+      }
+
+      .cls-67 {
+        letter-spacing: .1em;
+      }
+
+      .cls-68 {
+        letter-spacing: .03em;
+      }
+
+      .cls-69 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-70 {
+        letter-spacing: .02em;
+      }
+
+      .cls-71 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-72 {
+        letter-spacing: .03em;
+      }
+
+      .cls-23, .cls-24 {
+        font-size: 29.09px;
+      }
+
+      .cls-73 {
+        letter-spacing: -.17em;
+      }
+
+      .cls-24, .cls-74, .cls-25 {
+        fill: #231815;
+      }
+
+      .cls-75 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-76 {
+        letter-spacing: .08em;
+      }
+
+      .cls-77 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-78 {
+        letter-spacing: -.54em;
+      }
+
+      .cls-79 {
+        letter-spacing: 0em;
+      }
+
+      .cls-80 {
+        letter-spacing: .03em;
+      }
+
+      .cls-81 {
+        letter-spacing: -.99em;
+      }
+
+      .cls-82 {
+        letter-spacing: -.55em;
+      }
+
+      .cls-83 {
+        letter-spacing: -.14em;
+      }
+
+      .cls-84 {
+        letter-spacing: 0em;
+      }
+
+      .cls-85 {
+        letter-spacing: .03em;
+      }
+
+      .cls-86 {
+        letter-spacing: -.18em;
+      }
+
+      .cls-87 {
+        letter-spacing: 0em;
+      }
+
+      .cls-88 {
+        letter-spacing: .08em;
+      }
+
+      .cls-89 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-90 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-91 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-92 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-93 {
+        letter-spacing: .04em;
+      }
+
+      .cls-94 {
+        letter-spacing: -.2em;
+      }
+
+      .cls-95 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-96 {
+        letter-spacing: .02em;
+      }
+
+      .cls-97 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-98 {
+        letter-spacing: 0em;
+      }
+
+      .cls-99 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-100 {
+        letter-spacing: 0em;
+      }
+
+      .cls-101 {
+        letter-spacing: .04em;
+      }
+
+      .cls-102 {
+        letter-spacing: -.24em;
+      }
+
+      .cls-103 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-104 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-105 {
+        letter-spacing: 0em;
+      }
+
+      .cls-106 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-107 {
+        letter-spacing: 0em;
+      }
+
+      .cls-108 {
+        letter-spacing: 0em;
+      }
+
+      .cls-109 {
+        letter-spacing: 0em;
+      }
+
+      .cls-110 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-111 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-112 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-113 {
+        letter-spacing: .08em;
+      }
+
+      .cls-114 {
+        letter-spacing: .04em;
+      }
+
+      .cls-115 {
+        letter-spacing: -.3em;
+      }
+
+      .cls-116 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-117 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-118 {
+        letter-spacing: .08em;
+      }
+
+      .cls-119 {
+        letter-spacing: 0em;
+      }
+
+      .cls-120 {
+        letter-spacing: .05em;
+      }
+
+      .cls-121 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-122 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-123 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-124 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-125 {
+        letter-spacing: 0em;
+      }
+
+      .cls-126 {
+        letter-spacing: .01em;
+      }
+
+      .cls-127 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-128 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-129 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-130 {
+        letter-spacing: .05em;
+      }
+
+      .cls-131 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-132 {
+        letter-spacing: 0em;
+      }
+
+      .cls-133 {
+        letter-spacing: -.42em;
+      }
+
+      .cls-134 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-135 {
+        letter-spacing: .07em;
+      }
+
+      .cls-136 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-137 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-138 {
+        letter-spacing: -.42em;
+      }
+
+      .cls-139 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-140 {
+        letter-spacing: .07em;
+      }
+
+      .cls-141 {
+        letter-spacing: .08em;
+      }
+
+      .cls-142 {
+        letter-spacing: -.49em;
+      }
+
+      .cls-143 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-144 {
+        letter-spacing: 0em;
+      }
+
+      .cls-145 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-146 {
+        letter-spacing: -.23em;
+      }
+
+      .cls-147 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-148 {
+        letter-spacing: .07em;
+      }
+
+      .cls-149 {
+        letter-spacing: .08em;
+      }
+
+      .cls-150 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-151 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-152 {
+        letter-spacing: .08em;
+      }
+
+      .cls-153 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-154 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-155 {
+        letter-spacing: .02em;
+      }
+
+      .cls-156 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-157 {
+        letter-spacing: .05em;
+      }
+
+      .cls-158 {
+        letter-spacing: .04em;
+      }
+
+      .cls-159 {
+        letter-spacing: .07em;
+      }
+
+      .cls-160 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-161 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-74 {
+        font-family: YuGothic-Medium, 'Yu Gothic';
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .cls-162 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-163 {
+        letter-spacing: .03em;
+      }
+
+      .cls-164 {
+        letter-spacing: 0em;
+      }
+
+      .cls-165 {
+        letter-spacing: -.42em;
+      }
+
+      .cls-166 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-167 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-25 {
+        font-size: 25.69px;
+      }
+
+      .cls-168 {
+        letter-spacing: 0em;
+      }
+
+      .cls-169 {
+        letter-spacing: .01em;
+      }
+
+      .cls-170 {
+        letter-spacing: .02em;
+      }
+
+      .cls-171 {
+        letter-spacing: .07em;
+      }
+
+      .cls-172 {
+        letter-spacing: 0em;
+      }
+
+      .cls-173 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-174 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-175 {
+        letter-spacing: .04em;
+      }
+
+      .cls-176 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-177 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-178 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-179 {
+        letter-spacing: .01em;
+      }
+
+      .cls-180 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-181 {
+        letter-spacing: -.17em;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-20" width="1200" height="375"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <g class="cls-111">
+      <text class="cls-74" transform="translate(482.54 245.54)"><tspan class="cls-169" x="0" y="0">人口減少社</tspan><tspan class="cls-6" x="80.9" y="0">会</tspan><tspan class="cls-119" x="97.03" y="0">にお</tspan><tspan class="cls-97" x="128.78" y="0">け</tspan><tspan class="cls-41" x="143.35" y="0">る</tspan><tspan class="cls-169" x="158.43" y="0">居</tspan><tspan class="cls-43" x="174.61" y="0">住</tspan><tspan class="cls-84" x="190.73" y="0">は</tspan><tspan class="cls-142" x="206.67" y="0">、</tspan><tspan class="cls-169" x="214.84" y="0">個</tspan><tspan class="cls-6" x="231.02" y="0">人</tspan><tspan class="cls-99" x="247.16" y="0">に</tspan><tspan class="cls-91" x="261.72" y="0">も</tspan><tspan class="cls-21" x="276.71" y="0">、</tspan><tspan class="cls-179" x="284.89" y="0">地</tspan><tspan class="cls-79" x="301.07" y="0">域</tspan><tspan class="cls-166" x="317.2" y="0">に</tspan><tspan class="cls-128" x="331.76" y="0">も</tspan><tspan class="cls-21" x="346.75" y="0">、</tspan><tspan class="cls-179" x="354.93" y="0">社</tspan><tspan class="cls-79" x="371.11" y="0">会</tspan><tspan class="cls-166" x="387.24" y="0">に</tspan><tspan class="cls-128" x="401.81" y="0">も</tspan><tspan class="cls-105" x="416.8" y="0">今</tspan><tspan class="cls-53" x="432.9" y="0">や</tspan><tspan class="cls-179" x="449.48" y="0">大問題</tspan><tspan class="cls-81" x="498.01" y="0">。</tspan><tspan class="cls-179" x="498.19" y="0">「一家族一住宅一敷地</tspan><tspan class="cls-82" x="659.98" y="0">」</tspan><tspan class="cls-176" x="667.13" y="0">と</tspan><tspan class="cls-18" x=".06" y="21">い</tspan><tspan class="cls-177" x="14.15" y="21">う</tspan><tspan class="cls-26" x="28.49" y="21">考</tspan><tspan class="cls-106" x="43.92" y="21">え</tspan><tspan class="cls-87" x="59.09" y="21">方</tspan><tspan class="cls-131" x="75.05" y="21">は</tspan><tspan class="cls-153" x="89.74" y="21">も</tspan><tspan class="cls-162" x="104.52" y="21">は</tspan><tspan class="cls-85" x="120.22" y="21">や</tspan><tspan class="cls-109" x="136.64" y="21">古</tspan><tspan class="cls-98" x="152.73" y="21">い</tspan><tspan class="cls-5" x="168.72" y="21">。</tspan><tspan class="cls-66" x="176.74" y="21">住</tspan><tspan class="cls-100" x="192.77" y="21">宅</tspan><tspan class="cls-47" x="208.74" y="21">に</tspan><tspan class="cls-107" x="224.24" y="21">求</tspan><tspan class="cls-143" x="240.17" y="21">め</tspan><tspan class="cls-83" x="254.93" y="21">る</tspan><tspan class="cls-150" x="268.77" y="21">も</tspan><tspan class="cls-16" x="283.56" y="21">の</tspan><tspan class="cls-134" x="299.46" y="21">は</tspan><tspan class="cls-1" x="315.24" y="21">、</tspan><tspan class="cls-168" x="323.26" y="21">長</tspan><tspan class="cls-172" x="339.35" y="21">い</tspan><tspan class="cls-66" x="355.34" y="21">人</tspan><tspan class="cls-100" x="371.36" y="21">生</tspan><tspan class="cls-110" x="387.34" y="21">の</tspan><tspan class="cls-36" x="402.5" y="21">ス</tspan><tspan class="cls-145" x="417.66" y="21">テ</tspan><tspan class="cls-7" x="432.86" y="21">ー</tspan><tspan class="cls-77" x="447.86" y="21">ジ</tspan><tspan class="cls-33" x="463.43" y="21">に</tspan><tspan class="cls-105" x="478.92" y="21">合</tspan><tspan class="cls-175" x="495.02" y="21">わ</tspan><tspan class="cls-49" x="511.69" y="21">せ</tspan><tspan class="cls-174" x="527.25" y="21">て</tspan><tspan class="cls-29" x="542.42" y="21">、</tspan><tspan class="cls-86" x="549.36" y="21">さ</tspan><tspan class="cls-123" x="562.54" y="21">ま</tspan><tspan class="cls-137" x="576.4" y="21">ざ</tspan><tspan class="cls-122" x="591.68" y="21">ま</tspan><tspan class="cls-33" x="606.36" y="21">に</tspan><tspan class="cls-66" x="621.85" y="21">変</tspan><tspan class="cls-11" x="637.87" y="21">遷</tspan><tspan class="cls-69" x="652.41" y="21">し</tspan><tspan class="cls-54" x="666.36" y="21">て</tspan><tspan class="cls-51" x=".06" y="42">い</tspan><tspan class="cls-94" x="14.66" y="42">く</tspan><tspan class="cls-104" x="27.44" y="42">こ</tspan><tspan class="cls-59" x="41.53" y="42">と</tspan><tspan class="cls-154" x="56.13" y="42">に</tspan><tspan class="cls-132" x="71.86" y="42">注</tspan><tspan class="cls-27" x="87.97" y="42">目</tspan><tspan class="cls-17" x="104.07" y="42">。</tspan><tspan class="cls-126" x="112.33" y="42">町</tspan><tspan class="cls-30" x="128.55" y="42">の</tspan><tspan class="cls-70" x="144.75" y="42">多様</tspan><tspan class="cls-151" x="177.27" y="42">性</tspan><tspan class="cls-139" x="192.96" y="42">を</tspan><tspan class="cls-108" x="208.53" y="42">い</tspan><tspan class="cls-57" x="224.55" y="42">か</tspan><tspan class="cls-154" x="240.79" y="42">に</tspan><tspan class="cls-70" x="256.52" y="42">担</tspan><tspan class="cls-180" x="272.78" y="42">保</tspan><tspan class="cls-14" x="287.56" y="42">し</tspan><tspan class="cls-60" x="301.74" y="42">て</tspan><tspan class="cls-63" x="317.22" y="42">い</tspan><tspan class="cls-92" x="333.11" y="42">け</tspan><tspan class="cls-10" x="347.77" y="42">る</tspan><tspan class="cls-40" x="362.73" y="42">か</tspan><tspan class="cls-2" x="379" y="42">。</tspan><tspan class="cls-96" x="387.27" y="42">居場</tspan><tspan class="cls-28" x="419.79" y="42">所</tspan><tspan class="cls-147" x="435.81" y="42">づ</tspan><tspan class="cls-102" x="450.7" y="42">く</tspan><tspan class="cls-34" x="462.92" y="42">り</tspan><tspan class="cls-48" x="477.44" y="42">の</tspan><tspan class="cls-124" x="493.4" y="42">ユ</tspan><tspan class="cls-32" x="509" y="42">ニ</tspan><tspan class="cls-46" x="524.31" y="42">ー</tspan><tspan class="cls-4" x="538.65" y="42">ク</tspan><tspan class="cls-103" x="553.45" y="42">な</tspan><tspan class="cls-70" x="569.26" y="42">事</tspan><tspan class="cls-151" x="585.52" y="42">例</tspan><tspan class="cls-89" x="601.21" y="42">を</tspan><tspan class="cls-70" x="616.72" y="42">多数紹</tspan><tspan x="665.51" y="42">介</tspan><tspan class="cls-156" x="-1.48" y="63">し</tspan><tspan class="cls-38" x="12.91" y="63">、</tspan><tspan class="cls-112" x="19.94" y="63">こ</tspan><tspan class="cls-144" x="34.74" y="63">れ</tspan><tspan class="cls-178" x="50.62" y="63">か</tspan><tspan class="cls-116" x="65.13" y="63">ら</tspan><tspan class="cls-164" x="80.34" y="63">の</tspan><tspan class="cls-136" x="96.27" y="63">住</tspan><tspan class="cls-143" x="111.12" y="63">ま</tspan><tspan class="cls-125" x="125.89" y="63">い</tspan><tspan class="cls-31" x="141.81" y="63">の</tspan><tspan class="cls-117" x="157.62" y="63">あ</tspan><tspan class="cls-50" x="171.94" y="63">り</tspan><tspan class="cls-121" x="186.24" y="63">方</tspan><tspan class="cls-127" x="201.66" y="63">を</tspan><tspan class="cls-161" x="216.91" y="63">考</tspan><tspan class="cls-45" x="232.32" y="63">え</tspan><tspan class="cls-15" x="246.29" y="63">る</tspan><tspan class="cls-160" x="261.19" y="63">。</tspan></text>
+      <line class="cls-19" x1="287" y1="70.16" x2="947.03" y2="70.16"/>
+      <text class="cls-24" transform="translate(287 66.83)"><tspan class="cls-55" x="0" y="0">現</tspan><tspan class="cls-155" x="31.41" y="0">地</tspan><tspan class="cls-67" x="61.14" y="0">ご</tspan><tspan class="cls-62" x="93.19" y="0">来</tspan><tspan class="cls-73" x="124.6" y="0">場</tspan><tspan class="cls-146" x="148.75" y="0">・</tspan><tspan class="cls-67" x="171.2" y="0">ご</tspan><tspan class="cls-62" x="203.25" y="0">来店者様限</tspan><tspan class="cls-120" x="360.32" y="0">定</tspan><tspan class="cls-149" x="390.74" y="0">で</tspan><tspan class="cls-138" x="422.07" y="0">、</tspan></text>
+      <text class="cls-23" transform="translate(733.06 66.83)"><tspan class="cls-62" x="0" y="0">無</tspan><tspan class="cls-13" x="31.41" y="0">料</tspan><tspan class="cls-157" x="61.72" y="0">プ</tspan><tspan class="cls-170" x="92.15" y="0">レ</tspan><tspan class="cls-42" x="121.68" y="0">ゼ</tspan><tspan class="cls-61" x="151.84" y="0">ン</tspan><tspan class="cls-115" x="177.52" y="0">ト</tspan><tspan class="cls-181" x="197.8" y="0">！</tspan></text>
+      <text class="cls-22" transform="translate(470.97 211.46)"><tspan class="cls-76" x="0" y="0">『</tspan><tspan class="cls-68" x="25" y="0">町</tspan><tspan class="cls-101" x="48.92" y="0">を</tspan><tspan class="cls-113" x="73.03" y="0">住</tspan><tspan class="cls-173" x="98.15" y="0">み</tspan><tspan class="cls-129" x="120.98" y="0">こ</tspan><tspan class="cls-158" x="143.04" y="0">な</tspan><tspan class="cls-159" x="167.21" y="0">す</tspan><tspan class="cls-71" x="191.98" y="0">─</tspan><tspan class="cls-76" x="214.66" y="0">─超高齢化社</tspan><tspan class="cls-56" x="364.66" y="0">会</tspan><tspan class="cls-64" x="389.44" y="0">の</tspan><tspan class="cls-152" x="414.27" y="0">居場</tspan><tspan class="cls-135" x="464.27" y="0">所</tspan><tspan class="cls-95" x="489.11" y="0">づ</tspan><tspan class="cls-44" x="511.97" y="0">く</tspan><tspan class="cls-78" x="530.56" y="0">り</tspan><tspan class="cls-76" x="541.23" y="0">（岩波新書</tspan><tspan class="cls-133" x="666.23" y="0">）』</tspan></text>
+      <text class="cls-25" transform="translate(482.54 176.73)"><tspan class="cls-148" x="0" y="0">大</tspan><tspan class="cls-114" x="27.5" y="0">月</tspan><tspan class="cls-39" x="54.21" y="0">敏雄教</tspan><tspan class="cls-171" x="137.46" y="0">授</tspan><tspan class="cls-140" x="164.95" y="0">の</tspan><tspan class="cls-88" x="192.51" y="0">著書</tspan></text>
+      <text class="cls-74" transform="translate(960.64 70.45)"><tspan class="cls-3" x="0" y="0">※</tspan><tspan class="cls-118" x="17.28" y="0">数</tspan><tspan class="cls-93" x="34.51" y="0">に</tspan><tspan class="cls-35" x="51.2" y="0">は</tspan><tspan class="cls-167" x="68.24" y="0">限</tspan><tspan class="cls-75" x="83.98" y="0">り</tspan><tspan class="cls-80" x="99.5" y="0">が</tspan><tspan class="cls-8" x="115.98" y="0">ご</tspan><tspan class="cls-52" x="132.47" y="0">ざ</tspan><tspan class="cls-9" x="150.22" y="0">い</tspan><tspan class="cls-65" x="166.32" y="0">ま</tspan><tspan class="cls-141" x="182.34" y="0">す</tspan><tspan class="cls-165" x="199.59" y="0">。</tspan></text>
+      <text class="cls-74" transform="translate(474.79 141.87)"><tspan class="cls-3" x="0" y="0">『Makefull</tspan><tspan class="cls-58" x="91.72" y="0">』</tspan><tspan class="cls-37" x="101" y="0">企画 主</tspan><tspan class="cls-163" x="158.68" y="0">要</tspan><tspan class="cls-90" x="175.15" y="0">メ</tspan><tspan class="cls-130" x="190.07" y="0">ン</tspan><tspan class="cls-72" x="206.88" y="0">バ</tspan><tspan class="cls-12" x="223.37" y="0">ー</tspan></text>
+    </g>
+  </g>
+</svg>

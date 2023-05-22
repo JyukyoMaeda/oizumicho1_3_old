@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 489.69 333.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #221714;
+        font-family: YuGothic-Regular, 'Yu Gothic';
+        font-size: 16.02px;
+      }
+
+      .cls-2 {
+        letter-spacing: .04em;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #e8558e;
+        font-family: YuGothic-Bold, 'Yu Gothic';
+        font-size: 17px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: .07em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.17em;
+      }
+
+      .cls-5 {
+        letter-spacing: .05em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: .08em;
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-11 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-12 {
+        fill: none;
+      }
+
+      .cls-8 {
+        letter-spacing: .08em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.05em;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-12" width="489.69" height="333.71"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <g class="cls-10">
+      <text transform="translate(17.03 39.05)"><tspan class="cls-1"><tspan x="0" y="0">〈住みこなせる家</tspan><tspan class="cls-11" x="128.18" y="0">〉</tspan></tspan><tspan class="cls-1"><tspan x="8.01" y="30.04">●住宅を重設備化していくのではなく</tspan><tspan class="cls-11" x="280.39" y="30.04">、</tspan></tspan><tspan><tspan class="cls-1" x="8.01" y="59.71">　社会の変化＝生活の変化に柔軟に対応する</tspan><tspan class="cls-8" x="328.46" y="60.08">余剰</tspan><tspan class="cls-1" x="365.18" y="59.71">を残すこと</tspan></tspan><tspan/><tspan class="cls-1"><tspan x="0" y="119.31">〈住みこなせる町</tspan><tspan class="cls-11" x="128.18" y="119.31">〉</tspan></tspan><tspan class="cls-1"><tspan x="8.01" y="149.35">●住宅と環境が、個人とコミュニティが自然に溶け合う町</tspan></tspan><tspan><tspan class="cls-1" x="8.01" y="179.02">●</tspan><tspan class="cls-8" x="24.03" y="179.39">多</tspan><tspan class="cls-2" x="42.39" y="179.39">様</tspan><tspan class="cls-5" x="60.06" y="179.39">な</tspan><tspan class="cls-7" x="77.93" y="179.39">人</tspan><tspan class="cls-6" x="96.25" y="179.39">び</tspan><tspan class="cls-9" x="113.35" y="179.39">と</tspan><tspan class="cls-3" x="129.57" y="179.39">の</tspan><tspan class="cls-8" x="147.81" y="179.39">持続</tspan><tspan class="cls-2" x="184.53" y="179.39">的</tspan><tspan class="cls-5" x="202.19" y="179.39">な</tspan><tspan class="cls-8" x="220.06" y="179.39">共</tspan><tspan class="cls-4" x="238.42" y="179.39">存・</tspan><tspan class="cls-8" x="266.64" y="179.39">共生</tspan><tspan class="cls-1" x="303.36" y="179.02">が可能な町</tspan></tspan><tspan class="cls-1"><tspan x="8.01" y="208.58">●ランドマークとなるようなデザインの統一感</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

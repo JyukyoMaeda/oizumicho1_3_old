@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 687 615.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231815;
+        font-family: Meiryo-Bold, Meiryo;
+        font-size: 20px;
+      }
+
+      .cls-1, .cls-2 {
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: .31em;
+      }
+
+      .cls-2 {
+        font-family: YuGothic-Bold, 'Yu Gothic';
+        font-size: 21px;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        fill: #040000;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: .25em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-10 {
+        fill: none;
+      }
+
+      .cls-11 {
+        letter-spacing: .01em;
+      }
+
+      .cls-4 {
+        font-size: 15px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: YuGothic-Regular, 'Yu Gothic';
+      }
+
+      .cls-12 {
+        letter-spacing: -.25em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-5 {
+        font-size: 18px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-10" width="687" height="615.64" rx="19" ry="19"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <g class="cls-9">
+      <text class="cls-4" transform="translate(73 497.84)"><tspan x="0" y="0">※申請書は転入または出生により新たに住民登録された方にお送りしていますの</tspan><tspan x="0" y="24">で、児童手当係へのご連絡は不要です</tspan><tspan class="cls-13" x="255" y="24">。</tspan></text>
+      <text class="cls-5" transform="translate(73 193.23)"><tspan x="0" y="0">健康保険に加入している区内在住の中</tspan><tspan class="cls-3" x="306" y="0">学3</tspan><tspan class="cls-6" x="345.32" y="0">年生まで（1</tspan><tspan class="cls-3" x="445.33" y="0">5</tspan><tspan x="461" y="0">歳になっ</tspan><tspan x="0" y="29">た後の最初</tspan><tspan class="cls-7" x="90" y="29">の3月</tspan><tspan x="149.51" y="29">3</tspan><tspan class="cls-7" x="159.52" y="29">1</tspan><tspan x="174.03" y="29">日まで）の児童の医療費を負担します</tspan><tspan class="cls-13" x="480.03" y="29">。</tspan></text>
+      <text class="cls-1" transform="translate(27.63 50.64)"><tspan x="0" y="0">01</tspan></text>
+      <text class="cls-2" transform="translate(118.87 50.94)"><tspan x="0" y="0">子ども医療費助成（乳・子医療証</tspan><tspan class="cls-13" x="315" y="0">）</tspan></text>
+      <text class="cls-5" transform="translate(97.87 303.81)"><tspan x="0" y="0">■</tspan><tspan class="cls-11" x="18" y="0">保険適用の自己負担</tspan><tspan class="cls-6" x="181.77" y="0">分（</tspan><tspan class="cls-11" x="217.77" y="0">高額療養</tspan><tspan class="cls-6" x="290.55" y="0">費・</tspan><tspan class="cls-11" x="326.55" y="0">家族療養費附加金</tspan><tspan x="472.12" y="0">等</tspan><tspan x="0" y="29">に該当する場合は、その額を除いた額</tspan><tspan class="cls-13" x="306" y="29">）</tspan><tspan x="0" y="58">■入院時食事療養費標準負担額（入院時の食事代</tspan><tspan class="cls-13" x="396" y="58">）</tspan><tspan x="0" y="87">■</tspan><tspan class="cls-8" x="18" y="87">小児慢性疾</tspan><tspan x="108.68" y="87">患</tspan><tspan class="cls-12" x="126.68" y="87"> </tspan><tspan x="127.31" y="87">・</tspan><tspan class="cls-8" x="145.31" y="87">養育医</tspan><tspan x="199.72" y="87">療</tspan><tspan class="cls-12" x="217.72" y="87"> </tspan><tspan x="218.35" y="87">・</tspan><tspan class="cls-8" x="236.35" y="87">育成医療等の医療費助成の自</tspan><tspan x="472.12" y="87">己</tspan><tspan x="0" y="116">負担限度額</tspan></text>
+    </g>
+  </g>
+</svg>

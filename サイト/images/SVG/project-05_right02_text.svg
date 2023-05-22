@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 489.69 331.72">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #221714;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: YuGothic-Regular, 'Yu Gothic';
+        font-size: 16.02px;
+      }
+
+      .cls-5 {
+        fill: #23b6bd;
+        font-family: YuGothic-Bold, 'Yu Gothic';
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #231815;
+      }
+
+      .cls-8, .cls-10 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-12 {
+        fill: none;
+      }
+
+      .cls-13 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.03em;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-12" y="0" width="489.69" height="331.72"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <g class="cls-11">
+      <text class="cls-2" transform="translate(17.04 39.05)"><tspan x="0" y="0">〈家</tspan><tspan class="cls-10" x="32.04" y="0">〉</tspan><tspan x="8.01" y="29.29">●長期的な安心・安全を約束する</tspan></text>
+      <text class="cls-5" transform="translate(265.39 69.1)"><tspan x="0" y="0">構造</tspan><tspan class="cls-6" x="36" y="0">的</tspan><tspan class="cls-7" x="53.26" y="0">ス</tspan><tspan class="cls-13" x="70.44" y="0">ペ</tspan><tspan class="cls-14" x="86.15" y="0">ッ</tspan><tspan class="cls-1" x="101.36" y="0">ク</tspan></text>
+      <text class="cls-2" transform="translate(25.05 97.4)"><tspan x="0" y="0">●持続的に不備なく家を供給できる生産フォーマット</tspan><tspan x="0" y="29.29">●住宅購入層の現実的な経済事情を加味した</tspan></text>
+      <text class="cls-5" transform="translate(345.5 127.44)"><tspan x="0" y="0">適</tspan><tspan class="cls-6" x="18" y="0">正</tspan><tspan class="cls-15" x="35.26" y="0">な</tspan><tspan x="52.74" y="0">価格</tspan></text>
+      <text class="cls-4" transform="translate(25.05 155.75)"><tspan class="cls-3" x="0" y="0">●コミュニティを形成しつつプライバシーを守る設計</tspan><tspan class="cls-9" x="-8.01" y="60.08">〈町</tspan><tspan class="cls-8" x="24.03" y="60.08">〉</tspan><tspan class="cls-3" x="0" y="90.13">●エリアの特性を取り入れた町づくり</tspan><tspan class="cls-3" x="0" y="120.17">●グランシア三芳をはじめとする、統一感のある世界観</tspan></text>
+    </g>
+  </g>
+</svg>

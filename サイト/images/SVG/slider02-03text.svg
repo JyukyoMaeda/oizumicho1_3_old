@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 687 615.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231815;
+        font-family: Meiryo-Bold, Meiryo;
+        font-size: 20px;
+      }
+
+      .cls-1, .cls-2 {
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: .5em;
+      }
+
+      .cls-4 {
+        letter-spacing: .01em;
+      }
+
+      .cls-2 {
+        font-family: YuGothic-Bold, 'Yu Gothic';
+        font-size: 21px;
+      }
+
+      .cls-2, .cls-5, .cls-6 {
+        fill: #040000;
+      }
+
+      .cls-7 {
+        letter-spacing: .25em;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-9 {
+        fill: none;
+      }
+
+      .cls-5 {
+        font-size: 15px;
+      }
+
+      .cls-5, .cls-6 {
+        font-family: YuGothic-Regular, 'Yu Gothic';
+      }
+
+      .cls-10 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-6 {
+        font-size: 18px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-9" width="687" height="615.64" rx="19" ry="19"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <g class="cls-8">
+      <text class="cls-2" transform="translate(126.87 50.94)"><tspan class="cls-7" x="0" y="0">第3</tspan><tspan x="43.54" y="0">子誕生祝金</tspan></text>
+      <text class="cls-5" transform="translate(73 497.84)"><tspan x="0" y="0">※申請期限あり。要件につきましては、練馬区ホームページをご確認下さい</tspan><tspan class="cls-10" x="510" y="0">。</tspan></text>
+      <text class="cls-6" transform="translate(73 169.23)"><tspan class="cls-3" x="0" y="0">第3</tspan><tspan class="cls-4" x="46.01" y="0">子以降の児童が誕生した場合</tspan><tspan x="283.25" y="0">で、</tspan><tspan class="cls-4" x="319.25" y="0">要件を満たす保護者に祝</tspan><tspan x="520" y="0">金</tspan><tspan x="0" y="29">を支給します。所得制限なし</tspan><tspan class="cls-10" x="234" y="29">。</tspan></text>
+      <text class="cls-1" transform="translate(27.63 50.64)"><tspan x="0" y="0">03</tspan></text>
+      <text class="cls-6" transform="translate(97.87 303.81)"><tspan x="0" y="0">■</tspan><tspan class="cls-7" x="18" y="0">第3</tspan><tspan x="55.01" y="0">子以降の児</tspan><tspan class="cls-7" x="145.01" y="0">童1</tspan><tspan x="182.02" y="0">人につき</tspan><tspan class="cls-7" x="254.02" y="0">／</tspan><tspan x="276.52" y="0">1</tspan><tspan class="cls-7" x="286.53" y="0">0</tspan><tspan x="301.04" y="0">万円</tspan></text>
+    </g>
+  </g>
+</svg>
