@@ -3388,6 +3388,82 @@ header {
   width: 200px;
 }
 
+@keyframes UpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes DownAnime {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(200px);
+  }
+}
+#pageTop {
+  position: fixed;
+  right: 4%;
+  bottom: 6%;
+  z-index: 9999;
+  opacity: 0;
+  transform: translateY(100px);
+}
+@media screen and (min-width: 541px) {
+  #pageTop {
+    bottom: 6.5%;
+    right: 2%;
+  }
+}
+#pageTop a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #942D2F;
+  border: 1px solid rgba(255, 255, 255, 0.432);
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.6rem;
+  transition: all 0.3s;
+}
+@media screen and (min-width: 541px) {
+  #pageTop a {
+    width: 60px;
+    height: 60px;
+  }
+}
+#pageTop a::before {
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#pageTop.UpMove {
+  animation: UpAnime 0.5s forwards;
+}
+#pageTop.DownMove {
+  animation: DownAnime 0.5s forwards;
+}
+
 .p-top {
   width: 100%;
   background-image: url(../images/bg/top/top-page-bg_s.png);
