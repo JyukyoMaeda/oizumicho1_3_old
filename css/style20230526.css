@@ -1518,6 +1518,7 @@ body {
   transform: translateY(-50%);
   width: 45%;
   font-size: clamp(10px, 1.2vw, 16px);
+  border: 2px solid #CCC8B5;
 }
 @media screen and (max-width: 540px) {
   .l-header.-tokyoU .rightBoxArea {
@@ -1547,7 +1548,6 @@ body {
 }
 .l-header.-tokyoU .rightBoxArea .contact-lists li {
   width: 50%;
-  transition: 0.5s all;
 }
 .l-header.-tokyoU .rightBoxArea .contact-lists li a {
   display: block;
@@ -1555,20 +1555,19 @@ body {
   text-align: center;
   transition: 0.5s all;
 }
-.l-header.-tokyoU .rightBoxArea .contact-lists li.left {
-  background: #054993;
+.l-header.-tokyoU .rightBoxArea .contact-lists li a:hover {
+  transform: scale(1.1);
 }
-.l-header.-tokyoU .rightBoxArea .contact-lists li.left:hover {
-  background: rgba(5, 74, 147, 0.8705882353);
+.l-header.-tokyoU .rightBoxArea .contact-lists li.left {
+  background: white;
+  border-right: 1px solid #CCC8B5;
 }
 .l-header.-tokyoU .rightBoxArea .contact-lists li.left a {
-  color: white;
+  color: #CCC8B5;
 }
 .l-header.-tokyoU .rightBoxArea .contact-lists li.right {
-  background: #D41619;
-}
-.l-header.-tokyoU .rightBoxArea .contact-lists li.right:hover {
-  background: rgba(212, 22, 25, 0.8274509804);
+  background-color: #CCC8B5;
+  border-left: 1px solid white;
 }
 .l-header.-tokyoU .rightBoxArea .contact-lists li.right a {
   color: white;
@@ -3140,7 +3139,6 @@ body {
   margin: 0 auto 9px;
   height: 3px;
   background: #000;
-  border-radius: 5px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -7455,4 +7453,4 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   width: auto;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style20230526.css.map */

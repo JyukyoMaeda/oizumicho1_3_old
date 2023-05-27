@@ -169,7 +169,7 @@
                             }
                             &:hover{
                                 &::after{
-                                    background: $header-rightBox-hover;
+                                    background: $header-nav-hover;
                                     
                                     animation-name: nav;
                                     animation-duration: .5s;
@@ -254,7 +254,7 @@
                                 transform: translateX(-50%);
                                 width: 100%;
                                 height: 2px;
-                                background: $header-rightBox-hover;
+                                background: $header-nav-hover;
 
                                 animation-name: nav;
                                 animation-duration: .5s;
@@ -273,7 +273,7 @@
                 transform: translateY(-50%);
                 width: 45%;
                 font-size: clamp(10px, 1.2vw, 16px);
-                border: 2px solid $header-rightBox;
+                // border: 2px solid $header-rightBox;
                 @include mq(sp){
                     right: 70px;
                     transform: scale(.9) translateY(-50%);
@@ -293,25 +293,27 @@
                     flex-wrap: nowrap;
                     li{
                         width: 50%;
+                        transition: .5s all;
                         a{
                             display: block;
                             padding: 10px 0;
                             text-align: center;
                             transition: .5s all;
-                            &:hover{
-                                transform: scale(1.1);
-                            }
                         }
                         &.left{
-                            background: white;
-                            border-right: 1px solid $header-rightBox;
+                            background: $header-leftBox;
+                            &:hover{
+                                background: $header-leftBox-hover;
+                            }
                             a{
-                                color: $header-rightBox;
+                                color: white;
                             }
                         }
                         &.right{
-                            background-color: $header-rightBox;
-                            border-left: 1px solid white;
+                            background: $header-rightBox;
+                            &:hover{
+                                background: $header-rightBox-hover;
+                            }
                             a{
                                 color: white;
                             }
