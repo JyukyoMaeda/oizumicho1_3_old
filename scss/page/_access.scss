@@ -16,9 +16,7 @@
 
     .l-container{//main
         .l-contents{
-
             &.-img-bg{// 背景画像＋コンテンツ
-                .imgBox{}
                 .l-contentsBox{// コンテンツ要素
                     width: 100%;
                     position: absolute;
@@ -95,7 +93,6 @@
                         }
                     }
                     &.-access-card{
-                        
                         @include mq(sp){
                             left: 50%;
                             width: 90%;
@@ -215,18 +212,14 @@
                         @include mq(tb-pc1850){
                             top: 79%;
                         }
-
                     }
-
                     // マップについて
                     &.-access-map{
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-
                         width: 100%;
                     }
-
                     // 自然について
                     &.-access-08{
                         top: 9.9%;

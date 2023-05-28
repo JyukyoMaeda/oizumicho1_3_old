@@ -86,7 +86,6 @@
 				}
 			}
 		}
-		
 		&.-c-card{//カード
 			@include mq(tb){
 				display: flex;
@@ -319,7 +318,6 @@
 				}
 				&.-red{
 					background: $access-red;
-
 				}
 				&.-gray{
 					background: $access-gray;
