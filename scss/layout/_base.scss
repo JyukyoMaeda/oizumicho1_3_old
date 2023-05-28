@@ -7,7 +7,6 @@
 		.sp{
 			display: block !important;
 		}
-
 		.pc{
 			display: none !important;
 		}
@@ -137,12 +136,12 @@ body{
 	&-b10{
 		margin-bottom: 40%;
 		@include mq(tb){
-			margin-bottom: 10%;
+			margin-bottom: 8%;
 		}
 
-		@include mq(tb-pc1100){
-			margin-bottom: 25%;
-		}
+		// @include mq(tb-pc1100){
+		// 	margin-bottom: 25%;
+		// }
 	}
 	// 上
 	&-t01_s{

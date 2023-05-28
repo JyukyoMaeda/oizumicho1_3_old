@@ -5,20 +5,69 @@
 		width: 100%;
 		height: 100%;
 		&.-p01{//左右均等パターン
+			justify-content: space-between;
+			@include mq(sp){
 
+			}
 			@include mq(tb-sp){
 				display: flex;
 				flex-wrap: nowrap;
 			}
 			.flexItem{
 				height: 100%;
+				@include mq(sp){
+					&:nth-child(1){
+						width: 50%;
+						padding-left: 1vw;
+					}
+					&:nth-child(2){
+						width: 35%;
+						padding-top: 2.3vh;
+						padding-right: 3vw;
+					}
+				}
 				@include mq(tb){
-					&:nth-child(1){width: 40%;}
-					&:nth-child(2){width: 60%;}
+					&:nth-child(1){width: 37%;}
+					&:nth-child(2){width: 35%;}
+				}
+				@include mq(tb-pc600){
+					&:nth-child(1){width: 42%;}
+				}
+				@include mq(tb-pc800){
+					&:nth-child(1){width: 37%;}
 				}
 				@include mq(tb-pc1000){
-					&:nth-child(1){width: 30%;}
-					&:nth-child(2){width: 70%;}
+					&:nth-child(1){width: 36.5%;}
+				}
+				@include mq(tb-pc1100){
+					&:nth-child(1){width: 33.5%;}
+				}
+				@include mq(tb-pc1600){
+					&:nth-child(1){width: 32%;}
+				}
+
+				@include mq(tb-pc1850){
+					&:nth-child(1){width: 31.5%;}
+				}
+			}
+		}
+		&.-topBtnArea{
+			width: 55%;
+			margin: auto;
+			@include mq(tb){
+				width: 40%;
+				// width: 60%;
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content: space-around;
+			}
+			.flexItem{
+				@include mq(tb){
+					width: 45%;
+					// width: 33.3333%;
+				}
+				@include mq(tb-pc1000){
+					width: 35%;
 				}
 			}
 		}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1396.73 105.95">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #231815;
+        stroke-miterlimit: 10;
+        stroke-width: .59px;
+      }
+
+      .cls-3 {
+        font-size: 31.89px;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-family: ShipporiMincho-Regular, 'Shippori Mincho';
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: #231815;
+      }
+
+      .cls-4 {
+        font-size: 20.49px;
+      }
+
+      .cls-5 {
+        font-size: 26.5px;
+      }
+
+      .cls-6 {
+        font-size: 16px;
+      }
+
+      .cls-7 {
+        font-family: Garamond-Italic, Garamond;
+        font-size: 93.16px;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <text class="cls-3" transform="translate(77.18 75.21)"><tspan x="0" y="0">「大泉学園</tspan><tspan class="cls-1" x="159.44" y="0">」</tspan></text>
+    <text class="cls-6" transform="translate(0 76.34)"><tspan x="0" y="0">西武池袋線</tspan></text>
+    <text class="cls-4" transform="translate(259.69 76.34)"><tspan x="0" y="0">駅</tspan></text>
+    <text class="cls-3" transform="translate(929.27 75.21)"><tspan x="0" y="0">「光が丘</tspan><tspan class="cls-1" x="127.55" y="0">」</tspan></text>
+    <text class="cls-6" transform="translate(837.8 76.34)"><tspan x="0" y="0">都営大江戸線</tspan></text>
+    <text class="cls-4" transform="translate(1078.95 76.34)"><tspan x="0" y="0">駅</tspan></text>
+    <text class="cls-5" transform="translate(1183.17 76.34)"><tspan x="0" y="0">路線</tspan></text>
+    <text class="cls-5" transform="translate(1290.73 76.34)"><tspan x="0" y="0">駅利用可</tspan></text>
+    <text class="cls-3" transform="translate(620.5 75.21)"><tspan x="0" y="0">「和光市</tspan><tspan class="cls-1" x="127.55" y="0">」</tspan></text>
+    <text class="cls-6" transform="translate(320.29 75.21)"><tspan x="0" y="0">東京メトロ副都心・有楽町線／東武東上線</tspan></text>
+    <text class="cls-4" transform="translate(769.98 76.34)"><tspan x="0" y="0">駅</tspan></text>
+    <line class="cls-2" x1="316.32" y1="51.82" x2="288.32" y2="86.89"/>
+    <line class="cls-2" x1="831.16" y1="51.82" x2="803.16" y2="86.89"/>
+    <text class="cls-7" transform="translate(1137.94 76.34)"><tspan x="0" y="0">5</tspan></text>
+    <text class="cls-7"><tspan x="1243.08" y="76.6">3</tspan></text>
+  </g>
+</svg>

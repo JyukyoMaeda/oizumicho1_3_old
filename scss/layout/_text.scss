@@ -120,6 +120,14 @@
         @include mq(tb-pc1000){
             font-size: clamp(10px, 1.35vw, 24px);
         }
+        &.-s16{
+            @include mq(tb-sp){
+                font-size: 10px;
+            }
+            @include mq(sp){
+                font-size: 16px;
+            }
+        }
     }
     &.-sizeLL{//30px
         font-size: 28px;
