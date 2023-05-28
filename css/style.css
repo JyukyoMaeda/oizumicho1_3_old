@@ -3742,11 +3742,12 @@ header {
   top: 6%;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 90%;
 }
 @media screen and (min-width: 541px) {
   .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-content-train {
     top: 15%;
+    width: 80%;
   }
 }
 @media screen and (min-width: 1000px) {

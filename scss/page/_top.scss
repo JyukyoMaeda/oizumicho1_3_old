@@ -101,9 +101,10 @@
                         top: 6%;
                         left: 50%;
                         transform: translateX(-50%);
-                        width: 80%;
+                        width: 90%;
                         @include mq(tb){
                             top: 15%;
+                            width: 80%;
                         }
                         @include mq(tb-pc1000){
                             top: 0%;

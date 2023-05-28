@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 63">
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 67">
   <defs>
     <style>
       .cls-1 {
@@ -26,15 +26,15 @@
       }
     </style>
     <clipPath id="clippath">
-      <rect class="cls-2" y="0" width="256" height="63"/>
+      <rect class="cls-2" width="256" height="67"/>
     </clipPath>
   </defs>
   <g id="_レイヤー_1-2" data-name="レイヤー 1">
     <g class="cls-1">
-      <text class="cls-3" transform="translate(44.04 59.89)"><tspan x="0" y="0">路線</tspan></text>
-      <text class="cls-3" transform="translate(151.59 59.89)"><tspan x="0" y="0">駅利用可</tspan></text>
-      <text class="cls-4" transform="translate(-1.19 59.89)"><tspan x="0" y="0">5</tspan></text>
-      <text class="cls-4"><tspan x="103.94" y="60.15">3</tspan></text>
+      <text class="cls-3" transform="translate(44.04 63.89)"><tspan x="0" y="0">路線</tspan></text>
+      <text class="cls-3" transform="translate(151.59 63.89)"><tspan x="0" y="0">駅利用可</tspan></text>
+      <text class="cls-4" transform="translate(-1.19 63.89)"><tspan x="0" y="0">5</tspan></text>
+      <text class="cls-4"><tspan x="103.94" y="64.15">3</tspan></text>
     </g>
   </g>
 </svg>
