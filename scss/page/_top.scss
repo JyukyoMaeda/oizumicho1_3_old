@@ -161,23 +161,7 @@
                             width: 14vw;
                         }
                     }
-                    // X軸スクロールアイテム
-                    &.-X-scroll-box{
-                        top: 3%;
-                        left: 50%;
-                        transform: translateX(-50%);
-                        width: 100%;
-                        .scroll-box{
-                            overflow-x: auto;
-                            padding-bottom: 10px;
-                            -webkit-overflow-scrolling: touch;
-                            img{
-                                max-width: 100%;
-                                min-width: 1100px;
-                                vertical-align: top;
-                            }
-                        }
-                    }
+
                     // 完成街並予想図
                     &.-top-content02{
                         top: 15.6%;

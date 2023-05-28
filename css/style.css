@@ -527,6 +527,33 @@ body {
     bottom: 4% !important;
   }
 }
+.l-contents.-img-bg .l-contentsBox.-X-scroll-box {
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.l-contents.-img-bg .l-contentsBox.-X-scroll-box.-v02 {
+  top: -1%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.l-contents.-img-bg .l-contentsBox.-X-scroll-box.-v02 .scroll-box img {
+  max-width: 100%;
+  min-width: 680px;
+  vertical-align: top;
+}
+.l-contents.-img-bg .l-contentsBox.-X-scroll-box .scroll-box {
+  overflow-x: auto;
+  padding-bottom: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+.l-contents.-img-bg .l-contentsBox.-X-scroll-box .scroll-box img {
+  max-width: 100%;
+  min-width: 1100px;
+  vertical-align: top;
+}
 .l-contents.-img-bg .l-contentsBox .-btnArea.-p02 {
   bottom: 2%;
   right: -8%;
@@ -3803,22 +3830,6 @@ header {
     left: 11%;
     width: 14vw;
   }
-}
-.p-top .l-container .l-contents.-img-bg .l-contentsBox.-X-scroll-box {
-  top: 3%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-}
-.p-top .l-container .l-contents.-img-bg .l-contentsBox.-X-scroll-box .scroll-box {
-  overflow-x: auto;
-  padding-bottom: 10px;
-  -webkit-overflow-scrolling: touch;
-}
-.p-top .l-container .l-contents.-img-bg .l-contentsBox.-X-scroll-box .scroll-box img {
-  max-width: 100%;
-  min-width: 1100px;
-  vertical-align: top;
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-content02 {
   top: 15.6%;
@@ -7168,6 +7179,12 @@ header {
     transform: translate(-50%, -50%);
   }
 }
+.p-access .l-container .l-contents.-img-bg .l-contentsBox.-project-scroll,
+.p-project .l-container .l-contents.-img-bg .l-contentsBox.-project-scroll {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+}
 .p-access .l-container .l-contents.-img-bg .l-contentsBox.-project-01,
 .p-project .l-container .l-contents.-img-bg .l-contentsBox.-project-01 {
   top: 6.5%;
@@ -7272,7 +7289,7 @@ header {
 }
 .p-access .l-container .l-contents.-img-bg .l-contentsBox.-project-06,
 .p-project .l-container .l-contents.-img-bg .l-contentsBox.-project-06 {
-  top: 80%;
+  top: 64%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 5%;
@@ -7286,7 +7303,7 @@ header {
 }
 .p-access .l-container .l-contents.-img-bg .l-contentsBox.-project-07,
 .p-project .l-container .l-contents.-img-bg .l-contentsBox.-project-07 {
-  top: 90%;
+  top: 79%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

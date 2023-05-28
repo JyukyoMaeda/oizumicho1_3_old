@@ -47,7 +47,37 @@
 				}
 			}
 
-			
+			// X軸スクロールアイテム
+			&.-X-scroll-box{
+				top: 3%;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 100%;
+				&.-v02{
+					top: -1%;
+					left: 50%;
+					transform: translateX(-50%);
+					width: 100%;
+					.scroll-box{
+						img{
+							max-width: 100%;
+							min-width: 680px;
+							vertical-align: top;
+						}
+					}
+				}
+				.scroll-box{
+					overflow-x: auto;
+					padding-bottom: 10px;
+					-webkit-overflow-scrolling: touch;
+					img{
+						max-width: 100%;
+						min-width: 1100px;
+						vertical-align: top;
+					}
+				}
+			}
+
 			// コンテンツボタン要素
 			.-btnArea{
 				&.-p02{
