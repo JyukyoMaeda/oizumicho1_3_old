@@ -2,7 +2,7 @@
 //スクロールした際の動きを関数でまとめる
 function PageTopAnime() {
 var scroll = $(window).scrollTop();
-if (scroll >= 1500){
+if (scroll >= 2500){
       $('#pageTop').removeClass('DownMove');
       $('#pageTop').addClass('UpMove');
 }else{

@@ -251,9 +251,9 @@
                         transform: scale(0.7) translateY(-50%);
                         transition: .5s all;
                         @include mq(sp){
-                            top: 22%;
+                            top: 23%;
+                            right: -2%;
                             transform: scale(0.5) translateY(-50%);
-
                         }
                     }
                 }
@@ -264,6 +264,9 @@
                     .entry{
                         &::after{
                             right: 6.5%;
+                            @include mq(sp){
+                                right: -2.1%;
+                            }
                         }
                     }
                 }

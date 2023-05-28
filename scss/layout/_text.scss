@@ -1,11 +1,8 @@
 
 .l-text{
     line-height: 1.7;
-    &.-lh-s{
-        @include mq(sp){
-            line-height: 2;
-        }
-
+    &.-lh-2{
+        line-height: 2;
     }
     // 位置
     &.-left{text-align: start;}
@@ -92,18 +89,18 @@
         @include mq(sp){
             display: block;
             transform: scale(0.6);
-            margin-left: -60px;
+            margin-left: -110px;
             width: 160%;
         }
     }
     &.-sizeM{
-        font-size: clamp(10px, 1.5vw, 16px);
+        font-size: 12px;
         @include mq(tb){
             font-size: clamp(10px, 1.2vw, 16px);
         }
         &.-concept02{
             @include mq(tb){
-                font-size: clamp(10px, 1.2vw, 18px);
+                font-size: clamp(10px, 1.3vw, 18px);
             }
         }
         &.-s13{
@@ -113,7 +110,7 @@
         }
     }
     &.-sizeL{//24px
-        font-size: clamp(10px, 2vw, 16px);
+        font-size: 16px;
         @include mq(tb){
             font-size: clamp(10px, 1.8vw, 24px);
         }
@@ -121,12 +118,12 @@
             font-size: clamp(10px, 1.35vw, 24px);
         }
         &.-s16{
-            @include mq(tb-sp){
-                font-size: 10px;
-            }
-            @include mq(sp){
-                font-size: 16px;
-            }
+            // @include mq(tb-sp){
+            //     font-size: 10px;
+            // }
+            // @include mq(sp){
+            //     font-size: 16px;
+            // }
         }
     }
     &.-sizeLL{//30px
