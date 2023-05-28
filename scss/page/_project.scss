@@ -19,11 +19,8 @@
     .mg-t{
         @include mq(sp){
             margin-top: 7vh;
-
         }
     }
-
-
     .l-container{//main
         .l-contents{
             &.-researchArea{
@@ -33,7 +30,6 @@
                 }
                 @include mq(tb-pc1000){
                     width: 69vw;
-
                 }
             }
             &.-bannerArea{
@@ -43,7 +39,6 @@
                 }
                 @include mq(tb-pc1000){
                     width: 69vw;
-
                 }
             }
             &.-img-bg{// 背景画像＋コンテンツ
@@ -162,7 +157,6 @@
                         top: 64%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-
                         width: 5%;
                         @include mq(tb){
                             width: 2%;
@@ -173,13 +167,11 @@
                         top: 79%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-
                         @include mq(tb){
                             width: 95%;
                             top: 67%;
                         }
                     }
-
                     // コンテンツ02
                     &.-project02-01{
                         top: 4.8%;
@@ -263,7 +255,7 @@
                         @include mq(sp){
                             top: 15.1% !important;
                         }
-                        @include mq(tb-sp) {
+                        @include mq(tb-sp){
                             top: 8%;
                         }
                         @include mq(tb-pc750) {
@@ -343,8 +335,6 @@
                             top: 84%;
                         }
                     }
-
-
                     &.-project03-01{
                         top: 50%;
                         left: 50%;
@@ -380,7 +370,6 @@
                             }
                         }
                     }
-
                     &.-project-08{
                         top: 50%;
                         left: 50%;
@@ -422,20 +411,12 @@
                         left: 50%;
                         transform: translate(-50%, -50%);
                         width: auto;
-                        // width: 85%;
-                        // @include mq(tb){
-                        //     width: 64%;
-                        // }
                     }
                     &.-project-11{
                         top: 74%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         width: auto;
-                        // width: 85%;
-                        // @include mq(tb){
-                        //     width: 64%;
-                        // }
                     }
                 }
             }
