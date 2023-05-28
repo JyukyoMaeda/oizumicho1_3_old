@@ -196,7 +196,7 @@ body {
   }
 }
 .mg-b10 {
-  margin-bottom: 40%;
+  margin-bottom: 55%;
 }
 @media screen and (min-width: 541px) {
   .mg-b10 {
@@ -3649,7 +3649,7 @@ header {
   position: absolute;
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-header {
-  top: 61%;
+  top: 67%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
