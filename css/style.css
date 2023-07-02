@@ -117,7 +117,7 @@ a {
   }
 }
 body {
-  animation: fadein 1s forwards;
+  animation: fadein 2s forwards;
   font-family: "Shippori Mincho", serif;
 }
 
@@ -7595,5 +7595,14 @@ header {
   .p-access .l-container .l-contents.-img-bg .l-contentsBox.-project-11,
   .p-project .l-container .l-contents.-img-bg .l-contentsBox.-project-11 {
     top: 50%;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }/*# sourceMappingURL=style.css.map */
