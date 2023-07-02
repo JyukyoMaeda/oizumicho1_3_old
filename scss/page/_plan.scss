@@ -10,31 +10,31 @@
     }
     main{
         margin-bottom: 0;
-        padding-bottom: 30vh;
-        @include mq(tb){
-            padding-bottom: 88vh;
-        }
-        @include mq(tb-pc600){
-            padding-bottom: 107vh;
-        }
-        @include mq(tb-pc800){
-            padding-bottom: 124vh;
-        }
-        @include mq(tb-pc900){
-            padding-bottom: 140vh;
-        }
-        @include mq(tb-pc1000){
-            padding-bottom: 35vh;
-        }
-        @include mq(tb-pc1400){
-            padding-bottom: 55vh;
-        }
-        @include mq(tb-pc1600){
-            padding-bottom: 60vh;
-        }
-        @include mq(tb-pc1850){
-            padding-bottom: 64vh;
-        }
+        // padding-bottom: 30vh;
+        // @include mq(tb){
+        //     padding-bottom: 88vh;
+        // }
+        // @include mq(tb-pc600){
+        //     padding-bottom: 107vh;
+        // }
+        // @include mq(tb-pc800){
+        //     padding-bottom: 124vh;
+        // }
+        // @include mq(tb-pc900){
+        //     padding-bottom: 140vh;
+        // }
+        // @include mq(tb-pc1000){
+        //     padding-bottom: 35vh;
+        // }
+        // @include mq(tb-pc1400){
+        //     padding-bottom: 55vh;
+        // }
+        // @include mq(tb-pc1600){
+        //     padding-bottom: 60vh;
+        // }
+        // @include mq(tb-pc1850){
+        //     padding-bottom: 64vh;
+        // }
     }
 
     .l-container{

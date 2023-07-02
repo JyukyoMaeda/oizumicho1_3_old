@@ -867,7 +867,7 @@ body {
   width: 100%;
 }
 .l-contents.-img-bg .l-contentsBox.-bannerArea02 {
-  top: 103.5%;
+  top: 93.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: auto !important;
@@ -889,29 +889,18 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02 {
-    top: 115.5% !important;
+    top: 90% !important;
     width: auto;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .l-contents.-img-bg .l-contentsBox.-bannerArea02 {
-    top: 110.7% !important;
   }
 }
 @media screen and (min-width: 1600px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02 {
-    top: 108.5% !important;
-    width: auto;
-  }
-}
-@media screen and (min-width: 1850px) {
-  .l-contents.-img-bg .l-contentsBox.-bannerArea02 {
-    top: 106.5% !important;
+    top: 89% !important;
     width: auto;
   }
 }
 .l-contents.-img-bg .l-contentsBox.-bannerArea02.--plan {
-  top: 101.8%;
+  top: 96%;
 }
 @media screen and (min-width: 541px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02.--plan {
@@ -940,31 +929,21 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02.--plan {
-    top: 101% !important;
+    top: 93% !important;
   }
 }
 @media screen and (min-width: 1100px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02.--plan {
-    top: 101% !important;
+    top: 93% !important;
   }
 }
 @media screen and (min-width: 1300px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02.--plan {
-    top: 100.7% !important;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .l-contents.-img-bg .l-contentsBox.-bannerArea02.--plan {
-    top: 102.5% !important;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .l-contents.-img-bg .l-contentsBox.-bannerArea02.--plan {
-    top: 101% !important;
+    top: 93% !important;
   }
 }
 .l-contents.-img-bg .l-contentsBox.-bannerArea02.--concept {
-  top: 99.8%;
+  top: 97.7% !important;
 }
 @media screen and (min-width: 541px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02.--concept {
@@ -993,32 +972,22 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02.--concept {
-    top: 103% !important;
-  }
-}
-@media screen and (min-width: 1100px) {
-  .l-contents.-img-bg .l-contentsBox.-bannerArea02.--concept {
-    top: 102% !important;
+    top: 97.7% !important;
   }
 }
 @media screen and (min-width: 1300px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02.--concept {
-    top: 101.7% !important;
+    top: 97.7% !important;
   }
 }
 @media screen and (min-width: 1400px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02.--concept {
-    top: 101.5% !important;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .l-contents.-img-bg .l-contentsBox.-bannerArea02.--concept {
-    top: 101.4% !important;
+    top: 97.4% !important;
   }
 }
 @media screen and (min-width: 1850px) {
   .l-contents.-img-bg .l-contentsBox.-bannerArea02.--concept {
-    top: 99.9% !important;
+    top: 96.4% !important;
   }
 }
 .l-contents.-img-bg .l-contentsBox.-sliderItem {
@@ -3644,22 +3613,6 @@ header {
 }
 .p-top main {
   margin-bottom: 0;
-  padding-bottom: 30vh;
-}
-@media screen and (min-width: 541px) {
-  .p-top main {
-    padding-bottom: 70vh;
-  }
-}
-@media screen and (min-width: 600px) {
-  .p-top main {
-    padding-bottom: 82vh;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .p-top main {
-    padding-bottom: 70vh;
-  }
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox {
   width: 100%;
@@ -4108,57 +4061,10 @@ header {
   }
   .p-concept main {
     margin-bottom: auto;
-    padding-bottom: 28vh;
   }
 }
 .p-concept main {
   margin-bottom: 0;
-  padding-bottom: 20vh;
-}
-@media screen and (min-width: 541px) {
-  .p-concept main {
-    padding-bottom: 70vh;
-  }
-}
-@media screen and (min-width: 600px) {
-  .p-concept main {
-    padding-bottom: 70vh;
-  }
-}
-@media screen and (min-width: 750px) {
-  .p-concept main {
-    padding-bottom: 70vh;
-  }
-}
-@media screen and (min-width: 950px) {
-  .p-concept main {
-    padding-bottom: 80vh;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .p-concept main {
-    padding-bottom: 55vh;
-  }
-}
-@media screen and (min-width: 1100px) {
-  .p-concept main {
-    padding-bottom: 48vh;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .p-concept main {
-    padding-bottom: 60vh;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .p-concept main {
-    padding-bottom: 65vh;
-  }
-}
-@media screen and (min-width: 1850px) {
-  .p-concept main {
-    padding-bottom: 50vh;
-  }
 }
 .p-concept .l-container .l-contents.-img-bg .l-contentsBox {
   width: 100%;
@@ -5754,47 +5660,6 @@ header {
 }
 .p-plan main {
   margin-bottom: 0;
-  padding-bottom: 30vh;
-}
-@media screen and (min-width: 541px) {
-  .p-plan main {
-    padding-bottom: 88vh;
-  }
-}
-@media screen and (min-width: 600px) {
-  .p-plan main {
-    padding-bottom: 107vh;
-  }
-}
-@media screen and (min-width: 800px) {
-  .p-plan main {
-    padding-bottom: 124vh;
-  }
-}
-@media screen and (min-width: 900px) {
-  .p-plan main {
-    padding-bottom: 140vh;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .p-plan main {
-    padding-bottom: 35vh;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .p-plan main {
-    padding-bottom: 55vh;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .p-plan main {
-    padding-bottom: 60vh;
-  }
-}
-@media screen and (min-width: 1850px) {
-  .p-plan main {
-    padding-bottom: 64vh;
-  }
 }
 .p-plan .l-container .l-contents .l-contentsBox.-plan-01 {
   top: 14%;
@@ -7679,8 +7544,14 @@ header {
 }
 .p-access .l-container .l-contents.-img-bg .l-contentsBox.-project-11,
 .p-project .l-container .l-contents.-img-bg .l-contentsBox.-project-11 {
-  top: 74%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: auto;
+}
+@media screen and (min-width: 541px) {
+  .p-access .l-container .l-contents.-img-bg .l-contentsBox.-project-11,
+  .p-project .l-container .l-contents.-img-bg .l-contentsBox.-project-11 {
+    top: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */

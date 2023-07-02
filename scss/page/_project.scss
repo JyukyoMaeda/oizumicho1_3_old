@@ -413,10 +413,13 @@
                         width: auto;
                     }
                     &.-project-11{
-                        top: 74%;
+                        top: 55%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         width: auto;
+                        @include mq(tb){
+                            top: 50%;
+                        }
                     }
                 }
             }

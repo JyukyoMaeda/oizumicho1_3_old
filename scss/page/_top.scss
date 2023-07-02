@@ -14,16 +14,16 @@
 
     main{
         margin-bottom: 0;
-        padding-bottom: 30vh;
-        @include mq(tb){
-            padding-bottom: 70vh;
-        }
-        @include mq(tb-pc600){
-            padding-bottom: 82vh;
-        }
-        @include mq(tb-pc1000){
-            padding-bottom: 70vh;
-        }
+        // padding-bottom: 30vh;
+        // @include mq(tb){
+        //     padding-bottom: 70vh;
+        // }
+        // @include mq(tb-pc600){
+        //     padding-bottom: 82vh;
+        // }
+        // @include mq(tb-pc1000){
+        //     padding-bottom: 70vh;
+        // }
     }
 
     .l-container{//main

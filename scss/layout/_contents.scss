@@ -327,7 +327,7 @@
 				width: 100%;
 			}
 			&.-bannerArea02{
-				top: 103.5%;
+				top: 93.5%;
 				left: 50%;
 				transform: translate(-50%, -50%);
 
@@ -343,24 +343,24 @@
 								}
 								@include mq(tb-pc1000){
 									// width: 68%;
-									top: 115.5% !important;
+									top: 90% !important;
 									width: auto;
 								}
 								@include mq(tb-pc1200){
-									top: 110.7% !important;
+									// top: 110.7% !important;
 								}
 								@include mq(tb-pc1600){
-									// width: 68%;
-									top: 108.5% !important;
+									top: 89% !important;
 									width: auto;
 								}
 								@include mq(tb-pc1850){
 									// width: 68%;
-									top: 106.5% !important;
-									width: auto;
+									// top: 106.5% !important;
+									// width: auto;
 								}
 				&.--plan{
-					top: 101.8%;
+					// top: 101.8%;
+					top: 96%;
 					@include mq(tb){
 						top: 133.5%;
 					}
@@ -377,24 +377,28 @@
 						top: 130% !important;
 					}
 					@include mq(tb-pc1000){
-						top: 101% !important;
+						// top: 101% !important;
+						top: 93% !important;
 					}
 					@include mq(tb-pc1100){
-						top: 101% !important;
+						// top: 101% !important;
+						top: 93% !important;
 					}
 					@include mq(tb-pc1300){
-						top: 100.7% !important;
+						// top: 100.7% !important;
+						top: 93% !important;
 					}
 					@include mq(tb-pc1400){
-						top: 102.5% !important;
+						// top: 102.5% !important;
 					}
 					@include mq(tb-pc1600){
-						top: 101% !important;
+						// top: 101% !important;
 					}
 
 				}
 				&.--concept{
-					top: 99.8%;
+					// top: 99.8%;
+					top: 97.7% !important;
 					@include mq(tb){
 						top: 109.8%;
 					}
@@ -411,22 +415,25 @@
 						top: 106% !important;
 					}
 					@include mq(tb-pc1000){
-						top: 103% !important;
+						// top: 103% !important;
+						top: 97.7% !important;
 					}
 					@include mq(tb-pc1100){
-						top: 102% !important;
+						// top: 102% !important;
 					}
 					@include mq(tb-pc1300){
-						top: 101.7% !important;
+						top: 97.7% !important;
 					}
 					@include mq(tb-pc1400){
-						top: 101.5% !important;
+						// top: 101.5% !important;
+						top: 97.4% !important;
 					}
 					@include mq(tb-pc1600){
-						top: 101.4% !important;
+						// top: 101.4% !important;
 					}
 					@include mq(tb-pc1850){
-						top: 99.9% !important;
+						// top: 97.5% !important;
+						top: 96.4% !important;
 					}
 				}
 			}

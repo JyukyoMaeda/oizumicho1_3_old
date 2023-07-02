@@ -12,39 +12,39 @@
         background-image: url(../images/bg/concept/concept-bg01.png);
         main{
             margin-bottom: auto;
-            padding-bottom: 28vh;
+            // padding-bottom: 28vh;
         }
     }
     main{
         margin-bottom: 0;
-        padding-bottom: 20vh;
-        @include mq(tb){
-            padding-bottom: 70vh;
-        }
-        @include mq(tb-pc600){
-            padding-bottom: 70vh;
-        }
-        @include mq(tb-pc750){
-            padding-bottom: 70vh;
-        }
-        @include mq(tb-pc950){
-            padding-bottom: 80vh;
-        }
-        @include mq(tb-pc1000){
-            padding-bottom: 55vh;
-        }
-        @include mq(tb-pc1100){
-            padding-bottom: 48vh;
-        }
-        @include mq(tb-pc1400){
-            padding-bottom: 60vh;
-        }
-        @include mq(tb-pc1600){
-            padding-bottom: 65vh;
-        }
-        @include mq(tb-pc1850){
-            padding-bottom: 50vh;
-        }
+        // padding-bottom: 20vh;
+        // @include mq(tb){
+        //     padding-bottom: 70vh;
+        // }
+        // @include mq(tb-pc600){
+        //     padding-bottom: 70vh;
+        // }
+        // @include mq(tb-pc750){
+        //     padding-bottom: 70vh;
+        // }
+        // @include mq(tb-pc950){
+        //     padding-bottom: 80vh;
+        // }
+        // @include mq(tb-pc1000){
+        //     padding-bottom: 55vh;
+        // }
+        // @include mq(tb-pc1100){
+        //     padding-bottom: 48vh;
+        // }
+        // @include mq(tb-pc1400){
+        //     padding-bottom: 60vh;
+        // }
+        // @include mq(tb-pc1600){
+        //     padding-bottom: 65vh;
+        // }
+        // @include mq(tb-pc1850){
+        //     padding-bottom: 50vh;
+        // }
     }
 
 
