@@ -2586,6 +2586,26 @@ body {
     font-size: 26px;
   }
 }
+@media screen and (min-width: 1400px) {
+  .l-text.-size3L.-model {
+    font-size: clamp(10px, 3.5vw, 28px);
+  }
+}
+@media screen and (min-width: 1500px) {
+  .l-text.-size3L.-model {
+    font-size: clamp(10px, 3.5vw, 31px);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .l-text.-size3L.-model {
+    font-size: clamp(10px, 3.5vw, 36px);
+  }
+}
+@media screen and (min-width: 1850px) {
+  .l-text.-size3L.-model {
+    font-size: clamp(10px, 3.5vw, 40px);
+  }
+}
 .l-text.-size4L {
   font-size: 16px;
 }
@@ -5697,12 +5717,34 @@ header {
 }
 @media screen and (min-width: 541px) {
   .p-plan .l-container .l-contents .l-contentsBox.-plan-01-text01 {
-    top: 9.5%;
+    top: 12.5%;
+    left: 1%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .p-plan .l-container .l-contents .l-contentsBox.-plan-01-text01 {
+    left: 1.2%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .p-plan .l-container .l-contents .l-contentsBox.-plan-01-text01 {
+    left: 1.6%;
   }
 }
 @media screen and (min-width: 1000px) {
   .p-plan .l-container .l-contents .l-contentsBox.-plan-01-text01 {
-    top: 9%;
+    top: 12%;
+    left: 0.5%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .p-plan .l-container .l-contents .l-contentsBox.-plan-01-text01 {
+    left: 1%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .p-plan .l-container .l-contents .l-contentsBox.-plan-01-text01 {
+    left: 0.8%;
   }
 }
 .p-plan .l-container .l-contents .l-contentsBox.-plan-01-text01 .title {

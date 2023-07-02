@@ -69,11 +69,25 @@
                             left: 4%;
                         }
                         @include mq(tb){
-                            top: 9.5%;
-                            
+                            top: 12.5%;
+                            left: 1%;
+                        }
+                        @include mq(tb-pc800){
+                            left: 1.2%;
+                        }
+                        @include mq(tb-pc900){
+                            left: 1.6%;
                         }
                         @include mq(tb-pc1000){
-                            top: 9%;
+                            // top: 9%;
+                            top: 12%;
+                            left: .5%;
+                        }
+                        @include mq(tb-pc1400){
+                            left: 1%;
+                        }
+                        @include mq(tb-pc1600){
+                            left: .8%;
                         }
                         .title{
                             position: relative;

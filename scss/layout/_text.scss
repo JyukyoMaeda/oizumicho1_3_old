@@ -160,6 +160,20 @@
 
             }
         }
+        &.-model{
+            @include mq(tb-pc1400){
+                font-size: clamp(10px, 3.5vw, 28px);
+            }
+            @include mq(tb-pc1500){
+                font-size: clamp(10px, 3.5vw, 31px);
+            }
+            @include mq(tb-pc1600){
+                font-size: clamp(10px, 3.5vw, 36px);
+            }
+            @include mq(tb-pc1850){
+                font-size: clamp(10px, 3.5vw, 40px);
+            }
+        }
 
     }
     &.-size4L{//48px
