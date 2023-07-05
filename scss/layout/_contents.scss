@@ -22,6 +22,14 @@
 		.l-contentsBox{// コンテンツ要素
 			width: auto;
 			position: absolute;
+			&.-text{
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+
+
+
 			// カードレイアウト_基本
 			&.-top-card{
 				display: inline-block;
