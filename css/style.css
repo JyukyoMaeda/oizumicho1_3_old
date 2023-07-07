@@ -1107,6 +1107,29 @@ body {
     width: 35%;
   }
 }
+.l-flex--area .l-flex--contents.-topBtnArea_0703 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+@media screen and (max-width: 540px) {
+  .l-flex--area .l-flex--contents.-topBtnArea_0703 {
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 541px) {
+  .l-flex--area .l-flex--contents.-topBtnArea_0703 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.l-flex--area .l-flex--contents.-topBtnArea_0703 .flexItem {
+  width: 45%;
+}
+@media screen and (min-width: 541px) {
+  .l-flex--area .l-flex--contents.-topBtnArea_0703 .flexItem {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 1000px) {
   .l-flex--area .l-flex--contents.-card {
     display: flex;
@@ -3557,17 +3580,27 @@ header {
   width: 100%;
 }
 .p-top main {
-  padding-top: 5vh;
+  padding-top: 3vh;
   margin-bottom: 0;
+}
+@media screen and (min-width: 541px) {
+  .p-top main {
+    padding-top: 5vh;
+  }
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox {
   width: 100%;
   position: absolute;
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-btnArea {
-  top: 50%;
-  left: 75%;
-  width: 80%;
+  top: 83%;
+  left: 50%;
+  width: 90%;
+}
+@media screen and (max-width: 540px) {
+  .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-btnArea {
+    transform: translateX(-50%);
+  }
 }
 @media screen and (min-width: 541px) {
   .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-btnArea {
@@ -3577,9 +3610,9 @@ header {
   }
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-ballon {
-  top: 50%;
-  left: 50%;
-  width: 30%;
+  top: 0%;
+  left: 6%;
+  width: 40%;
 }
 @media screen and (min-width: 541px) {
   .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-ballon {
@@ -3589,8 +3622,11 @@ header {
   }
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-content_text {
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
   display: inline-block;
-  width: 95%;
+  width: 93%;
 }
 @media screen and (min-width: 541px) {
   .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-content_text {

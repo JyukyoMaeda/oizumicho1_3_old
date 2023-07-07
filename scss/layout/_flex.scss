@@ -71,6 +71,23 @@
 				}
 			}
 		}
+		&.-topBtnArea_0703{
+			display: flex;
+			flex-wrap: nowrap;
+			@include mq(sp){
+				justify-content: space-around;
+			}
+			@include mq(tb){
+				width: 100%;
+				flex-wrap: wrap;
+			}
+			.flexItem{
+				width: 45%;
+				@include mq(tb){
+					width: 100%;
+				}
+			}
+		}
 
 		&.-card{//カード
 			@include mq(tb-pc1000){

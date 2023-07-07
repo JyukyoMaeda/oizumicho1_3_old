@@ -13,8 +13,11 @@
     // }
 
     main{
-        padding-top: 5vh;
+        padding-top: 3vh;
         margin-bottom: 0;
+        @include mq(tb){
+            padding-top: 5vh;
+        }
         // padding-bottom: 30vh;
         // @include mq(tb){
         //     padding-bottom: 70vh;
@@ -38,9 +41,12 @@
                     position: absolute;
                     // 0705追加
                     &.-top-btnArea{
-                        top: 50%;
-                        left: 75%;
-                        width: 80%;
+                        top: 83%;
+                        left: 50%;
+                        width: 90%;
+                        @include mq(sp){
+                            transform: translateX(-50%);
+                        }
                         @include mq(tb){
                             top: 64%;
                             left: 66.5%;
@@ -49,9 +55,9 @@
                     }
                     // 0705追加
                     &.-top-ballon{
-                        top: 50%;
-                        left: 50%;
-                        width: 30%;
+                        top: 0%;
+                        left: 6%;
+                        width: 40%;
                         @include mq(tb){
                             top: 10%;
                             left: 18%;
@@ -60,8 +66,12 @@
                     }
                     // 0705追加
                     &.-top-content_text{
+                        top: 3%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        
                         display: inline-block;
-                        width: 95%;
+                        width: 93%;
                         @include mq(tb){
                             top: 5.5%;
                             left: 18%;
