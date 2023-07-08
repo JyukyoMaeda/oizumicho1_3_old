@@ -1379,6 +1379,40 @@ body {
 .l-flex--area .l-flex--contents.-train .flexItem.-gray {
   background: #9FA0A0;
 }
+.l-flex--area .l-flex--contents.-contact-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .l-flex--area .l-flex--contents.-contact-box {
+    flex-wrap: nowrap;
+  }
+}
+.l-flex--area .l-flex--contents.-contact-box .flexItem {
+  width: 50%;
+}
+@media screen and (min-width: 768px) {
+  .l-flex--area .l-flex--contents.-contact-box .flexItem {
+    width: 25%;
+  }
+}
+.l-flex--area .l-flex--contents.-contact-box .flexItem:nth-child(1) .l-linkImg {
+  background: #636056;
+}
+.l-flex--area .l-flex--contents.-contact-box .flexItem:nth-child(2) .l-linkImg {
+  background: #8a887c;
+}
+.l-flex--area .l-flex--contents.-contact-box .flexItem:nth-child(3) .l-linkImg {
+  background: #a9aaaa;
+}
+.l-flex--area .l-flex--contents.-contact-box .flexItem:nth-child(4) .l-linkImg {
+  background: #b4b4b5;
+}
+.l-flex--area .l-flex--contents.-contact-box .flexItem img {
+  vertical-align: bottom;
+}
 
 .l-header.-tokyoU {
   position: sticky;
@@ -2114,16 +2148,16 @@ body {
   }
 }
 .l-linkImg.-contact-box.-box01 {
-  background: #000000;
+  background: #636056;
 }
 .l-linkImg.-contact-box.-box02 {
-  background: #4D4D4D;
+  background: #8a887c;
 }
 .l-linkImg.-contact-box.-box03 {
-  background: #989898;
+  background: #a9aaaa;
 }
 .l-linkImg.-contact-box.-box04 {
-  background: #DCDDDD;
+  background: #b4b4b5;
 }
 .l-linkImg.-contact-box02 {
   display: block;
@@ -2241,16 +2275,16 @@ body {
 }
 
 .more-lists .more-list:first-child .l-linkImg.-underLine:hover {
-  background: #000000;
+  background: #636056;
 }
 .more-lists .more-list:nth-child(2) .l-linkImg.-underLine:hover {
-  background: #4D4D4D;
+  background: #8a887c;
 }
 .more-lists .more-list:nth-child(3) .l-linkImg.-underLine:hover {
-  background: #989898;
+  background: #a9aaaa;
 }
 .more-lists .more-list:nth-child(4) .l-linkImg.-underLine:hover {
-  background: #DCDDDD;
+  background: #b4b4b5;
 }
 
 .inline {
