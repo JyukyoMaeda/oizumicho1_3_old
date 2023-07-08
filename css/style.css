@@ -2584,14 +2584,8 @@ body {
 }
 @media screen and (max-width: 540px) {
   .l-card {
-    width: 75vw;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .l-card {
-    width: 75vw;
-    border: 1px solid #333333;
-    border-radius: 10px;
+    width: 85vw;
+    border-radius: 30px;
   }
 }
 @media screen and (min-width: 541px) {
@@ -2602,14 +2596,6 @@ body {
 @media screen and (min-width: 1100px) {
   .l-card {
     width: 38vw;
-  }
-}
-.l-card .l-card-wrapper {
-  padding: 5%;
-}
-@media screen and (min-width: 1000px) {
-  .l-card .l-card-wrapper {
-    padding: 3% 0 3% 5%;
   }
 }
 .l-card .l-card-wrapper .l-card-title {
@@ -2745,32 +2731,12 @@ body {
   }
 }
 .l-card .l-card-wrapper .l-card-btnArea {
-  width: 80%;
   background: #CBC8B4;
   border-radius: 30px;
   filter: drop-shadow(1px 1px 1px rgb(214, 214, 214));
 }
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 541px) {
   .l-card .l-card-wrapper .l-card-btnArea {
-    position: absolute;
-    right: -4px;
-    bottom: -6%;
-    width: 50%;
-    filter: drop-shadow(1px 1px 1px #333333);
-  }
-}
-@media screen and (max-width: 540px) {
-  .l-card .l-card-wrapper .l-card-btnArea {
-    right: -4px;
-    bottom: -11%;
-    bottom: auto;
-    width: 80%;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .l-card .l-card-wrapper .l-card-btnArea {
-    width: 90%;
-    margin: 2% 9% auto auto;
     transition: 0.5s all;
   }
   .l-card .l-card-wrapper .l-card-btnArea:hover {
@@ -3631,7 +3597,7 @@ header {
 @media screen and (min-width: 541px) {
   .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-content_text {
     top: 5.5%;
-    left: 18%;
+    left: 46%;
     width: 55%;
   }
 }
@@ -3640,7 +3606,7 @@ header {
   width: auto;
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-item01 {
-  top: 31%;
+  top: 18%;
 }
 @media screen and (min-width: 541px) {
   .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-item01 {
@@ -3648,7 +3614,7 @@ header {
   }
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-item02 {
-  top: 45%;
+  top: 38%;
 }
 @media screen and (min-width: 541px) {
   .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-item02 {
@@ -3656,7 +3622,7 @@ header {
   }
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-item03 {
-  top: 60%;
+  top: 58%;
 }
 @media screen and (min-width: 541px) {
   .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-item03 {
@@ -3664,11 +3630,49 @@ header {
   }
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-item04 {
-  top: 75.5%;
+  top: 78%;
 }
 @media screen and (min-width: 541px) {
   .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-item04 {
     top: 82%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-top-card_r, .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-top-card_l {
+    left: 46% !important;
+  }
+}
+@media screen and (min-width: 541px) {
+  .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-top-card_r {
+    left: 60% !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-top-card_r {
+    left: 62% !important;
+  }
+}
+@media screen and (min-width: 541px) {
+  .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-top-card_l {
+    left: 37% !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-card_0705.-top-card_l {
+    left: 38% !important;
+  }
+}
+.p-top .l-container .l-contents.-img-bg .l-contentsBox.-cardBtn_0705 {
+  top: 100%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+@media screen and (min-width: 541px) {
+  .p-top .l-container .l-contents.-img-bg .l-contentsBox.-cardBtn_0705 {
+    top: 79%;
+    left: 80%;
+    width: 34%;
   }
 }
 .p-top .l-container .l-contents.-img-bg .l-contentsBox.-top-header {

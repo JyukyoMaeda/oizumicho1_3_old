@@ -5,12 +5,8 @@
     box-shadow: 2px 2px 8px #80808066;
     border: 1px solid #00000036;
     @include mq(sp){
-        width: 75vw;
-    }
-    @include mq(tb-sp){
-        width: 75vw;
-        border: 1px solid $main-color--b;
-        border-radius: 10px;
+        width: 85vw;
+        border-radius: 30px;
     }
     @include mq(tb){
         width: 45vw;
@@ -19,10 +15,10 @@
         width: 38vw;
     }
     .l-card-wrapper{
-        padding: 5%;
-        @include mq(tb-pc1000){
-            padding: 3% 0 3% 5%;
-        }
+        // padding: 5%;
+        // @include mq(tb-pc1000){
+        //     padding: 3% 0 3% 5%;
+        // }
         .l-card-title{
             position: relative;
             color: $text-blue;
@@ -129,26 +125,12 @@
             }
         }
         .l-card-btnArea{
-            width: 80%;
+            // width: 80%;
             background: $card-btn;
             border-radius: 30px;
             filter: drop-shadow(1px 1px 1px rgb(214, 214, 214));
-            @include mq(tb-sp){
-                position: absolute;
-                right: -4px;
-                bottom: -6%;
-                width: 50%;
-                filter: drop-shadow(1px 1px 1px $main-color--b);
-            }
-            @include mq(sp){
-                right: -4px;
-                bottom: -11%;
-                bottom: auto;
-                width: 80%;
-            }
-            @include mq(tb-pc1000){
-                width: 90%;
-                margin: 2% 9% auto auto;
+            @include mq(tb){
+                // width: 39%;
                 transition: .5s all;
                 &:hover{
                     background: $card-btn_hover;

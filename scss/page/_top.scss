@@ -74,7 +74,7 @@
                         width: 93%;
                         @include mq(tb){
                             top: 5.5%;
-                            left: 18%;
+                            left: 46%;
                             width: 55%;
                         }
                     }
@@ -84,31 +84,65 @@
                         width: auto;
 
                         &.-item01{
-                            top: 31%;
+                            top: 18%;
                             @include mq(tb){
                                 top: 28%;
                             }
                         }
                         &.-item02{
-                            top: 45%;
+                            top: 38%;
                             @include mq(tb){
                                 top: 44%;
                             }
                         }
                         &.-item03{
-                            top: 60%;
+                            top: 58%;
                             @include mq(tb){
                                 top: 62%;
                             }
                         }
                         &.-item04{
-                            top: 75.5%;
+                            top: 78%;
                             @include mq(tb){
                                 top: 82%;
                             }
                         }
-                    }
 
+                        &.-top-card_r,
+                        &.-top-card_l{
+                            @include mq(sp){
+                                left: 46% !important;
+                            }
+                        }
+                        &.-top-card_r{
+                            @include mq(tb){
+                                left: 60% !important;
+                            }
+                            @include mq(tb-pc1200){
+                                left: 62% !important;
+                            }
+                        }
+                        &.-top-card_l{
+                            @include mq(tb){
+                                left: 37% !important;
+                            }
+                            @include mq(tb-pc1200){
+                                left: 38% !important;
+                            }
+                        }
+                    }
+                    // 0705追加
+                    &.-cardBtn_0705{
+                        top: 100%;
+                        left: 78%;
+                        transform: translate(-50%, -50%);
+                        width: 60%;
+                        @include mq(tb){
+                            top: 79%;
+                            left: 80%;
+                            width: 34%;
+                        }
+                    }
 
 
 
