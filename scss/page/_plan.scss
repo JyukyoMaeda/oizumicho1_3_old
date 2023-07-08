@@ -2,14 +2,24 @@
 .p-plan{
     width: 100%;
 
-    background-image: url(../images/bg/plan/plan-bg01_s.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    @include mq(tb){
-        background-image: url(../images/bg/plan/plan-bg01.png);
-    }
+    // background-image: url(../images/bg/plan/plan-bg01_s.png);
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // @include mq(tb){
+    //     background-image: url(../images/bg/plan/plan-bg01.png);
+    // }
     main{
+        padding-top: 2vh;
         margin-bottom: 0;
+        @include mq(tb){
+            padding-top: 7vh;
+        }
+        @include mq(tb-pc1600){
+            padding-top: 10vh;
+        }
+        @include mq(tb-pc1850){
+            padding-top: 12vh;
+        }
         // padding-bottom: 30vh;
         // @include mq(tb){
         //     padding-bottom: 88vh;
@@ -43,6 +53,67 @@
 
             }
             .l-contentsBox{
+                // 0705追加
+                &.-plan-card_0705-arrow{
+                    top: 16%;
+                    left: 50%;
+                    width: 18%;
+                    transform: translateX(-50%);
+                    @include mq(tb){
+                        top: 55%;
+                        width: 7%;
+                    }
+                }
+                // 0705追加
+                &.-plan-card_0705{
+                    top: 22%;
+                    left: 50%;
+                    width: 85%;
+                    transform: translateX(-50%);
+                    // border: 1px solid #ee7a00;
+                    // box-shadow: 4px 2px 11px 0px $main-color--gray;
+                    @include mq(sp){
+                        border-radius: 14px;
+                        overflow: hidden;
+                    }
+                    @include mq(tb){
+                        top: 66%;
+                        width: 62%;
+
+                    }
+                }
+                // 0705追加
+                &.-plan-card02_0705{
+                    @include mq(sp){
+                        top: 62%;
+                        left: 51%;
+                        transform: translateX(-50%);
+                        width: 88%;
+                    }
+                }
+                // 0705追加
+                &.-plan-madori-btn_0705{
+                    top: 77%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 90%;
+                
+                    @include mq(tb){
+
+                    }
+                }
+                // 0705追加
+                &.-plan-btnArea{
+                    @include mq(tb){
+                        top: 40%;
+                        left: 58.4%;
+                        width: 16%;
+                    }
+                }
+
+
+
+
                 &.-plan-01{
                     top: 14%;
                     left: 51.8%;

@@ -32,6 +32,21 @@
             margin-bottom: 2vh;
         }
     }
+    // 0705追加
+    .plan-slider{
+        width: 85vw;
+        margin: auto;
+        @include mq(tb){
+            margin: 5vh auto 2vh !important;
+            width: 100vw;
+        }
+        .slick-img{
+            padding: 0 10px;
+            @include mq(tb){
+                padding: 0 5px;
+            }
+        }
+    }
 }
 
 .slick-prev,

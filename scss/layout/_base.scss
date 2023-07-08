@@ -165,6 +165,18 @@ main{
 	}
 }
 
+.w90-s{
+	@include mq(sp){
+		width: 90% !important;
+		margin: auto;
+	}
+}
+.w93-s{
+	@include mq(sp){
+		width: 93% !important;
+		margin: auto;
+	}
+}
 
 
 
@@ -203,6 +215,11 @@ main{
 	margin-bottom : 1vh !important;
 	@include mq(tb){
 		margin-bottom: 5vh !important;
+	}
+	&.-s_3{
+		@include mq(sp){
+			margin-bottom : 3vh !important;
+		}
 	}
 }
 .l-mgb-3{
