@@ -64,7 +64,7 @@
                         left: 50%;
                         transform: translate(-50%, -50%);
                         @include mq(sp){
-                            width: 99%;
+                            width: 90%;
                             top: 20%;
                             p{
                                 &:nth-child(1){
@@ -85,10 +85,9 @@
                     }
                     // コンテンツ
                     &.-concept-02{
-                        top: 35%;
-                        // top: 15%;
+                        top: 0%;
                         left: 50%;
-                        transform: translate(-50%, -4%);
+                        transform: translateX(-50%);
                         width: 90%;
 
                         @include mq(tb){
@@ -112,242 +111,54 @@
                     //例えば tb+pc
                     &.-tatoeba{
                         width: auto;
-                        top: 6.9%;
+                        top: 90%;
                         left: 5.5%;
                         @include mq(tb-pc600){
-                            top: 1%;
+                            top: 85%;
                             left: 8%;
                         }
                         @include mq(tb-pc1000){
-                            top: .5%;
+                            top: 85%;
                             left: 10%;
                         }
                         @include mq(tb-pc1600){
-                            top: 0%;
+                            top: 85%;
                         }
                         @include mq(tb-pc1850){
-                            top: -.5%;
+                            top: 85%;
                             left: 12.5%;
                         }
                     }
-                    // Flowコンテンツ
-                    &.-Frow-title{
-                        top: 7.8%;
-                        left: 35%;
-                        @include mq(sp){
-                            left: 50%;
-                            transform: translateX(-50%);
-                            width: 79%;
-                        }
-                        @include mq(tb){
-                            top: 2.5%;
-                            width: 40%;
-                            left: 53%;
-                        }
-                        @include mq(tb-pc1000){
-                            top: 1%;
-                            left: 52%;
-                            width: 31%;
-                        }
-                        @include mq(tb-pc1400){
-                            width: 40%;
-                        }
-                        @include mq(tb-pc1600){
-                            top: 0;
-                            left: 60%;
-                            width: inherit;
-                        }
-                        .-titleArea{// タイトル部分
 
-                            @include mq(tb-pc1600){
-                                width: 25%;
-                            }
-                            &.-p02{
-                                @include mq(tb-pc1600){
-                                    width: 30% !important;
-                                }
-                            }
-                            .-text{
-                                top: 50%;
-                                left: 50%;
-                                transform: translate(-50%, -50%);
-                                @include mq(tb-pc1600){
-                                    top: 50%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);
-                                }
-                                p{
-                                    &:nth-child(2){
-                                        @include mq(sp){
-                                            // padding-left: 8%;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        &.-p02{
-                            top: 19.0%;
-                            @include mq(tb){
-                                top: 13.5%;
-                                width: 40%;
-                                left: 53%;
-                            }
-                            @include mq(tb-pc600){
-                                top: 14%;
-                                width: 45%;
-                                left: 50%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 14%;
-                                left: 52%;
-                                width: 40%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 11.5%;
-                                left: 60%;
-                                width: inherit;
-                            }
-                            .-titleArea{// タイトル部分
-                                @include mq(tb-pc1600){
-                                    width: 25%;
-                                }
-                                .-text{
-                                    top: 50%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);
-                                    @include mq(tb-pc1600){
-                                        top: 50%;
-                                        left: 50%;
-                                        transform: translate(-50%, -50%);
-                                    }
-                                    p{
-                                        &:nth-child(2){
-                                            @include mq(sp){
-                                                // padding-left: 8%;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        &.-p03{
-                            top: 28.6%;
-                            @include mq(tb){
-                                width: 40%;
-                                left: 53%;
-                            }
-                            @include mq(tb-pc600){
-                                top: 25%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 26%;
-                                left: 52%;
-                                width: 40%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 21.5%;
-                                left: 60%;
-                                width: inherit;
-                            }
-                            &.-rental{
-                                @include mq(sp){
-                                    // left: 24%;
-                                    // width: 72%;
-                                }
-                            }
-                            .-titleArea{// タイトル部分
-                                @include mq(tb-pc1600){
-                                    width: 25%;
-                                }
-                                .-text{
-                                    top: 50%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);
-                                    @include mq(tb-pc1600){
-                                        top: 50%;
-                                        left: 50%;
-                                        transform: translate(-50%, -50%);
-                                    }
-                                    p{
-                                        &:nth-child(2){
-                                            @include mq(sp){
-                                                padding-left: 8%;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        &.-p04{
-                            top: 37.9%;
-                            @include mq(tb){
-                                width: 40%;
-                                left: 53%;
-                            }
-                            @include mq(tb-pc600){
-                                top: 34.5%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 37%;
-                                left: 52%;
-                                width: 40%;
-                            }
-                            @include mq(tb-pc1600){
-                                top:32.6%;
-                                left: 60%;
-                                width: inherit;
-                            }
-                            &.-shareOff{
-                                @include mq(sp){
-                                    // left: 22%;
-                                    // width: 75%;
-                                }
-                            }
-                            .-titleArea{// タイトル部分
-                                @include mq(tb-pc1600){
-                                    width: 25%;
-                                }
-                                .-text{
-                                    top: 47%;
-                                    left: 50%;
-                                    transform: translate(-50%, -50%);
-                                    @include mq(tb-pc1600){
-                                        top: 50%;
-                                        left: 50%;
-                                        transform: translate(-50%, -50%);
-                                    }
-                                    p{
-                                        &:nth-child(2){
-                                            @include mq(sp){
-                                                padding-left: 8%;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        &.-p05{
-                            top: 75%;
-                            @include mq(tb-sp){
-                                top: 73%;
+                    // Flow Contents
+                    &.-flow01{
+                        &-title{
+                            @include mq(sp){
+                                top: 0%;
                                 left: 50%;
                                 transform: translateX(-50%);
-                                width: 60%;
+                                width: 79%;
                             }
-                            @include mq(sp){
-                                top: 77%;
-                                left: 49%;
-                                width: 88%;
+                            @include mq(tb){
+                                top: 2.5%;
+                                width: 40%;
+                                left: 53%;
                             }
                             @include mq(tb-pc1000){
-                                top: 75%;
-                                left: 15%;
+                                top: 1%;
+                                left: 52%;
+                                width: 40%;
+                            }
+                            @include mq(tb-pc1400){
                                 width: 40%;
                             }
                             @include mq(tb-pc1600){
-                                top: 74%;
-                                left: 15%;
+                                top: 0;
+                                left: 52%;
                                 width: inherit;
+                            }
+                            @include mq(tb-pc1850){
+                                width: 110%;
                             }
                             .-titleArea{// タイトル部分
                                 @include mq(tb-pc1600){
@@ -357,126 +168,86 @@
                                     top: 50%;
                                     left: 50%;
                                     transform: translate(-50%, -50%);
-                                    @include mq(tb-pc1600){
-                                        top: 50%;
-                                        left: 50%;
-                                        transform: translate(-50%, -50%);
-                                    }
-                                    p{
-                                        &:nth-child(2){
-                                            @include mq(sp){
-                                                // padding-left: 8%;
-                                            }
-                                        }
-                                    }
                                 }
                             }
                         }
-                    }
-                    &.-Frow-content{
-                        width: auto;
-                        .contentsInner{
-                            position: relative;
-                            .title{
-                                position: absolute;
-                                top: -1%;
-                                transform: translateY(-50%);
-                                z-index: 10;
-                                &.-current{
-                                    width: 30vw;
-                                    left: 5%;
-                                    @include mq(tb){
-                                        width: 15vw;
-                                    }
-                                    @include mq(tb-pc1000){
-                                        width: 13vw;
-                                    }
-                                    @include mq(tb-pc1600){
-                                        width: 8vw;
-                                    }
-                                }
-                                &.-future{
-                                    width: 30vw;
-                                    left: 5%;
-                                    @include mq(tb){
-                                        width: 15vw;
-                                    }
-                                    @include mq(tb-pc1000){
-                                        width: 13vw;
-                                        left: -7%;
-                                    }
-                                    @include mq(tb-pc1600){
-                                        width: 8vw;
-                                        left: -1%;
-                                    }
-
-                                }
-                                &.-next{
-                                    width: 55vw;
-                                    left: 5%;
-                                    @include mq(tb){
-                                        width: 17vw;
-                                    }
-                                    @include mq(tb-pc1000){
-                                        width: 21vw;
-                                    }
-                                    @include mq(tb-pc1600){
-                                        width:15vw;
-                                        left: -1%;
-                                    }
-                                    &.-p02{
-                                        width: 35vw;
+                        &-content{
+                            width: auto;
+                            .contentsInner{
+                                position: relative;
+                                .title{
+                                    position: absolute;
+                                    top: -1%;
+                                    transform: translateY(-50%);
+                                    z-index: 10;
+                                    &.-current{
+                                        width: 30vw;
                                         left: 5%;
+                                        @include mq(tb){
+                                            width: 15vw;
+                                        }
+                                        @include mq(tb-pc1000){
+                                            width: 13vw;
+                                        }
+                                        @include mq(tb-pc1600){
+                                            width: 8vw;
+                                        }
+                                    }
+                                    &.-future{
+                                        width: 30vw;
+                                        left: 5%;
+                                        @include mq(tb){
+                                            width: 15vw;
+                                        }
+                                        @include mq(tb-pc1000){
+                                            width: 13vw;
+                                            left: -7%;
+                                        }
+                                        @include mq(tb-pc1600){
+                                            width: 8vw;
+                                            left: -1%;
+                                        }
+    
+                                    }
+                                    &.-next{
+                                        width: 35vw;
+                                        left: 6%;
+                                        @include mq(sp){
+                                            top: 15%;
+                                        }
+                                        @include mq(tb){
+                                            width: 17vw;
+                                        }
+                                        @include mq(tb-pc1000){
+                                            width: 21vw;
+                                        }
                                         @include mq(tb-pc1600){
                                             width:15vw;
                                             left: -1%;
                                         }
                                     }
-                                    &.-p03{
-                                        width: 30vw;
-                                        top: 60%;
-                                        left: -24%;
-                                    }
-                                    &.-p04{
-                                        width: 28vw;
-                                        top: 60%;
-                                        left: -40%;
-                                    }
                                 }
-                            }
-                            .pic{
-                                // position: absolute;
-                                // top: 0;
-                                &.-current{
-                                    width: 75vw;
-                                    @include mq(tb){
-                                        width: 43vw;
+                                .pic{
+                                    // position: absolute;
+                                    // top: 0;
+                                    &.-current{
+                                        width: 75vw;
+                                        @include mq(tb){
+                                            width: 43vw;
+                                        }
+                                        @include mq(tb-pc1000){
+                                            width: 36vw;
+                                            // width: 42vw;
+                                        }
+                                        @include mq(tb-pc1400){
+    
+                                        }
+                                        @include mq(tb-pc1600){
+                                            width: 24vw;
+                                        }
                                     }
-                                    @include mq(tb-pc1000){
-                                        width: 36vw;
-                                        // width: 42vw;
-                                    }
-                                    @include mq(tb-pc1400){
-
-                                    }
-                                    @include mq(tb-pc1600){
-                                        width: 24vw;
-                                    }
-                                }
-                                &.-future{
-                                    width: 76vw;
-                                    @include mq(tb){
-                                        width: 43vw;
-                                    }
-                                    @include mq(tb-pc1000){
-                                        width: 37vw;
-                                        // width: 42vw;
-                                    }
-                                    @include mq(tb-pc1600){
-                                        width: 26vw;
-                                    }
-                                    &.-p02{
-                                        width: 85vw;
+                                    &.-future{
+                                        width: 80vw;
                                         @include mq(tb){
                                             width: 43vw;
                                         }
@@ -487,408 +258,211 @@
                                             width: 43vw;
                                         }
                                     }
-                                    &.-p03{
-                                        width: 70vw;
-                                        @include mq(tb){
-                                            width: 43vw;
-                                        }
-                                        @include mq(tb-pc800){
-                                            width: 40vw;
-                                        }
-                                        @include mq(tb-pc1000){
-                                            width: 43vw;
-                                        }
-                                    }
-                                }
-                                &.-next{
-                                    width: 75vw;
-                                    @include mq(tb){
-                                        width: 43vw;
-                                    }
-                                    @include mq(tb-pc1000){
-                                        width: 44vw;
-                                        // width: 55vw;
-                                    }
-                                    @include mq(tb-pc1600){
-                                        width: 33vw;
-                                    }
-                                    &.-p02{
+                                    &.-next{
                                         @include mq(sp){
-                                            width: 75vw;
+                                            width: 95vw;
+                                        }
+                                        @include mq(tb){
+                                            width: 43vw;
+                                        }
+                                        @include mq(tb-pc1000){
+                                            width: 44vw;
+                                            // width: 55vw;
+                                        }
+                                        @include mq(tb-pc1600){
+                                            width: 33vw;
+                                        }
+                                        &.-p02{
+                                            @include mq(sp){
+                                                width: 75vw;
+                                            }
                                         }
                                     }
+    
                                 }
-
-                            }
-                            .text{
-                                position: absolute;
-                                left: 7%;
-                                bottom: 0%;
-                                @include mq(tb){
-                                    bottom: 5%;
-                                }
-                                &.-v02{
-                                    bottom: -7%;
+                                .text{
+                                    position: absolute;
+                                    left: 7%;
+                                    bottom: 0%;
                                     @include mq(tb){
                                         bottom: 5%;
                                     }
-                                }
-                                &.-current{
-                                    @include mq(tb-pc1000){
-                                        
-                                    }
-                                    &.-p02{
-                                        bottom: -13%;
-                                        @include mq(tb-pc1600){
-                                            bottom: -6%;
-
+                                    &.-v02{
+                                        bottom: -7%;
+                                        @include mq(tb){
+                                            bottom: 5%;
                                         }
                                     }
-                                }
-                                &.-future{
-                                    @include mq(tb-pc1000){
-                                        
-                                    }
-                                }
-                                &.-next{
-                                    bottom: -3%;
-                                    @include mq(tb){
-                                        bottom: -1%;
-                                    }
-                                    &.-p02{
-                                        bottom: -25%;
-                                        @include mq(tb-pc1600){
-                                            bottom: -14%;
+                                    &.-current{
+                                        @include mq(tb-pc1000){
+                                            
+                                        }
+                                        &.-p02{
+                                            bottom: -13%;
+                                            @include mq(tb-pc1600){
+                                                bottom: -6%;
+    
+                                            }
                                         }
                                     }
-                                    &.-p03{
-                                        bottom: -18%;
-                                        @include mq(tb-pc1600){
-                                            bottom: -4%;
+                                    &.-future{
+                                        @include mq(tb-pc1000){
+                                            
                                         }
                                     }
-                                    &.-p04{
-                                        bottom: -10%;
-                                        @include mq(tb-pc1600){
-                                            bottom: -14%;
+                                    &.-next{
+                                        bottom: -3%;
+                                        @include mq(tb){
+                                            bottom: -1%;
+                                        }
+                                        &.-p02{
+                                            bottom: -25%;
+                                            @include mq(tb-pc1600){
+                                                bottom: -14%;
+                                            }
+                                        }
+                                        &.-p03{
+                                            bottom: -18%;
+                                            @include mq(tb-pc1600){
+                                                bottom: -4%;
+                                            }
+                                        }
+                                        &.-p04{
+                                            bottom: -10%;
+                                            @include mq(tb-pc1600){
+                                                bottom: -14%;
+                                            }
                                         }
                                     }
+                                    &.-right{
+                                        width: 87%;
+                                    }
                                 }
-                                &.-right{
-                                    width: 87%;
-                                }
                             }
-                        }
-                        &.-r{//右
-                            top: 3%;
-                            right: 15%;
-                            @include mq(tb){
-                                right: 3%;
-                            }
-                            @include mq(tb-pc600){
-                                right: 4%;
-                            }
-                            @include mq(tb-pc1600){
-                                right: 14%;
-                            }
-                        }
-                        &.-l{//左
-                            top: 3%;
-                            // left: 13%;
-                            @include mq(tb){
-                                
-                            }
-                            @include mq(tb-pc600){
-                                left: 5%;
-                            }
-                            @include mq(tb-pc1000){
-                                left: 8%;
-                            }
-                            @include mq(tb-pc1600){
-                                left: 13%;
-                            }
-                        }
-                        &.-row1{
-                            top: 9.5%;
-                            @include mq(tb-pc600){
-                                top: 5.2%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 2.1%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 1.5%;
-                            }
-                            @include mq(tb-pc1850){
-                                top: 2%;
-                            }
-                        }
-                        &.-row2{
-                            top: 12.75%;
-                            @include mq(tb){
-                                top: 7.3%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 5.8%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 5%;
-                            }
-                        }
-                        &.-row3{
-                            top: 16.3%;
-                            @include mq(tb){
-                                top: 10.5%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 9.3%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 7.5%;
-                            }
-                        }
-                        &.-row4{
-                            top: 20.7%;
-                            @include mq(tb){
-                                top: 15.8%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 15.5%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 13%;
-                            }
-                        }
-                        &.-row5{
-                            top: 24%;
-                            @include mq(sp){
-                                left: 50%;
-                                right: auto;
-                                transform: translateX(-50%);
-                            }
-                            @include mq(tb){
-                                top: 19.1%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 19%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 15.2%;
-                            }
-                        }
-                        &.-row6{
-                            top: 25.9%;
-                            @include mq(tb){
-                                top: 20.5%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 20.9%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 17.2%;
-                            }
-                        }
-                        &.-row7{
-                            top: 30.2%;
-                            @include mq(tb){
-                                top: 26.2%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 27.9%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 23.2%;
-                            }
-                        }
-                        &.-row8{
-                            top: 33.9%;
-                            right: 0%;
-                            @include mq(tb){
-                                top: 29.1%;
-                                right: 11%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 31%;
-                                right: 9%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 26.2%;
-                            }
-                        }
-                        &.-row9{
-                            top: 35.45%;
-                            @include mq(tb){
-                                top: 31.4%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 33.2%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 28.5%;
-                            }
-                        }
-                        &.-row10{
-                            top: 39.55%;
-                            @include mq(tb-pc600){
-                                top: 36.3%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 38.8%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 34.5%;
-                            }
-                        }
-                        &.-row11{
-                            top: 43%;
-                            right: -11% !important;
-                            @include mq(tb){
-                                top: 39.5%;
-                                right: 6% !important;
-                            }
-                            @include mq(tb-pc600){
-                                right: 3% !important;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 42.5%;
-                                right: 4% !important;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 37.5%;
-                                right: 13% !important;
-                            }
-                        }
-                        &.-row12{
-                            top: 44.8%;
-                            @include mq(tb){
-                                top: 41.5%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 44.2%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 39.3%;
-                            }
-                        }
-
-
-                    }
-                    &.-Story-content{
-                        display: inline-block;
-                        width: auto;
-                        z-index: 10;
-                        &.-r{//右
-                            right: 6%;
-                            @include mq(tb-pc1600){
-                                right: 28%;
-                            }
-                            &::after{
-                                position: absolute;
-                                right: 0;
-                                content: "";
-                                width: 90px;
-                                height: 131px;
-                                background: url(../images/item/concept/story-arrow01.png);
-                                background-repeat: no-repeat;
-                                @include mq(sp){
-                                    top: 67%;
-                                    transform: scale(.7);
-                                }
+                            &.-r{//右
+                                right: 0%;
                                 @include mq(tb){
-                                    transform: scale(.7);
+                                    right: 3%;
+                                }
+                                @include mq(tb-pc600){
+                                    right: 4%;
+                                }
+                                @include mq(tb-pc1600){
+                                    right: 8%;
+                                }
+                                &.-story{
+                                    right: 4%;
+                                    @include mq(tb){
+                                        right: 3%;
+                                    }
+                                    @include mq(tb-pc600){
+                                        right: 11%;
+                                    }
+                                    @include mq(tb-pc1600){
+                                        right: 29%;
+                                    }
+                                    &::after{
+                                        position: absolute;
+                                        right: 0;
+                                        content: "";
+                                        width: 90px;
+                                        height: 131px;
+                                        background: url(../images/item/concept/story-arrow01.png);
+                                        background-repeat: no-repeat;
+                                        @include mq(sp){
+                                            top: 67%;
+                                            transform: scale(.7);
+                                        }
+                                        @include mq(tb){
+                                            transform: scale(.7);
+                                        }
+                                        @include mq(tb-pc1000){
+                                            transform: scale(1);
+                                        }
+                                    }
+                                }
+                            }
+                            &.-l{//左
+                                @include mq(tb){
+                                    
+                                }
+                                @include mq(tb-pc600){
+                                    left: 5%;
                                 }
                                 @include mq(tb-pc1000){
-                                    transform: scale(1);
+                                    left: 8%;
+                                }
+                                @include mq(tb-pc1600){
+                                    left: 13%;
+                                }
+                                &.-story{
+                                    right: 4%;
+                                    @include mq(tb){
+                                        right: 3%;
+                                    }
+                                    @include mq(tb-pc600){
+                                        right: 11%;
+                                    }
+                                    @include mq(tb-pc1600){
+                                        right: 29%;
+                                        width: 22%;
+                                    }
+                                    &::after{
+                                        position: absolute;
+                                        right: 0;
+                                        content: "";
+                                        width: 90px;
+                                        height: 131px;
+                                        background: url(../images/item/concept/story-arrow01.png);
+                                        background-repeat: no-repeat;
+                                        @include mq(sp){
+                                            top: 67%;
+                                            transform: scale(.7);
+                                        }
+                                        @include mq(tb){
+                                            transform: scale(.7);
+                                        }
+                                        @include mq(tb-pc1000){
+                                            transform: scale(1);
+                                        }
+                                    }
                                 }
                             }
-                        }
-                        &.-l{//左
-                            left: 10%;
-                            @include mq(tb){
-                                left: 20%;
-                                transform: scale(.9);
+                            &_01{
+                                top: 17%;
+                                @include mq(tb){
+                                    top: 8%;
+                                }
                             }
-                            @include mq(tb-pc1000){
-                                left: 24%;
+                            &_02{
+                                top: 34%;
+                                z-index: 11;
+                                @include mq(tb){
+                                    top: 29%;
+                                }
                             }
-                            @include mq(tb-pc1600){
-                                left: 24%;
+                            &_03{
+                                top: 46%;
+                                z-index: 10;
+                                @include mq(tb){
+                                    top: 40%;
+                                }
                             }
-                            &::after{
-                                position: absolute;
-                                right: 0;
-                                content: "";
-                                width: 90px;
-                                height: 131px;
-                                background: url(../images/item/concept/story-arrow01.png);
-                                background-repeat: no-repeat;
-                                @include mq(sp){
+                            &_04{
+                                top: 65%;
+                                z-index: 1;
+                                @include mq(tb){
                                     top: 60%;
-                                    transform: scale(.7);
                                 }
                             }
-                        }
-                        &.-row1{
-                            top: 11.5%;
-                            @include mq(tb){
-                                top: 5%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 3.5%;
-                            }
-                        }
-                        &.-row2{
-                            top:14.85%;
-                            @include mq(tb){
-                                top: 9%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 8%;
-                            }
-                            @include mq(tb-pc1600){
-                                top: 6.5%;
-                            }
-                        }
-                        &.-row3{
-                            top: 22.6%;
-                            @include mq(tb-pc600){
-                                top: 17.3%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 17.8%;
-                            }
-                            @include mq(tb-pc1600){
-                                top:14.5%;
-                            }
-                        }
-                        &.-row4{
-                            top: 32.2%;
-                            @include mq(tb){
-                                top: 27.5%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 30%;
-                            }
-                            @include mq(tb-pc1600){
-                                top:24.6%;
-                            }
-                        }
-                        &.-row5{
-                            top: 41.5%;
-                            @include mq(tb){
-                                top: 37.5%;
-                            }
-                            @include mq(tb-pc1000){
-                                top: 41%;
-                            }
-                            @include mq(tb-pc1600){
-                                top:35.6%;
+                            &_05{
+                                top: 75%;
+                                @include mq(tb){
+                                    top: 73%;
+                                }
                             }
                         }
                     }
-
-
-                    // Flow Contents
                     &.-flow02{
                         &-title{
                             @include mq(sp){
@@ -1173,7 +747,7 @@
                                 }
                             }
                             &_04{
-                                top: 73%;
+                                top: 71%;
                                 @include mq(tb){
                                     top: 60%;
                                 }
@@ -1493,14 +1067,14 @@
                                 }
                             }
                             &_03{
-                                top: 54%;
+                                top: 57%;
                                 z-index: 10;
                                 @include mq(tb){
                                     top: 40%;
                                 }
                             }
                             &_04{
-                                top: 73%;
+                                top: 77%;
                                 @include mq(tb){
                                     top: 60%;
                                 }

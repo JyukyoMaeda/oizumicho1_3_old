@@ -88,25 +88,50 @@ body{
 		@include mq(tb){
 			margin-bottom: 3%;
 		}
+		&_s{
+			@include mq(sp){
+				margin-bottom: 1%;
+			}
+		}
 	}
 	&-b02{
 		@include mq(tb){
 			margin-bottom: 6%;
+		}
+		&_s{
+			@include mq(sp){
+				margin-bottom: 2%;
+			}
 		}
 	}
 	&-b03{
 		@include mq(tb){
 			margin-bottom: 9%;
 		}
+		&_s{
+			@include mq(sp){
+				margin-bottom: 3%;
+			}
+		}
 	}
 	&-b04{
 		@include mq(tb){
 			margin-bottom: 12%;
 		}
+		&_s{
+			@include mq(sp){
+				margin-bottom: 4%;
+			}
+		}
 	}
 	&-b05{
 		@include mq(tb){
 			margin-bottom: 15%;
+		}
+		&_s{
+			@include mq(sp){
+				margin-bottom: 5%;
+			}
 		}
 	}
 	&-b06{
