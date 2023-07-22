@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://unpkg.com/scroll-hint@latest/css/scroll-hint.css">
 
     <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/pagetop.js"></script> 
     <script>
@@ -122,261 +123,182 @@
     </header>
 
     <main class="l-container">
-        <!-- ヘッダー -->
+        <!-- ファーストビュー部分 -->
+        <div class="l-contents -img-bg l-mgb-1 -s_3">
+            <div class="imgBox">
+                <img class="sp" src="images/bg/plan/plan-header_bg_s.png" alt="">
+                <img class="pc" src="images/bg/plan/plan-header_bg.png" alt="">
+            </div>
+        </div>
+        <!-- モデル棟 間取 PCのみ -->
+        <div class="pc l-contents -img-bg">
+            <div class="imgBox">
+                <img class="sp" src="images/bg/plan/plan-madori_bg_s.png" alt="">
+                <img class="pc" src="images/bg/plan/plan-madori_bg.png" alt="">
+            </div>
+            <!-- 矢印 -->
+            <div class="l-contentsBox -plan-card_0705-arrow" data-aos="fade-down"
+            data-aos-duration="500">
+                <img class="pc" src="images/item/plan/chage-arrow.png" alt="change">
+            </div>
+            <div class="l-contentsBox -plan-card_0705" data-aos="fade-down"
+            data-aos-duration="500">
+                <img class="pc" src="images/card/plan/plan-item0705-box-bg.png" alt="">
+            </div>
+        </div>
+        <!-- モデル棟 画像+スライダー+おろい合わせ+間取図 SPのみ -->
+        <div class="sp l-contents -img">
+            <img src="images/bg/plan/plan-madori01_bg_s.png" alt="">
+            <!-- スライダーコンテンツ -->
+            <div class="l-contentsBox -slider01" style="margin-bottom: 6vh;">
+                <div class="l-slider">
+                    <div class="plan-slider plan-slider01">
+                        <div class="slick-img">
+                            <img class="sp" src="images/slider/plan/planItem-01.jpg" alt=""/>
+                        </div>
+                        <div class="slick-img">
+                            <img class="sp" src="images/slider/plan/planItem-02.jpg" alt=""/>
+                        </div>
+                        <div class="slick-img">
+                            <img class="sp" src="images/slider/plan/planItem-03.jpg" alt=""/>
+                        </div>
+                        <div class="slick-img">
+                            <img class="sp" src="images/slider/plan/planItem-04.jpg" alt=""/>
+                        </div>
+                        <div class="slick-img">
+                            <img class="sp" src="images/slider/plan/planItem-05.jpg" alt=""/>
+                        </div>
+                        <div class="slick-img">
+                            <img class="sp" src="images/slider/plan/planItem-06.jpg" alt=""/>
+                        </div>
+                        <div class="slick-img">
+                            <img class="sp" src="images/slider/plan/planItem-07.jpg" alt=""/>
+                        </div>
+                        <div class="slick-img">
+                            <img class="sp" src="images/slider/plan/planItem-08.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- モデルハウス ボタン -->
+            <div class="l-contents -img-bg">
+                <div class="imgBox">
+                    <img src="images/bg/plan/plan-madori02_bg_s.png" alt="">
+                </div>
+                <div class="l-contentsBox -plan-madori-btn_0705">
+                    <div class="l-flex--area">
+                        <div class="l-flex--contents -topBtnArea_0703">
+                            <div class="flexItem mg-b01">
+                                <a href="https://www.jyu-g.co.jp/contents/tour?checkid=712749381" class="l-linkImg -p03">
+                                    <img src="images/btn/top-btn01.png" alt="モデルハウス見学予約">
+                                </a>
+                            </div>
+                            <div class="flexItem">
+                                <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712749381" class="l-linkImg -p03">
+                                    <img src="images/btn/top-btn02.png" alt="資料請求のみ">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 間取図 -->
+            <div class="l-contents -img-bg">
+                <div class="imgBox">
+                    <img src="images/bg/plan/plan-madori03_bg_s.png" alt="">
+                </div>
+                <div class="l-contentsBox -plan-card_0705-arrow">
+                    <img class="sp" src="images/item/plan/chage-arrow.png" alt="change">
+                </div>
+                <div class="l-contentsBox -plan-card_0705">
+                    <img class="sp" src="images/card/plan/plan-item0705-box-bg_s.png" alt="">
+                </div>
+                <div class="l-contentsBox -plan-card02_0705">
+                    <img class="sp" src="images/card/plan/plan-item0705-box02-bg_s.png" alt="">
+                </div>
+            </div>
+            <!-- 区画図 SPのみ -->
+            <div class="sp l-contents -img w90-s" style="margin-bottom: 8vh;">
+                <img class="sp" src="images/bg/plan/plan-kukaku_bg_s.png" alt="">
+            </div>
+        </div>
+        <!-- スライダー PCのみ -->
+        <div class="pc l-contentsBox -slider01">
+            <div class="l-slider">
+                <div class="plan-slider plan-slider01">
+                    <div class="slick-img">
+                        <img class="pc" src="images/slider/plan/planItem-01.jpg" alt=""/>
+                    </div>
+                    <div class="slick-img">
+                        <img class="pc" src="images/slider/plan/planItem-02.jpg" alt=""/>
+                    </div>
+                    <div class="slick-img">
+                        <img class="pc" src="images/slider/plan/planItem-03.jpg" alt=""/>
+                    </div>
+                    <div class="slick-img">
+                        <img class="pc" src="images/slider/plan/planItem-04.jpg" alt=""/>
+                    </div>
+                    <div class="slick-img">
+                        <img class="pc" src="images/slider/plan/planItem-05.jpg" alt=""/>
+                    </div>
+                    <div class="slick-img">
+                        <img class="pc" src="images/slider/plan/planItem-06.jpg" alt=""/>
+                    </div>
+                    <div class="slick-img">
+                        <img class="pc" src="images/slider/plan/planItem-07.jpg" alt=""/>
+                    </div>
+                    <div class="slick-img">
+                        <img class="pc" src="images/slider/plan/planItem-08.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- お問合せ -->
         <div class="l-contents -img-bg">
             <div class="imgBox">
-                <img src="images/bg/plan/plan-bg01-inner.png" alt="" class="pc">
-                <img src="images/bg/plan/plan-bg01-inner_s.png" alt="" class="sp">
+                <img class="pc" src="images/bg/plan/plan-contents01_bg.png" alt="">
             </div>
 
-            <!-- 工事中01 -->
-            <div class="l-contentsBox -plan-01">
-                <div class="l-contents -img-bg">
-                    <div class="imgBox">
-                        <img src="images/bg/plan/plan-item01-bg_s.png" alt="" class="sp">
-                        <img src="images/bg/plan/plan-item01-bg.png" alt="" class="pc">
-                    </div>
-                    <!-- タイトル -->
-                    <div class="l-contentsBox -plan-01-text01">
-                        <p class="l-text -size3L -model -plan -b" style="line-height: .7;">
-                            モデル棟<br>
-                            <span class="l-text -sizeM -center" style="display:block;">(B号棟)</span>
-                        </p>
-                    </div>
-                    <!-- サブタイトル -->
-                    <div class="l-contentsBox -plan-01-text02">
-                        <p class="explanation l-text -sizeL">
-                            エレベーター付きの<br>近未来型スタンダード<br class="sp">モデル
-                        </p>
-                    </div>
-                    <!-- 左側・パース -->
-                    <div class="l-contentsBox -plan-01-pers">
-                        <!-- <img src="images/item/plan/plan01-pers.png" alt=""> -->
-                        <img src="images/item/plan/plan01-pers@3x-min.png" alt="">
-                    </div>
-                    <!-- 右側・ボックス -->
-                    <div class="l-contentsBox -plan-01-box">
-                        <img src="images/item/plan/plan01-box.png" alt="">
-                    </div>
-                    <!-- ボックスないの記述 -->
-                    <div class="l-contentsBox -plan-01-menseki">
-                        <img src="images/SVG/plan-item01_menseki.svg" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <!-- 工事中02 -->
-            <div class="l-contentsBox -plan-02">
-                <div class="l-contents -img-bg">
-                    <div class="imgBox">
-                        <img src="images/bg/plan/plan-item02-bg_s.png" alt="" class="sp">
-                        <img src="images/bg/plan/plan-item02-bg.png" alt="" class="pc">
-                    </div>
-                    <div class="l-contentsBox -plan-02-text01">
-                        <p class="l-text -sizeM -b -white">将来プラン例</p>
-                    </div>
-                    <div class="l-contentsBox -plan-02-text02">
-                        <p class="l-text -sizeM tb">
-                            水周りの仕組みと外階段によって広がる、<br>
-                            将来の多彩な選択肢！例えば…。
-                        </p>
-                        <p class="l-text -sizeM pc-tb">
-                            水周りの仕組みと外階段によって広がる、<br>
-                            将来の多彩な選択肢！<br>
-                            例えば…。
-                        </p>
-                    </div>
-                    <div class="l-contentsBox -plan-02-text03 l-text">
-                        めまぐるしい変化を遂げていくであろう世の中の流行、
-                        また社会的な経済事情、家族形態の流動にあわせて、
-                        多彩な需要を叶える「可能性」を秘めた設計。
-                        もちろん、どう「つかいこなす」かは、
-                        完全に住民の自由に委ねられています。
-                    </div>
-                    <div class="l-contentsBox -plan-02-text04">
-                        <p class="l-text -sizeL -b -s-white">二世帯住宅だったり。</p>
-                    </div>
-                    <div class="l-contentsBox -plan-02-text05">
-                        <p class="l-text -sizeL -b -s-white">シェアオフィス<br class="pc">だったり。</p>
-                    </div>
-                    <div class="l-contentsBox -plan-02-text06">
-                        <p class="l-text -sizeL -b -s-white">賃貸併用住宅だったり。</p>
-                    </div>
-                    <!-- 矢印 -->
-                    <div class="l-contentsBox -plan-02-arrow" data-aos="fade-down">
-                        <img src="images/item/plan/chage-arrow.png" alt="change">
-                    </div>
-                    <!-- ボックス -->
-                    <div class="l-contentsBox -plan-02-box" data-aos="fade-down">
-                        <div class="l-contents">
-                            <div class="imgBox" data-aos="fade" data-aos-delay="300">
-                                <!-- <img src="images/item/plan/plan-item02-box-bg.png" alt=""> -->
-                                <img src="images/item/plan/plan-item02-box-bg@3x-min.png" alt="">
-
-                            </div>
-                            <div class="l-contentsBox -plan-02-box-text">
-                                <div data-aos="fade" data-aos-delay="300">
-                                    <!-- <img src="images/SVG/plan-item02-boxText.svg" alt=""> -->
-                                    <img src="images/SVG/plan-item02-boxText02.svg" alt="">
-                                </div>
-                            </div>
+            <div class="l-contentsBox -plan-btnArea">
+                <div class="l-flex--area">
+                    <div class="l-flex--contents -topBtnArea_0703">
+                        <div class="flexItem mg-b01">
+                            <a href="https://www.jyu-g.co.jp/contents/tour?checkid=712749381" class="l-linkImg -p03">
+                                <img src="images/btn/top-btn01.png" alt="モデルハウス見学予約">
+                            </a>
                         </div>
-                    </div>
-                    <div class="l-contentsBox -plan-02-btn l-contents-btnArea">
-                        <div class="l-contents -img-bg">
-                            <div class="imgBox">
-                                <img src="images/item/plan/plan-btn01.png" alt="見学会開催中">
-                            </div>
-                            <div class="l-contentsBox -btnArea -p02">
-                                <a href="https://www.jyu-g.co.jp/contents/makefull" class="entry l-text -sizeM -center -b">来店予約する</a>
-                            </div>
+                        <div class="flexItem">
+                            <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712749381" class="l-linkImg -p03">
+                                <img src="images/btn/top-btn02.png" alt="資料請求のみ">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- contact*4 SPのみ -->
+        <div class="sp l-contents -contactArea -box-type l-mgb_10 -s_5">
+            <div class="l-flex--area">
+                <div class="l-flex--contents -contact-box">
+                    <div class="flexItem">
+                        <a class="l-linkImg -contact-box -box02" href="https://www.jyu-g.co.jp/contents/tour?checkid=712749381">
 
-            <!-- // 工事中 -->
-
-            <div class="l-contentsBox -plan-03">
-                <div class="l-contents -img-bg">
-                    <div class="imgBox -shadow">
-                        <img src="images/item/plan/plan-item03_s.png" alt="" class="sp">
-                        <img src="images/item/plan/plan-item03.png" alt="" class="pc">
-                    </div>
-                    <div class="l-contentsBox -plan-03-title">
-                        <div class="l-flex--area">
-                            <div class="l-flex--contents -plan-card-title">
-                                <div class="flexItem">
-                                    <img src="images/SVG/mitsubishi-hitachi-logo.svg" alt="">
-                                </div>
-                                <div class="flexItem">
-                                    <p class="l-text -sizeM ">ルーム奥行が1400mmの広々床面積。
-                                        JIS規格の電動車いすが使用でき、標準タイプの車いすなら介護者も同乗出来るゆとりのサイズです。</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="l-contentsBox -plan-03-picArea">
-                        <div class="l-flex--area" style="height: auto !important;">
-                            <div class="l-flex--contents -plan-card-picArea">
-                                <!-- エレベーター -->
-                                <div class="flexItem">
-                                    <div class="imgBox">
-                                        <img src="images/item/plan/plan-item03-pic01.png" alt="エレベーター">
-                                    </div>
-                                    <div class="l-contentsBox -plan-03-data">
-                                        <img src="images/SVG/plan03-pic01-text.svg" alt="">
-                                    </div>
-                                </div>
-                                <div class="flexItem">
-                                    <img class="s-logo" src="images/logo/s-logo.png" alt="スイーとホームS">
-                                    <div class="l-flex--area">
-                                        <div class="l-flex--contents -plan-icon">
-                                            <div class="flexItem">
-                                                <img src="images/SVG/s-home-item01.svg" alt="">
-                                            </div>
-                                            <div class="flexItem">
-                                                <img src="images/SVG/s-home-item02.svg" alt="">
-                                            </div>
-                                            <div class="flexItem">
-                                                <img src="images/SVG/s-home-item03.svg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <img src="images/SVG/plan03-pic02-text.svg" alt="">
-                                    <img src="images/item/plan/plan03-pic02.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 工事中 -->
-            <div class="l-contentsBox -plan-04">
-                <div class="l-contents -img-bg">
-                    <div class="imgBox">
-                        <!-- <img class="sp" src="images/item/plan/plan04-kukaku-pic_s.png" alt="全体区画図"> -->
-                        <img class="sp" src="images/item/plan/plan04-kukaku-pic_s@3x-min.png" alt="全体区画図">
-                        <img class="pc" src="images/bg/plan/plan04-kukaku-bg_new.png" alt="全体区画図">
-                    </div>
-                    <div class="pc l-contentsBox -plan-04-text">
-                        <img src="images/SVG/plan04-kukaku-text.svg" alt="全体区画図">
-                    </div>
-                </div>
-                <!-- 矢印 -->
-                <div class="pc l-contents -img -plan-04-arrow" style="margin-bottom: 3vh;" data-aos="fade-down"
-                data-aos-duration="500">
-                    <img src="images/item/plan/plan04-arrow.png" alt="下矢印">
-                </div>
-                <div class="l-contents -img-bg -plan-04-btmArea" data-aos="fade-down">
-                    <div class="imgBox" >
-                        <!-- <img class="sp" src="images/item/plan/plan04-kukaku-btm_s.png" alt="将来プラン例"> -->
-                        <img class="sp" src="images/item/plan/plan04-kukaku-btm_s@3x-min.png" alt="将来プラン例">
-                        <!-- <img class="pc" src="images/item/plan/plan04-kukaku-btm.png" alt="将来プラン例"> -->
-                        <img class="pc" src="images/item/plan/plan04-kukaku-btm_1@3x-min.png" alt="将来プラン例">
-                    </div>
-                    <div class="pc l-contentsBox -plan-04-btm-text">
-                        <img src="images/SVG/plan04-kukaku-btm-text.svg" alt="">
-
-                    </div>
-                </div>
-            </div>
-            <!-- 工事中 -->
-
-            <div class="l-contentsBox -pamphlet">
-                    <div class="l-contents -img-bg">
-                        <div class="imgBox">
-                            <!-- <img class="sp" src="images/bg/pamphlet-bg_s.png" alt="パンフレットプレゼント！すべて無料！"> -->
-                            <img class="sp" src="images/bg/pamphlet-bg_s@3x.png" alt="パンフレットプレゼント！すべて無料！">
-                            <!-- <img class="pc" src="images/bg/pamphlet-bg.png" alt="パンフレットプレゼント！すべて無料！"> -->
-                            <img class="pc" src="images/bg/pamphlet-bg@3x.png" alt="パンフレットプレゼント！すべて無料！">
-                        </div>
-                        <div class="l-contentsBox -btnArea -pamphlet-btn">
-                            <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712749381" class="shiryou l-text -sizeL -center -b">資料請求</a>
-                        </div>
-                    </div>
-            </div>
-
-            <!--  バナー  -->
-            <!-- <div class="l-contentsBox -bannerArea --plan">
-                <div class="l-banner" data-aos="fade-down"
-                data-aos-duration="500">
-                    <div class="l-banner-wrapper">
-                        <a href="https://www.jyu-g.co.jp/contents/tour?checkid=712749381" class="">
-                            <div class="l-contents -img-bg">
-                                <div class="imgBox">
-                                    <img class="pc" src="images/banner/banner-new.png" alt="">
-                                    <img class="sp" src="images/banner/banner-new_s.png" alt="">
-                                </div>
-                                <div class="l-contentsBox -banner-text">
-                                    <img class="pc" src="images/SVG/banner-text.svg" alt="">
-                                    <img class="sp" src="images/SVG/banner-text_s.svg" alt="">
-
-                                </div>
-                            </div>
-                            <div class="l-banner-btnArea">
-                                <div href="" class="entry l-text -sizeM -center -b">来店予約する</div>
-                            </div>
+                            <img src="images/btn/contact_box_01_model_w.png" alt="モデルハウス見学予約">
                         </a>
                     </div>
-                </div>
-            </div> -->
-            <!-- 夜景バナー -->
-            <div class="l-contentsBox -bannerArea02 --plan">
-                <div class="l-banner" data-aos="fade-down"
-                data-aos-duration="500">
-                    <div class="l-banner-wrapper">
-                        <a href="https://www.jyu-g.co.jp/contents/makefull" class="">
-                            <div class="l-contents -img-bg">
-                                <div class="imgBox">
-                                    <img class="" src="images/banner/banner.png" alt="">
-                                </div>
-                            </div>
-                            <div class="l-banner-btnArea">
-                                <div href="" class="entry l-text -sizeM -center -b">エントリーはコチラ</div>
-                            </div>
+                    <div class="flexItem">
+                        <a class="l-linkImg -contact-box -box01" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712749381">
+                            <img src="images/btn/contact_box_02_model_w.png" alt="物件資料請求">
+                        </a>
+                    </div>
+                    <div class="flexItem">
+                        <a class="l-linkImg -contact-box -box03" href="https://www.jyu-g.co.jp/contents/regist?form_mode=1">
+                            <img src="images/btn/contact_box_03_model_w.png" alt="会員登録">
+                        </a>
+                    </div>
+                    <div class="flexItem">
+                        <a class="l-linkImg -contact-box -box04" href="https://www.jyu-g.co.jp/contents/kantan">
+                            <img src="images/btn/contact_box_04_model_w.png" alt="かんたん資料請求">
                         </a>
                     </div>
                 </div>
@@ -384,7 +306,28 @@
         </div>
 
 
+        <div class="l-contents -img-bg">
 
+            <!-- 夜景バナー -->
+            <!-- <div class="l-contentsBox -bannerArea02">
+                <div class="l-banner" data-aos="fade-down"
+                data-aos-duration="500">
+                    <div class="l-banner-wrapper">
+                        <a href="https://www.jyu-g.co.jp/contents/makefull" class="">
+                            <div class="l-contents -img-bg">
+                                <div class="imgBox">
+                                    <img loading="lazy" class="" src="images/banner/banner.png" alt="">
+                                </div>
+                            </div>
+                            <div class="l-banner-btnArea">
+                                <div class="entry l-text -sizeM -center -b">エントリーはコチラ</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
     </main>
 
 
@@ -416,6 +359,33 @@
             easing: 'ease-out-back',
             duration: 2000,
             once: true,
+        });
+        $(function(){
+            $(".plan-slider").slick({
+                autoplay: true,
+                // dots: true,
+                prevArrow: false,
+                nextArrow: false,
+                // prevArrow: '<img src="images/btn/prev-arrow.png" class="slide-arrow prev-arrow">',
+                // nextArrow: '<img src="images/btn/next-arrow.png" class="slide-arrow next-arrow">',
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: "5%",
+                responsive: [ // ブレイクポイントごとに設定を変更
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerPadding: "10%",
+                            cssEase: 'linear', // easing効果を指定
+                            // centerMode: false, //要素を中央寄せ
+                        }
+                    }
+                ]
+            });
         });
     </script>
 </body>
