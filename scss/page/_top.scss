@@ -13,10 +13,10 @@
     // }
 
     main{
-        padding-top: 3vh;
+        // padding-top: 3vh;
         margin-bottom: 0;
         @include mq(tb){
-            padding-top: 5vh;
+            // padding-top: 5vh;
         }
         // padding-bottom: 30vh;
         // @include mq(tb){
@@ -48,8 +48,12 @@
                             transform: translateX(-50%);
                         }
                         @include mq(tb){
-                            top: 64%;
-                            left: 66.5%;
+
+                            // 20230911修正
+                                    top: 52%;
+                                    left: 62%;
+                            // top: 64%;
+                            // left: 66.5%;
                             width: 15%;
                         }
                     }
